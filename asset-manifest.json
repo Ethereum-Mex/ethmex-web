@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ethmex-web/static/css/main.0c4042e0.css",
+    "main.js": "/ethmex-web/static/js/main.7c52ef77.js",
+    "static/media/pattern.png": "/ethmex-web/static/media/pattern.0de220855f9eb4afba3b.png",
+    "index.html": "/ethmex-web/index.html",
+    "main.0c4042e0.css.map": "/ethmex-web/static/css/main.0c4042e0.css.map",
+    "main.7c52ef77.js.map": "/ethmex-web/static/js/main.7c52ef77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4042e0.css",
+    "static/js/main.7c52ef77.js"
+  ]
+}
