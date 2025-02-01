@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ethmex-web/static/css/main.825f7781.css",
-    "main.js": "/ethmex-web/static/js/main.c83aae9f.js",
+    "main.css": "/ethmex-web/static/css/main.67c7a5a9.css",
+    "main.js": "/ethmex-web/static/js/main.f95752e0.js",
     "static/media/pattern.png": "/ethmex-web/static/media/pattern.0de220855f9eb4afba3b.png",
     "index.html": "/ethmex-web/index.html",
-    "main.825f7781.css.map": "/ethmex-web/static/css/main.825f7781.css.map",
-    "main.c83aae9f.js.map": "/ethmex-web/static/js/main.c83aae9f.js.map"
+    "main.67c7a5a9.css.map": "/ethmex-web/static/css/main.67c7a5a9.css.map",
+    "main.f95752e0.js.map": "/ethmex-web/static/js/main.f95752e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.825f7781.css",
-    "static/js/main.c83aae9f.js"
+    "static/css/main.67c7a5a9.css",
+    "static/js/main.f95752e0.js"
   ]
 }
