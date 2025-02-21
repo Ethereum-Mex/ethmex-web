@@ -17,11 +17,9 @@
   <p>Si no eres redirigido automáticamente, <a id="redirectLink" href="#">haz clic aquí</a>.</p>
 
   <script>
-    var newPath = "/#/" + window.location.pathname.substring(1);
-    var redirectTo = window.location.origin + newPath;
-
-    document.getElementById("redirectLink").href = redirectTo;
-    setTimeout(() => window.location.replace(redirectTo), 1000);
+    // Redirige todas las rutas desconocidas a index.html
+    let path = window.location.pathname;
+    window.location.replace("/#"+path);
   </script>
 </body>
 </html>
