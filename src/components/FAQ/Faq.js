@@ -33,8 +33,8 @@ function Faq() {
             </h2>
             <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse ">
               <div className="accordion-body">
-                <p className="ethmex-text">Ethereum México es una organización comprometida con el fortalecimiento del ecosistema Ethereum en el país a través de eventos anuales, iniciativas educativas y el desarrollo de recursos accesibles para la comunidad. Nos enfocamos en crear espacios de aprendizaje e innovación en colaboración con organizaciones nacionales e internacionales. Más que centralizar la narrativa de Ethereum en México, buscamos ser una plataforma que impulse un evento anual, promueva la educación y brinde apoyo y recursos a la comunidad.
-</p>
+              <p className="ethmex-text">Ethereum México es una organización comprometida con el fortalecimiento del ecosistema Ethereum en el país a través de eventos anuales, iniciativas educativas y el desarrollo de recursos accesibles para la comunidad. <br></br> <br></br> Nos enfocamos en crear espacios de aprendizaje e innovación en colaboración con organizaciones nacionales e internacionales. Buscamos ser una plataforma que impulse un evento anual, promueva la educación y brinde apoyo y recursos a la comunidad.
+              </p>
               </div>
             </div>
           </div>
