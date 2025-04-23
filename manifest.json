@@ -3,17 +3,17 @@
   "name": "Ethereum México 2025",
   "icons": [
     {
-      "src": "EthMXIcon_ColorFull.ico",
+      "src": "EM-logo-square-icon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "EthMXIcon_ColorFull.ico",
+      "src": "EM-logo-square-icon.ico",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "EthMXIcon_ColorFull.ico",
+      "src": "EM-logo-square-icon.ico",
       "type": "image/png",
       "sizes": "512x512"
     }
