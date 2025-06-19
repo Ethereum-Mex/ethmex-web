@@ -1,7 +1,7 @@
 {
   "name": "eth_mex_2025",
   "version": "0.1.0",
-  "homepage": "https://www.ethmexico.org/",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "bootstrap-icons": "^1.11.3",
