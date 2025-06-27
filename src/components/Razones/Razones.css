@@ -1,0 +1,75 @@
+.razon-item{
+  border: solid #000000 1px;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 900px;
+  height: 320px;
+  padding: 30px 30px;
+}
+
+.razon-item img{
+  width: 250px;
+}
+
+
+.carousel-control-prev {
+  left: -90px; /* mueve la flecha a la izquierda */
+}
+
+.carousel-control-next {
+  right: -90px; /* mueve la flecha a la derecha */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  background-size: 60% 60%; /* hace el ícono más visible dentro del círculo */
+}
+
+.carousel-razones{
+  max-width: 50%;
+}
+
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 992px) {
+  
+  .razon-item{
+    border: solid #000000 1px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 450px;
+    height: 610px;
+    padding: 30px 30px;
+    
+    
+  }
+  
+    .razon-item img{
+      width: 250px;
+    }
+
+
+    .carousel-control-prev {
+      left: -65px; /* mueve la flecha a la izquierda */
+    }
+    
+    .carousel-control-next {
+      right: -65px; /* mueve la flecha a la derecha */
+    }
+    
+    
+
+
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: -50px; /* mueve la flecha a la izquierda */
+  }
+  
+  .carousel-control-next {
+    right: -50px; /* mueve la flecha a la derecha */
+  }
+}

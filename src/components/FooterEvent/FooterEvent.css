@@ -1,0 +1,34 @@
+.footer-ethmex-event{
+    border-top: solid black 1px;
+    padding: 0px 50px;
+}
+
+.footer-container{
+    width: 65%;
+}
+
+.btn-footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 8px 32px;
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    z-index: 999;
+}
+
+.btn-footer:hover{
+    background-color: #3A3A3A;
+    color: white;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .footer-container{
+        width: 100%;
+    }
+    
+}

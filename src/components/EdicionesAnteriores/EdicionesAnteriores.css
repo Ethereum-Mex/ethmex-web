@@ -1,0 +1,43 @@
+.carousel-ediciones{
+  max-width: 50%;
+}
+
+
+.video-box {
+  border: solid 1px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
+.video-wrapper {
+  position: relative;
+  width: 900px;
+  height: 500px;
+  
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* Ajustes para pantallas pequeñas */
+
+@media (max-width: 992px) {
+  
+  .video-wrapper {
+    position: relative;
+    width: 500px;
+    height: 280px;
+    
+  }
+  
+}
+
+@media (max-width: 768px) {
+  
+
+    
+}
+

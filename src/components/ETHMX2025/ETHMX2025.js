@@ -4,16 +4,34 @@ import "./ETHMX2025.css";
 function ETHMX2025() {
 
   return (
-    <div className="ETHMX2025-wrapper">
-      <iframe
-      src="https://tally.so/r/nP49NV?transparentBackground=1"
-      width="100%"
-      height="100%"
-      frameBorder="0"
-      title="Ethereum México 2025 - Monterrey"
-    ></iframe>
 
-    </div>
+    <div className=" ETHMX2025-container d-flex justify-content-center align-items-center ">
+      <div className="ETHMX2025-div-white">
+        <img src={`${process.env.PUBLIC_URL}/images/EthMxMty_VerdeRojo.png`} className="d-block img-fluid mx-auto" width="700" alt="..." />
+        <p>Invitan</p>
+        <div className="logos-container m-3">
+          <img src={`${process.env.PUBLIC_URL}/images/EthMX_ColorFull.png`} className="d-block img-fluid " width="200" alt="..." />
+          <img src={`${process.env.PUBLIC_URL}/images/ethereum-monterrey-logo.png`} className="d-block img-fluid " width="200" alt="..." />
+        </div>
+
+        <p>31 octubre, 1 y 2 noviembre 2025 </p>
+        <p> 📍 Pop-Up Innovation Hub en el centro Histórico de Monterrey</p>
+
+      </div>
+    {/*
+      <div className="ETHMX2025-wrapper">
+        <iframe
+        src="https://tally.so/r/nP49NV?transparentBackground=1"
+        width="100%"
+        height="100%"
+        frameBorder="0"
+        title="Ethereum México 2025 - Monterrey"
+      ></iframe>
+      </div>
+    */}
+
+  </div>
+    
   );
 }
 

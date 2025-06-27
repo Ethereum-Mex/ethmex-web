@@ -10,3 +10,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+@font-face {
+  font-family: 'PP Supply Mono';
+  src: url('../public/Fonts/PPSupplyMono-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bigger';
+  src: url('../public/Fonts/BiggerDisplay.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

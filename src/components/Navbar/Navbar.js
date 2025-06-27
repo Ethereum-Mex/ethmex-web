@@ -61,11 +61,11 @@ function Navbar() {
             </Link>
             
             {/* Enlace externo a Tally */}
-            {/*
+            
             <Link key="ETHMX2025" className="nav-link" to="/ETHMX2025" target="_blank" rel="noopener noreferrer">
-              ETHMX 2025
+              ETHMX 2025 Monterrey
             </Link>
-            */}
+            
             {/* Enlace externo a Telegram */}
             <a className="nav-link" href="https://t.me/ethmexico" target="_blank" rel="noopener noreferrer">
               <button type="button" className="btn btn-navbar">Únete a la comunidad</button>

@@ -72,6 +72,14 @@
     border-top: transparent;
 }
 
+.accordion-item-event{
+
+    background-color: white;
+   
+    border: solid black 1px; 
+}
+
+
 .accordion-button{
     background-color: #FFC476;
     border-radius: 8px;
@@ -80,11 +88,29 @@
     
 }
 
+.accordion-button-event{
+    background-color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    border-bottom: solid black 1px; 
+    border-radius: 0px;
+    
+}
+
+
 .accordion-button:focus,
 .accordion-button:not(.collapsed) {
     background-color: #FFC476;
     box-shadow: none;
 }
+
+.accordion-button-event:focus,
+.accordion-button-event:not(.collapsed) {
+    background-color: white;
+    border-radius: 0px;
+    border-bottom: solid black 1px; 
+}
+
 
 @media (min-width: 992px) {
 
@@ -99,4 +125,69 @@
     .container-ethmex-aux{
         width: 1200px;
     }
+}
+
+
+
+
+
+
+/* Evento */
+
+.hero-ethmex-evento{
+    background-color: #358541;
+    background-image: url('/public/images/cerro-02.png'); /* Imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+}
+
+
+.container-ethmex-event{
+    padding: 40px 35px; /* Espaciado interno */
+}
+
+.text-event{
+    font-family: 'PP Supply Mono', sans-serif;
+  }
+  
+.text-event-green{
+    font-family: 'PP Supply Mono', sans-serif;
+    color: #358541;
+
+}  
+
+
+.text-event-red{
+    font-family: 'PP Supply Mono', sans-serif;
+    color: #D83535;
+
+}
+
+.text-event-white{
+    font-family: 'PP Supply Mono', sans-serif;
+    color: #FFFFFF;
+  }
+
+  
+
+.text-event-title{
+    font-family: 'Bigger', sans-serif;
+    letter-spacing: 1px;
+
+}  
+
+
+.btn-primary-event{
+    background-color: #358541;
+    color: #FFFFFF;
+    font-family: 'PP Supply Mono', sans-serif;
+    padding: 10px 20px;
+}
+
+.btn-primary-event:hover{
+    background-color: #358541;
+    color: #FFFFFF;
 }

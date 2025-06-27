@@ -8,6 +8,7 @@
     height: 100%;
     overflow: hidden;
   }
+
   iframe {
     position: absolute;
     top: 0;
@@ -16,4 +17,43 @@
     left: 0;
     border: 0;
   }
+
+.ETHMX2025-container {
+  height: 87vh; /* ocupa toda la altura de la pantalla */
+}
   
+.ETHMX2025-div-white{
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'PP Supply Mono', sans-serif;
+  padding: 40px 90px;
+  max-width: 700px;
+
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;
+  gap: 2rem; /* espacio entre logos */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .ETHMX2025-div-white {
+    padding: 30px 20px;
+ 
+  }
+
+  .ETHMX2025-div-white img {
+    max-width: 400px; /* un máximo razonable en móvil */
+    
+  }
+
+  .logos-container img {
+    max-width: 150px !important;
+  }
+
+}

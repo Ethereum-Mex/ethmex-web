@@ -1,0 +1,10 @@
+
+.esperar-item{
+  border: solid #000000 1px;
+  background-color: white;
+  padding: 50px 30px;
+  width: 450px;
+  height: 90px;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+  
+}
