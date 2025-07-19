@@ -10,18 +10,18 @@ function ParteDe() {
 
       <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 gap-lg-5 esperar-items p-3">
         <div className="d-flex flex-column gap-4 gap-lg-5">
-          <div className="esperar-item d-flex justify-content-center align-items-center">
-            <span> Sponsor </span> <br/> 
+          <div className="parte-item d-flex justify-content-center align-items-center">
+            <span className="text-event"> Sponsor </span> <br/> 
           </div>
-          <div className="esperar-item d-flex justify-content-center align-items-center">
+          <div className="parte-item d-flex justify-content-center align-items-center">
             <span className="text-event">Mentor / Juez</span>
           </div>
         </div>
         <div className="d-flex flex-column gap-4 gap-lg-5">
-          <div className="esperar-item d-flex justify-content-center align-items-center">
+          <div className="parte-item d-flex justify-content-center align-items-center">
             <span className="text-event">Media Partner</span>
           </div>
-          <div className="esperar-item d-flex justify-content-center align-items-center">
+          <div className="parte-item d-flex justify-content-center align-items-center">
             <span className="text-event">Hacker</span>
           </div>
         </div>

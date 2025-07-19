@@ -11,7 +11,7 @@ function Esperar() {
       <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 gap-lg-5 esperar-items p-3">
         <div className="d-flex flex-column gap-4 gap-lg-5">
           <div className="esperar-item d-flex justify-content-center align-items-center">
-            <span> 🛠️ Hackathon de 36 horas para lanzar tu MVP Web3</span>
+            <span className="text-event"> 🛠️ Hackathon de 36 horas para lanzar tu MVP Web3</span>
           </div>
           <div className="esperar-item d-flex justify-content-center align-items-center">
             <span className="text-event">🧑‍🏫 Mentores y jueces de talla internacional</span>

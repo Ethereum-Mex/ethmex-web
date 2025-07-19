@@ -16,10 +16,10 @@ function FooterEvent() {
   return (
     <footer className="footer-ethmex-event">
       {/* Contenedor principal del footer */}
-      <div className="p-3  footer-container">
-        <div className="d-flex align-items-center justify-content-center flex-wrap">
+      <div className="p-3  footer-container ">
+        <div className="d-flex align-items-center justify-content-center flex-wrap mx-auto">
           {/* Logo a la izquierda */}
-          <div className="footer-logo">
+          <div className="footer-logo mx-auto">
             <a href="/">
               <img
                 src={`${process.env.PUBLIC_URL}/images/ethmex-logo-black.png`}
@@ -30,7 +30,7 @@ function FooterEvent() {
           </div>
 
           {/* Iconos sociales alineados a la derecha */}
-          <div className="d-flex gap-3 footer-icons ms-auto">
+          <div className="d-flex gap-3 footer-icons ms-auto mt-4 mt-sm-0 mx-auto ">
             {[
               { href: "https://x.com/ethereum_mexico", src: "x-icon.svg", alt: "X" },
               { href: "https://t.me/ethmexico", src: "telegram-icon.svg", alt: "Telegram" },

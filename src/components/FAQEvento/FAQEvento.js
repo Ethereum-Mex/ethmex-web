@@ -34,7 +34,7 @@ const faqs = [
 
 function FAQEvento() {
   return (
-    <div className="container-fluid container-ethmex-event text-center">
+    <div className="container-fluid container-ethmex-event text-center" id="faq-evento">
       {/* Título principal */}
       <div className="mb-4">
         <span className="text-event-title" style={{ color: "#358541", fontSize: "35px" }}>

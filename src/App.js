@@ -57,6 +57,7 @@ function App() {
 
           {/* Nueva página */}
           <Route path="/feedback" element={<Feedback />} />
+          
           <Route path="/ETHMX2025" element={
             <div>
               <div className="container-fluid hero-ethmex-evento overflow-hidden">

@@ -13,6 +13,7 @@
   width: 900px;
   height: 500px;
   
+  
 }
 
 .video-wrapper iframe {
@@ -28,8 +29,8 @@
   
   .video-wrapper {
     position: relative;
-    width: 500px;
-    height: 280px;
+    width: 700px;
+    height: 400px;
     
   }
   
@@ -37,7 +38,23 @@
 
 @media (max-width: 768px) {
   
+  .video-wrapper {
+    position: relative;
+    width: 500px;
+    height: 280px;
+    
+  }
 
     
 }
 
+@media (max-width: 576px) {
+  
+  .video-wrapper {
+    position: relative;
+    max-width: 260px;
+    height: 150px;
+    
+  }
+
+}

@@ -41,7 +41,10 @@ function Carrusel() {
                 <span style={{color: '#206A4B'}}>Ethereum México 2025</span> <br />
                 <span style={{color: '#D83535'}}>Monterrey</span> 
             </div>
-            <img src={`${process.env.PUBLIC_URL}/images/MTY-2.avif`} className="d-block img-fluid  h-40 rounded-4" width="600" alt="..." />
+            <a href='/ETHMX2025'>
+              <img src={`${process.env.PUBLIC_URL}/images/ethmex25-flyer.png`} className="d-block img-fluid  h-40 rounded-4" width="600" alt="..." />
+            </a>
+            
           </div>
         </div>
       </div>

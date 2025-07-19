@@ -67,7 +67,7 @@ function Razones() {
               <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center text-lg-start gap-lg-3">
                   <div className="col-12 col-lg-4 mb-3 mb-lg-0" >
                     <img
-                      src={`${process.env.PUBLIC_URL}/images/rectangle-9.png`}
+                      src={`${process.env.PUBLIC_URL}/images/Rectangle-9.png`}
                       className="img-fluid"
                       alt="Aprendizaje con líderes del ecosistema"
                     />

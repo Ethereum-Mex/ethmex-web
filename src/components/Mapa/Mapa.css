@@ -1,12 +1,7 @@
-.mapa-ethmex{
-  width: 68%;
+.mapa-ethmex img{
+  
+ 
 }
 
 
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 1200px) {
-  .mapa-ethmex{
-    width: 100%;
-    padding-bottom: 25px;
-  }
-}
+

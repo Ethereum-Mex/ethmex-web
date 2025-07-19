@@ -63,7 +63,7 @@ function Navbar() {
             {/* Enlace externo a Tally */}
             
             <Link key="ETHMX2025" className="nav-link" to="/ETHMX2025" target="_blank" rel="noopener noreferrer">
-              ETHMX 2025 Monterrey
+              ETHMX 2025
             </Link>
             
             {/* Enlace externo a Telegram */}

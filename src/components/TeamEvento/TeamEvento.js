@@ -20,6 +20,12 @@ const teamMembers = [
     image: "CelicTorres.png",
   },
   {
+    name: "Soho",
+    username: "@sohobiit",
+    link: "https://x.com/sohobiit",
+    image: "sohobiit.png",
+  },
+  {
     name: "Karen84.crypto",
     username: "@AdvoktusDiaboli",
     link: "https://x.com/AdvoktusDiaboli",
@@ -56,41 +62,48 @@ const teamMembers = [
     image: "Sofi.png",
   },
   {
-    name: "Idalia GQ",
-    username: "@handle",
-    link: "https://x.com",
-    image: "profile-placeholder.png",
+    name: "JuanRah",
+    username: "@JuanRah",
+    link: "https://x.com/JuanRah",
+    image: "juanrah.png",
   },
   {
     name: "Carlos Colorado",
     username: "@CColorado",
     link: "https://x.com/CColorado",
-    image: "profile-placeholder.png",
+    image: "ccolorado.png",
   },
   {
-    name: "JuanRah",
-    username: "@JuanRah",
-    link: "https://x.com/JuanRah",
-    image: "profile-placeholder.png",
+    name: "Mr Oscar",
+    username: "@mroscareth",
+    link: "https://x.com/mroscareth",
+    image: "mrOscar.png",
   },
   {
-    name: "Alejandro",
-    username: "@handle",
-    link: "https://x.com",
-    image: "profile-placeholder.png",
+    name: "Rallsen.eth",
+    username: "@rallsen",
+    link: "https://x.com/rallsen",
+    image: "rallsen.png",
   },
   {
-    name: "MrOscar",
-    username: "@handle",
-    link: "https://x.com",
-    image: "profile-placeholder.png",
+    name: "elCRIPTOmex",
+    username: "@elCRIPTOmex",
+    link: "https://x.com/0x_cripto",
+    image: "elCRIPTOmex.png",
   },
   {
-    name: "Gabriel",
-    username: "@handle",
-    link: "https://x.com",
-    image: "profile-placeholder.png",
+    name: "Idalia Garza",
+    username: "@idalia9",
+    link: "https://x.com/idalia9",
+    image: "idalia.png",
   },
+  {
+    name: "Alejandro Ochoa",
+    username: "@ayala8a",
+    link: "https://x.com/ayala8a",
+    image: "Alejandro-Ochoa.png",
+  },
+
 ];
 
 function TeamEvento() {
@@ -107,7 +120,7 @@ function TeamEvento() {
         <div className="row justify-content-center">
           {teamMembers.map((member, index) => (
             <div
-              className="col-3 col-md-2 mb-4"
+              className="col-4 col-sm-3 col-md-2 mb-4"
               key={index}
             >
               <div className="team-item">
@@ -118,7 +131,7 @@ function TeamEvento() {
                   
                 />
                 <div className="team-item-text mt-1">
-                  <p className="text-event-white">{member.name}</p>
+                  <p className="text-event-white" style={{lineHeight: "1.3"}}>{member.name}</p>
                   <a
                     className="text-event-white" 
                     

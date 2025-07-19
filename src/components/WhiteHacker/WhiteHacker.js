@@ -50,7 +50,7 @@ function WhiteHacker() {
       </h2>
 
       {timeLeft && (
-        <div className=" d-flex justify-content-center gap-4">
+        <div className=" d-flex justify-content-center gap-4 flex-wrap">
           
           <div >
             <p className="text-event-green">Días</p> 

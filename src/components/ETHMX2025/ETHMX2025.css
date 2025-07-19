@@ -1,25 +1,6 @@
-.ETHMX2025-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: 0;
-  }
 
 .ETHMX2025-container {
-  height: 87vh; /* ocupa toda la altura de la pantalla */
+  height: 80vh; /* ocupa toda la altura de la pantalla */
 }
   
 .ETHMX2025-div-white{
@@ -30,6 +11,7 @@
   font-family: 'PP Supply Mono', sans-serif;
   padding: 40px 90px;
   max-width: 700px;
+  min-width: 250px;
 
 }
 
@@ -37,23 +19,25 @@
   display: flex;
   justify-content: center; /* centra horizontalmente */
   align-items: center;
-  gap: 2rem; /* espacio entre logos */
+  gap: 1rem; /* espacio entre logos */
 }
+
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   .ETHMX2025-div-white {
-    padding: 30px 20px;
+    padding: 30px 30px;
  
   }
 
   .ETHMX2025-div-white img {
-    max-width: 400px; /* un máximo razonable en móvil */
+  
     
+   
   }
 
   .logos-container img {
-    max-width: 150px !important;
+    min-width: 10px;
   }
 
 }

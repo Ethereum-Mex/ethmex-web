@@ -2,9 +2,21 @@
 .esperar-item{
   border: solid #000000 1px;
   background-color: white;
-  padding: 50px 30px;
-  width: 450px;
-  height: 90px;
+  padding: 60px 30px;
+  max-width: 450px;
+  max-height: 90px;
   box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
   
+}
+
+
+@media (max-width: 768px) {
+  
+  .esperar-item{
+    
+    max-height: 260px;
+    max-width: 350px;
+    padding: 20px 20px;
+    
+  }
 }

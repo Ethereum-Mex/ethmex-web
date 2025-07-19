@@ -66,10 +66,37 @@
 
 @media (max-width: 768px) {
   .carousel-control-prev {
-    left: -50px; /* mueve la flecha a la izquierda */
+    left: -40px; /* mueve la flecha a la izquierda */
   }
   
   .carousel-control-next {
-    right: -50px; /* mueve la flecha a la derecha */
+    right: -40px; /* mueve la flecha a la derecha */
+  }
+
+}
+
+@media (max-width: 576px) {
+  .razon-item{
+    max-width: 280px;
+    height: 680px;
+    
+    
+   
+    
+    padding: 20px 20px;
+    
+    
+  }
+
+  .razon-item img{
+    width: 200px;
+  }
+
+  .carousel-control-prev {
+    left: -20px; /* mueve la flecha a la izquierda */
+  }
+  
+  .carousel-control-next {
+    right: -20px; /* mueve la flecha a la derecha */
   }
 }
