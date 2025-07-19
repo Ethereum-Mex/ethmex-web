@@ -56,6 +56,13 @@ npm run eject
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 
+3. Build de app for github Pages
+
+```
+npm run deploy-gh-pages
+```
+
+
 ## Prototype
 [Figma Project](https://www.figma.com/design/PmNtUOGoHZIWuyz9HACgsF/EthMx-2025?node-id=2107-1068&t=w6d4GRnzrWfkkmLt-1) 
 
