@@ -59,6 +59,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Build de app for github Pages
 
 ```
+npm run predeploy
 npm run deploy-gh-pages
 ```
 
