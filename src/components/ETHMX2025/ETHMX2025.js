@@ -19,18 +19,6 @@ function ETHMX2025() {
         <p> 📍 Pop-Up Innovation Hub en el Centro Histórico de Monterrey</p>
 
       </div>
-    {/*
-      <div className="ETHMX2025-wrapper">
-        <iframe
-        src="https://tally.so/r/nP49NV?transparentBackground=1"
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        title="Ethereum México 2025 - Monterrey"
-      ></iframe>
-      </div>
-    */}
-
   </div>
     
   );

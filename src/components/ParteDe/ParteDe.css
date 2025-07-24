@@ -13,7 +13,14 @@
   box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
   
 }
+.zoom-on-hover {
+  transition: transform 0.3s ease;
+}
 
+.zoom-on-hover:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
 
 @media (max-width: 576px) {
   

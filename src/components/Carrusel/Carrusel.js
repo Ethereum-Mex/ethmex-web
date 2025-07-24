@@ -9,11 +9,10 @@ function Carrusel() {
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ backgroundColor: '#3A3A3A' }}></button>
         <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundColor: '#3A3A3A' }}></button>
-        <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="2" aria-label="Slide 3" style={{ backgroundColor: '#3A3A3A' }}></button>
       </div>
       <div className="carousel-inner ">
         {/* Slide 1 */}
-        <div className="carousel-item hero-carousel-item active">
+        <div className="carousel-item hero-carousel-item active" >
           <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center">
             <div className="bienvenida-texto text-center">
                 <span>Te damos la bienvenida a </span> <br />
@@ -24,28 +23,33 @@ function Carrusel() {
           </div>
         </div>
 
-        {/* Slide 2 */}
-        <div className="carousel-item hero-carousel-item">
-          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5  h-100">
-            <div className="bienvenida-texto text-center">
-              <span style={{color: '#206A4B'}}>Muy Pronto... </span>
-            </div>
-            <img src={`${process.env.PUBLIC_URL}/images/MTY-1.avif`} className="d-block img-fluid h-40 rounded-4" width="600"  alt="..." />
-          </div>
-        </div>
 
-        {/* Slide 3 */}
-        <div className="carousel-item hero-carousel-item">
-          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5 h-100">
-            <div className="bienvenida-texto text-center">
-                <span style={{color: '#206A4B'}}>Ethereum México 2025</span> <br />
-                <span style={{color: '#D83535'}}>Monterrey</span> 
+        {/* Slide  - ETHMX2025 Hero */}
+        <div
+          className="carousel-item hero-carousel-item"
+          style={{
+            backgroundPosition: 'center center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            fontFamily: 'PP Supply Mono',
+            margin: 'auto'
+          }}
+        >
+          <a href="/#/ETHMX2025" style={{ textDecoration: 'none', color: 'inherit', width: '100%' }}>
+            <div className="d-flex flex-column justify-content-center align-items-center w-100">
+              <div className='ETHMX2025-div-white-carrusel' style={{ background: 'rgba(255,255,255,0.85)', textAlign: 'center' }}>
+                <img src={`${process.env.PUBLIC_URL}/images/EthMxMty_VerdeRojo.png`} className="d-block img-fluid mx-auto" width="700" alt="ETHMX2025 Hero" />
+                <br/>
+                <p>Invitan</p>
+                <div className="ETHMX2025-logos-container-carrusel m-2 d-flex justify-content-center align-items-center gap-3">
+                  <img src={`${process.env.PUBLIC_URL}/images/EthMX_ColorFull.png`} className="d-block img-fluid " width="200" alt="EthMX Logo" />
+                  <img src={`${process.env.PUBLIC_URL}/images/ethereum-monterrey-logo.png`} className="d-block img-fluid " width="200" alt="Ethereum Monterrey Logo" />
+                </div>
+                <p>31 octubre, 1 y 2 noviembre 2025 </p>
+                <p> 📍 Pop-Up Innovation Hub en el Centro Histórico de Monterrey</p>
+              </div>
             </div>
-            <a href='/ETHMX2025'>
-              <img src={`${process.env.PUBLIC_URL}/images/ethmex25-flyer.png`} className="d-block img-fluid  h-40 rounded-4" width="600" alt="..." />
-            </a>
-            
-          </div>
+          </a>
         </div>
       </div>
 

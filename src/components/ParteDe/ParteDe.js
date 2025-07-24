@@ -10,9 +10,16 @@ function ParteDe() {
 
       <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 gap-lg-5 esperar-items p-3">
         <div className="d-flex flex-column gap-4 gap-lg-5">
-          <div className="parte-item d-flex justify-content-center align-items-center">
-            <span className="text-event"> Sponsor </span> <br/> 
-          </div>
+          <a
+            href="https://www.canva.com/design/DAGst9rkO3M/cjiRLBjb0sl6xGh5z313Ew/view?utm_content=DAGst9rkO3M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b309d877d"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="parte-item d-flex justify-content-center align-items-center zoom-on-hover">
+              <span className="text-event"> Sponsor </span> <br/> 
+            </div>
+          </a>
           <div className="parte-item d-flex justify-content-center align-items-center">
             <span className="text-event">Mentor / Juez</span>
           </div>

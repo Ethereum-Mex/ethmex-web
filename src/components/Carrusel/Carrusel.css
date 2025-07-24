@@ -1,7 +1,7 @@
 
 .hero-carousel-item{
   height: 80vh;
-  padding: 50px 0px;
+  padding: 50px 20px;
 
 }
 
@@ -35,4 +35,38 @@
   }
 
 
+}
+
+
+
+/* Ajustes para pantallas pequeñas */
+
+.ETHMX2025-div-white-carrusel {
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'PP Supply Mono', sans-serif;
+  padding: 40px 90px;
+  max-width: 550px;
+  min-width: 250px;
+}
+
+.ETHMX2025-logos-container-carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .ETHMX2025-div-white-carrusel {
+    padding: 30px 30px;
+  }
+  .ETHMX2025-div-white-carrusel img {
+    /* Add any image-specific responsive rules here if needed */
+  }
+  .ETHMX2025-logos-container-carrusel img {
+    min-width: 10px;
+  }
 }

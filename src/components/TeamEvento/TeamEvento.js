@@ -103,6 +103,12 @@ const teamMembers = [
     link: "https://x.com/ayala8a",
     image: "Alejandro-Ochoa.png",
   },
+  {
+    name: "EsteFi",
+    username: "@NFTMami",
+    link: "https://x.com/NFTMami",
+    image: "estefi.png",
+  },
 
 ];
 
