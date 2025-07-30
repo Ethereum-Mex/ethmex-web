@@ -1,4 +1,5 @@
 import './NuestrosLogros.css';
+import './../Contactanos/Contactanos.css';
 import React from 'react';
 
 const logros = [
