@@ -2,14 +2,24 @@ import "./Sponsors.css";
 
 const sponsors = [
   {
+    name: "ESP",
+    image: "esp.svg",
+    width: "250px", 
+  },
+  {
+    name: "geodework",
+    image: "geodework.png",
+    width: "500px", 
+  },
+  {
     name: "Gobierno de Monterrey",
     image: "LogosEconomiaGobiernoEstadoMTY/mty_gdm_logo_iso.svg",
-    width: "230px",
+    width: "220px",
   },
   {
     name: "ECONOMÍA MONTERREY",
     image: "LogosEconomiaGobiernoEstadoMTY/economia.png",
-    width: "500px", 
+    width: "450px", 
   },
 ];
 

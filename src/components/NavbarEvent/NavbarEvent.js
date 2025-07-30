@@ -3,10 +3,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const navLinks = [
-
   { id: "sobre-ethereum-mexico", label: "Sobre Ethereum México" },
   { id: "venue", label: "Venue" },
   { id: "faq-evento", label: "FAQ" },
+  { id: "https://lu.ma/obsm2hll", label: "Tickets", isExternal: true },
 ];
 
 function NavbarEvent() {
@@ -17,6 +17,14 @@ function NavbarEvent() {
       element.scrollIntoView({ behavior: "smooth" });
     } else {
       window.location.href = `/#${id}`; // Redirigir si no estamos en home
+    }
+  };
+
+  const handleLinkClick = (link) => {
+    if (link.isExternal) {
+      window.open(link.id, '_blank');
+    } else {
+      handleScroll(link.id);
     }
   };
 
@@ -44,13 +52,13 @@ function NavbarEvent() {
         
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto gap-3 mt-2 align-items-center navbar-nav-evento">
-            {navLinks.map(({ id, label }) => (
+            {navLinks.map((link) => (
               <button
-                key={id}
+                key={link.id}
                 className="nav-link btn btn-link"
-                onClick={() => handleScroll(id)}
+                onClick={() => handleLinkClick(link)}
               >
-                {label}
+                {link.label}
               </button>
             ))}
 
