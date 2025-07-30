@@ -10,7 +10,7 @@ const reportes = [
   { id: 5, nombre: "Reporte Q3 2024 | Evento", enlace: "https://drive.google.com/file/d/1aLiOA9nQPm3naVHFmavpQNyEWI_GuDWp/view" },
   { id: 6, nombre: "Reporte Q4 2024 ", enlace: "https://www.notion.so/Ethereum-M-xico-Reporte-Q4-2024-21b6a580104b80d99a35c6b3530c866c" },
   { id: 7, nombre: "Reporte Q1 2025 ", enlace: "https://docs.google.com/document/d/1s_jkJM2gs2iyCUkt06qM1ZdV-wSvHuSQbettbRgTB5M/edit?tab=t.0" },
-  { id: 7, nombre: "Reporte Q1 2025 ", enlace: "https://docs.google.com/document/d/1XinwnHAuLDz4C_xGHBRPvGLw-1oEH3fLUGi3DX7V_cM/edit?usp=sharing" },
+  { id: 7, nombre: "Reporte Q2 2025 ", enlace: "https://docs.google.com/document/d/1XinwnHAuLDz4C_xGHBRPvGLw-1oEH3fLUGi3DX7V_cM/edit?usp=sharing" },
   { id: 8, nombre: "Comparte tu Feedback", enlace: "/feedback" },
    
 ];
