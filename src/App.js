@@ -20,13 +20,16 @@ import WhiteHacker from "./components/WhiteHacker/WhiteHacker.js";
 import AboutEthMexEvent from "./components/AboutEthMexEvent/AboutEthMexEvent.js";
 import Esperar from "./components/Esperar/Esperar.js";
 import Razones from "./components/Razones/Razones.js";
-import Mapa from "./components/Mapa/Mapa.js";
 import ParteDe from "./components/ParteDe/ParteDe.js";
 import Venue from "./components/Venue/Venue.js";
 import EdicionesAnteriores from "./components/EdicionesAnteriores/EdicionesAnteriores.js";
 import TeamEvento from "./components/TeamEvento/TeamEvento.js";
 import FAQEvento from "./components/FAQEvento/FAQEvento.js";
 import FooterEvent from "./components/FooterEvent/FooterEvent.js";
+import CalendarioEventos from "./components/CalendarioEventos/CalendarioEventos.js"
+import CalendarioRoadTo from "./components/CalendarioRoadTo/CalendarioRoadTo.js";
+import CTARegistro from "./components/CTARegistro/CTARegistro.js"
+import Sponsors from "./components/Sponsors/Sponsors.js"
 
 
 function App() {
@@ -67,11 +70,15 @@ function App() {
               <WhiteHacker/>
               <AboutEthMexEvent/>
               <Esperar/>
+              <CalendarioEventos/>
               <Razones/>
-              <Mapa/>
               <ParteDe/>
               <Venue/>
+              <CTARegistro/>
+              <Sponsors/>
+              <CalendarioRoadTo/>
               <EdicionesAnteriores/>
+              
               <TeamEvento/>
               <FAQEvento/>
               <FooterEvent/>

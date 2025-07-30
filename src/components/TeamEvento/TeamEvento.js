@@ -20,12 +20,6 @@ const teamMembers = [
     image: "CelicTorres.png",
   },
   {
-    name: "Soho",
-    username: "@sohobiit",
-    link: "https://x.com/sohobiit",
-    image: "sohobiit.png",
-  },
-  {
     name: "Karen84.crypto",
     username: "@AdvoktusDiaboli",
     link: "https://x.com/AdvoktusDiaboli",

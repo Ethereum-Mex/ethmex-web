@@ -25,7 +25,7 @@ function AboutEthMexEvent() {
         </div>
       </div>
 
-      <div className="pt-5 hat-container mx-auto">
+      <div className="pt-3 hat-container mx-auto">
         <span className="text-event-white">Esta tercera edición es una invitación a crear soluciones abiertas, descentralizadas y con impacto.</span>
    
         <span className="text-event-white">Y este año, desde Monterrey lo hacemos más emocionados que nunca de compartirlo contigo.</span>

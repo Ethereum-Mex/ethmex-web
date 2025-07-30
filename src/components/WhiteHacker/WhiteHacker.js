@@ -27,6 +27,7 @@ function WhiteHacker() {
     return () => clearInterval(timer);
   }, []);
 
+
   return (
     <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event ">
       <div className="mx-auto hat-container ">
@@ -42,8 +43,18 @@ function WhiteHacker() {
         </p>
       </div>
       <br/>
-      <button class="btn btn-primary-event" type="submit">REGISTROS DISPONIBLES MUY PRONTO</button>
-     
+      <a
+        href="https://lu.ma/event/evt-F88uJPDtKGCKgiG"
+        className="btn btn-primary-event"
+        target="_blank" 
+        rel="noopener noreferrer"
+        style={{fontSize: '20px'}}
+      >
+        REGÍSTRATE AHORA
+      </a>
+
+
+          
       <br/><br/>
       <h2 className="m-3 text-event">
         {timeLeft ? "" : "¡El evento ha comenzado!"}

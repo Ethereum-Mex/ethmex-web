@@ -5,7 +5,7 @@ function Esperar() {
   return (
     <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event ">
       <span className="text-event-title" style={{ color: "#358541", fontSize: "35px", textAlign: "left" }}> LO QUE TE ESPERA EN </span>
-      <span className="text-event-title" style={{ color: "#D73535", fontSize: "35px", textAlign: "left" }}> ETHEREUM MEXICO </span>
+      <span className="text-event-title" style={{ color: "#D73535", fontSize: "35px", textAlign: "left" }}> ETHEREUM MEXICO 2025</span>
       <br/><br/>
 
       <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 gap-lg-5 esperar-items p-3">
