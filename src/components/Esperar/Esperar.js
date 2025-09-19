@@ -3,7 +3,7 @@ import "./Esperar.css";
 function Esperar() {
 
   return (
-    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event ">
+    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event " id="que-esperar">
       <span className="text-event-title" style={{ color: "#358541", fontSize: "35px", textAlign: "left" }}> LO QUE TE ESPERA EN </span>
       <span className="text-event-title" style={{ color: "#D73535", fontSize: "35px", textAlign: "left" }}> ETHEREUM MEXICO 2025</span>
       <br/><br/>

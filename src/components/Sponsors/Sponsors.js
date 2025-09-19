@@ -4,7 +4,7 @@ const sponsors = [
   {
     name: "ESP",
     image: "esp.svg",
-    width: "250px", 
+    width: "230px", 
   },
   {
     name: "geodework",
@@ -12,20 +12,40 @@ const sponsors = [
     width: "500px", 
   },
   {
-    name: "Gobierno de Monterrey",
-    image: "LogosEconomiaGobiernoEstadoMTY/mty_gdm_logo_iso.svg",
-    width: "220px",
+    name: "Gobierno de Nuevo León",
+    image: "LogosEconomiaGobiernoEstadoMTY/responsiva 6.png",
+    width: "90px",
   },
   {
-    name: "ECONOMÍA MONTERREY",
+    name: "SECRETARÍA DE ECONOMÍA",
     image: "LogosEconomiaGobiernoEstadoMTY/economia.png",
-    width: "450px", 
+    width: "380px", 
+  },
+  {
+    name: "Gobierno de Monterrey",
+    image: "Escudo de Armas_vertical.png",
+    width: "220px", 
+  },
+  {
+    name: "Secretaría de Desarrollo Económico",
+    image: "sec_desarrollo_ecnomico.png",
+    width: "370px", 
+  },
+  {
+    name: "Secretaría de Desarrollo Económico",
+    image: "OCVMTY Color.png",
+    width: "320px", 
+  },
+  {
+    name: "Secretaría de Nuevo León",
+    image: "nuevo_leon.png",
+    width: "150px", 
   },
 ];
 
 function Sponsors() {
   return (
-    <div className="container-fluid container-ethmex-event text-center">
+    <div className="container-fluid container-ethmex-event text-center" id="sponsors">
       <h2 className="text-event-title mb-4" style={{ fontSize: "35px" }}>
         <span style={{ color: "#358541" }}>CON EL APOYO DE&nbsp;</span>
       </h2>

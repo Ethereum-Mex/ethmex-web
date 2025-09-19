@@ -62,8 +62,8 @@ function Navbar() {
             
             {/* Enlace externo a Tally */}
             
-            <Link key="ETHMX2025" className="nav-link" to="/ETHMX2025" target="_blank" rel="noopener noreferrer">
-              ETHMX 2025
+            <Link key="ETHMX2025" className="nav-link btn-ethmx-2025" to="/ETHMX2025" target="_blank" rel="noopener noreferrer">
+              Ethereum México 2025
             </Link>
             
             {/* Enlace externo a Telegram */}

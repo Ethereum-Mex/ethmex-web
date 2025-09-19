@@ -2,7 +2,7 @@ import "./Razones.css";
 
 function Razones() {
   return (
-    <div className="container-fluid container-ethmex-event text-center mb-5" style={{marginTop: "-60px"}}>
+    <div className="container-fluid container-ethmex-event text-center mb-5"  id="razones-asistir">
       <div className="mb-4">
         <span className="text-event-title" style={{ color: "#358541", fontSize: "35px" }}>
           RAZONES&nbsp;

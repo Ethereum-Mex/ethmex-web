@@ -2,7 +2,7 @@ import "./EdicionesAnteriores.css";
 
 function EdicionesAnteriores() {
   return (
-    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event">
+    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event" id="ediciones-anteriores" >
       {/* Título principal */}
       <div className="mb-4">
         <span className="text-event-title" style={{ color: "#358541", fontSize: "35px" }}>

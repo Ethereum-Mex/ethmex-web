@@ -10,5 +10,54 @@
     height: 450px;
     border: 1px solid #bfcbda88;
     border-radius: 4px;
-  }
+}
+
+/* Day Cards Styles - Single Row Layout */
+.day-card {
+    border: solid #000000 1px;
+    background-color: white;
+    padding: 30px 20px;
+    width: 300px;
+    height: 180px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 300px;
+    min-width: 300px;
+}
+
+
+
+/* Responsive adjustments - Single Row Layout */
+@media (max-width: 1200px) {
+    .day-card {
+        width: 280px;
+        min-width: 280px;
+        flex: 0 0 280px;
+        padding: 25px 15px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 992px) {
+    .day-card {
+        width: 250px;
+        min-width: 250px;
+        flex: 0 0 250px;
+        padding: 20px 12px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .day-card {
+        width: 300px;
+        min-width: 300px;
+        flex: 0 0 300px;
+        padding: 20px 20px;
+        margin-bottom: 16px;
+        height: 110px;
+    }
+}
   

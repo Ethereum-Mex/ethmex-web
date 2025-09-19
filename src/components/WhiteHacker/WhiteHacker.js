@@ -29,7 +29,7 @@ function WhiteHacker() {
 
 
   return (
-    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event ">
+    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event " id="hackathon">
       <div className="mx-auto hat-container ">
         <img
           src={`${process.env.PUBLIC_URL}/images/white-hat.png`}

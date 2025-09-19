@@ -62,10 +62,10 @@ const teamMembers = [
     image: "juanrah.png",
   },
   {
-    name: "Carlos Colorado",
-    username: "@CColorado",
-    link: "https://x.com/CColorado",
-    image: "ccolorado.png",
+    name: "Abraham Fuga",
+    username: "@FugaAbraham",
+    link: "https://x.com/FugaAbraham",
+    image: "abraham_fuga.png",
   },
   {
     name: "Mr Oscar",
@@ -108,7 +108,7 @@ const teamMembers = [
 
 function TeamEvento() {
   return (
-    <div className="container-fluid container-ethmex-event about-ethmex text-center">
+    <div className="container-fluid container-ethmex-event about-ethmex text-center" id="equipo-organizador">
       <span
         className="text-event-title d-block mb-4 text-center"
         style={{ color: "white", fontSize: "35px" }}

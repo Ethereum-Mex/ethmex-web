@@ -71,9 +71,9 @@ function App() {
               <AboutEthMexEvent/>
               <Esperar/>
               <CalendarioEventos/>
-              <Razones/>
               <ParteDe/>
-              <Venue/>
+              <Razones/>
+              {/* <Venue/> */}
               <CTARegistro/>
               <Sponsors/>
               <CalendarioRoadTo/>

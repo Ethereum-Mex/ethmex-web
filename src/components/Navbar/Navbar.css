@@ -47,3 +47,21 @@ color: #1a1a1a;
     font-weight: bold;
     color: #206A4B;
 }
+
+/* ETHMX 2025 Button Styling */
+.btn-ethmx-2025 {
+    background-color: #206A4B !important;
+    color: white !important;
+    padding: 4px 16px !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    text-align: center;
+    border: 2px solid #206A4B !important;
+}
+
+.btn-ethmx-2025:hover {
+    background-color: #1a5539 !important;
+    color: white !important;
+    border-color: #1a5539 !important;
+}

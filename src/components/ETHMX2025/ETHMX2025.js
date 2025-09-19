@@ -5,7 +5,7 @@ function ETHMX2025() {
 
   return (
 
-    <div className=" ETHMX2025-container d-flex justify-content-center align-items-center">
+    <div className=" ETHMX2025-container d-flex justify-content-center align-items-center" id="hero-ethmx2025">
       <div className="ETHMX2025-div-white">
         <img src={`${process.env.PUBLIC_URL}/images/EthMxMty_VerdeRojo.png`} className="d-block img-fluid mx-auto" width="700" alt="..." />
         <br/>

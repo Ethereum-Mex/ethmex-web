@@ -8,16 +8,52 @@ function CalendarioEventos() {
     >
       <h2 className="text-event-title" style={{ fontSize: "35px" }}>
         <span style={{ color: "#358541" }}>CALENDARIO OFICIAL&nbsp;</span>
-        <span style={{ color: "#D73535" }}>DE EVENTOS</span>
       </h2>
 
       <div className="mx-auto hat-container mt-3 mb-4">
         <p className="text-event">
           Aquí encontrarás el registro al main event, hackathon, side events, meetups y
           fiestas que se llevarán a cabo en la tercera edición de{" "}
-          <b>#ETHMéxico</b>.
+          <b style={{ color: "#D73535" }}>#ETHMéxico</b>.
         </p>
       </div>
+
+      {/* 4 Days Event Cards - Single Row Layout */}
+      <div className="d-flex flex-column flex-lg-row justify-content-center align-items-stretch gap- gap-lg-4 esperar-items p-3 mt-2 mb-5" style={{ maxWidth: "1400px", width: "100%" }}>
+        <div className="day-card d-flex justify-content-center align-items-center">
+          <span className="text-event">
+            <strong className="text-event-green">DÍA 1</strong><br/>
+            <strong > Jueves 30 de Octubre</strong><br/><br/>
+            🍽️ VIP Dinner <br/>
+            (Previa Invitación)
+          </span>
+        </div>
+        <div className="day-card d-flex justify-content-center align-items-center">
+          <span className="text-event">
+            <strong className="text-event-green">DÍA 2</strong><br/>
+            <strong>Viernes 31 de Octubre</strong><br/><br/>
+            🎙️ Conferencias <br/>
+            🧑‍💻 Inicio Hackathon
+          </span>
+        </div>
+        <div className="day-card d-flex justify-content-center align-items-center">
+          <span className="text-event">
+            <strong className="text-event-green">DÍA 3</strong><br/>
+            <strong>Sábado 1 de Noviembre</strong><br/><br/>
+            🛠️ Workshops <br/>  
+            🧑‍💻 Hackathon 
+            
+          </span>
+        </div>
+        <div className="day-card d-flex justify-content-center align-items-center">
+          <span className="text-event">
+            <strong className="text-event-green">DÍA 4</strong><br/>
+            <strong> Domingo 2 de Noviembre</strong><br/><br/>
+            🎉 Fin Hackathon
+          </span>
+        </div>
+      </div>
+
 
       <a
         href="https://lu.ma/ethmexico2025"

@@ -1,12 +1,10 @@
 import "./ParteDe.css";
 
 function ParteDe() {
-
   return (
-    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event parte-de-container">
+    <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event parte-de-container" id="quiero-ser-parte">
       <span className="text-event-title" style={{ color: "white", fontSize: "35px", textAlign: "left" }}> QUIERO SER PARTE</span>
       <br/>
-      
 
       <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4 gap-lg-5 esperar-items p-3">
         <div className="d-flex flex-column gap-4 gap-lg-5">
@@ -17,47 +15,61 @@ function ParteDe() {
             style={{ textDecoration: 'none', color: 'inherit' }}
           >
             <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
-              <span className="text-event"> Sponsor </span> 
+              <span className="text-event">Sponsor</span> 
               <i><span className="text-event" style={{fontSize: '12px'}}>Consulta el deck aquí</span></i>
             </div>
           </a>
           <a
-            href=""            
+            href="https://tally.so/r/3NzV7G"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}
           >
-            <div className="parte-item d-flex flex-column justify-content-center align-items-center">
-              <span className="text-event">Juez</span>
-              <i><span className="text-event" style={{fontSize: '12px'}}>Disponibe muy pronto </span></i>
+            <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
+              <span className="text-event">Voluntario/a</span> 
+              <i><span className="text-event" style={{fontSize: '12px'}}>Aplica aquí</span></i>
             </div>
-            </a>
+          </a>
         </div>
-          <div className="d-flex flex-column gap-4 gap-lg-5">
-            <div className="parte-item d-flex flex-column justify-content-center align-items-center">
-            <span className="text-event">Mentor</span>
-            <i><span className="text-event" style={{fontSize: '12px'}}>Disponible muy pronto</span></i>
-          </div>
-            <div className="parte-item d-flex flex-column justify-content-center align-items-center">
-              <span className="text-event">Community Partner</span>
-              <i><span className="text-event" style={{fontSize: '12px'}}>Disponible muy pronto</span></i>
+        
+        <div className="d-flex flex-column gap-4 gap-lg-5">
+          <a
+            href="https://tally.so/r/n0KzMQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
+              <span className="text-event">Speaker</span> 
+              <i><span className="text-event" style={{fontSize: '12px'}}>Aplica aquí</span></i>
             </div>
-          </div>
+          </a>
+          <a
+            href="https://tally.so/r/nPo9a5"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
+              <span className="text-event">Community Partner</span> 
+              <i><span className="text-event" style={{fontSize: '12px'}}>Aplica aquí</span></i>
+            </div>
+          </a>
+        </div>
       </div>
+      
       <div className="pt-3 pt-lg-4 pb-lg-2 hat-container mx-auto">
         <span className="text-event-white">Ayúdanos a hacer de esta edición la más poderosa hasta ahora</span>
       </div>
       <br/>
       <a
-        class="btn btn-primary-event"
+        className="btn btn-primary-event"
         href="https://t.me/ethmexico"
         target="_blank"
         rel="noopener noreferrer"
       >
         CONTÁCTANOS
       </a>
-
-
     </div>
   );
 }

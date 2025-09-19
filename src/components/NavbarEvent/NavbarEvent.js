@@ -3,8 +3,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const navLinks = [
+  //{ id: "hackathon", label: "Hackathon" },
   { id: "sobre-ethereum-mexico", label: "Sobre Ethereum México" },
+  { id: "calendario", label: "Calendario" },
+  { id: "quiero-ser-parte", label: "Quiero Ser Parte" },
   { id: "venue", label: "Venue" },
+  { id: "road-to-ethmex", label: "Road To" },
   { id: "faq-evento", label: "FAQ" },
   { id: "https://lu.ma/obsm2hll", label: "Tickets", isExternal: true },
 ];

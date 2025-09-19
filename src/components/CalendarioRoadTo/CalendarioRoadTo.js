@@ -4,7 +4,7 @@ function CalendarioRoadTo() {
   return (
     <div
       className="container-fluid d-flex flex-column align-items-center justify-content-center text-center container-ethmex-event"
-      id="venue"
+      id="road-to-ethmex"
     >
       <h2 className="text-event-title" style={{ fontSize: "35px" }}>
         <span style={{ color: "#358541" }}>CALENDARIO ROAD TO&nbsp;</span>
