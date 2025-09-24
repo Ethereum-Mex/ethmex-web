@@ -12,21 +12,8 @@ function Carrusel() {
         <button type="button" data-bs-target="#carouselHeroEthMex" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundColor: '#3A3A3A' }}></button>
       </div>
       <div className="carousel-inner ">
-        {/* Slide 1 */}
-        <div className="carousel-item hero-carousel-item active" >
-          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center">
-            <div className="bienvenida-texto text-center">
-                <span>Te damos la bienvenida a </span> <br />
-                <span style={{color: '#206A4B'}}>Ethereum </span>
-                <span style={{color: '#D83535'}}>México </span>
-            </div>
-            <img src={`${process.env.PUBLIC_URL}/images/EthMXIcon_ColorFull.png`} className="d-block img-fluid " width="500" alt="..." />
-          </div>
-        </div>
-
-
-        {/* Slide  - ETHMX2025 Hero */}
-        <div className="carousel-item hero-carousel-item hero-ethmex-evento">
+        {/* Slide 1 - ETHMX2025 Hero */}
+        <div className="carousel-item hero-carousel-item hero-ethmex-evento active">
           <a href="/#/ETHMX2025" style={{ textDecoration: 'none', color: 'inherit', width: '100%' }}>
             <div className="ETHMX2025-container d-flex justify-content-center align-items-center">
               <div className="ETHMX2025-div-white">
@@ -42,6 +29,18 @@ function Carrusel() {
               </div>
             </div>
           </a>
+        </div>
+
+        {/* Slide 2 */}
+        <div className="carousel-item hero-carousel-item" >
+          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+            <div className="bienvenida-texto text-center">
+                <span>Te damos la bienvenida a </span> <br />
+                <span style={{color: '#206A4B'}}>Ethereum </span>
+                <span style={{color: '#D83535'}}>México </span>
+            </div>
+            <img src={`${process.env.PUBLIC_URL}/images/EthMXIcon_ColorFull.png`} className="d-block img-fluid " width="500" alt="..." />
+          </div>
         </div>
       </div>
 
