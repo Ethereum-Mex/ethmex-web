@@ -2,6 +2,16 @@ import "./Sponsors.css";
 
 const sponsors = [
   {
+    name: "ESP",
+    image: "esp.svg",
+    width: "230px", 
+  },
+  {
+    name: "geodework",
+    image: "geodework.png",
+    width: "500px", 
+  },
+  {
     name: "Meebits",
     image: "Horizontal_Logo_meebits.png",
     width: "230px", 

@@ -2,16 +2,6 @@ import "./GraciasA.css";
 
 const graciasA = [
   {
-    name: "ESP",
-    image: "esp.svg",
-    width: "230px", 
-  },
-  {
-    name: "geodework",
-    image: "geodework.png",
-    width: "500px", 
-  },
-  {
     name: "Gobierno de Nuevo León",
     image: "LogosEconomiaGobiernoEstadoMTY/responsiva 6.png",
     width: "90px",
