@@ -29,7 +29,9 @@ import FooterEvent from "./components/FooterEvent/FooterEvent.js";
 import CalendarioEventos from "./components/CalendarioEventos/CalendarioEventos.js"
 import CalendarioRoadTo from "./components/CalendarioRoadTo/CalendarioRoadTo.js";
 import CTARegistro from "./components/CTARegistro/CTARegistro.js"
-import Sponsors from "./components/Sponsors/Sponsors.js"
+import GraciasA from "./components/GraciasA/GraciasA.js"
+import Speakers from "./components/Speakers/Speakers.js"
+import Sponsors from "./components/Sponsors/Sponsors.js";
 
 
 function App() {
@@ -74,7 +76,10 @@ function App() {
               <ParteDe/>
               <Razones/>
               {/* <Venue/> */}
+             
               <CTARegistro/>
+             {/* <Speakers/> */}
+              <GraciasA/>
               <Sponsors/>
               <CalendarioRoadTo/>
               <EdicionesAnteriores/>

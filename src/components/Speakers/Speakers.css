@@ -1,0 +1,23 @@
+.team-item-text{
+  line-height: 0.7;
+}
+.speakers-background{
+  background-color: #D73535;
+}
+
+@media (max-width: 992px) {
+  
+  .team-item p{
+    font-size: 12px;
+  }
+
+  .team-item a{
+    font-size: 10px;
+  }
+
+
+  .team-item-text{
+    line-height: 0.5;
+  }
+    
+}
