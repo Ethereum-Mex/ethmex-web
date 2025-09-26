@@ -78,7 +78,7 @@ function App() {
               {/* <Venue/> */}
              
               <CTARegistro/>
-             {/* <Speakers/> */}
+              <Speakers/> 
               <GraciasA/>
               <Sponsors/>
               <CalendarioRoadTo/>

@@ -5,9 +5,14 @@ const speakers = [
     name: "Rine Dunia",
     username: "@lachicaWeb3",
     link: "https://x.com/lachicaWeb3",
-    image: "chicaWeb3-IG-03.png",
+    image: "SpeakersIG-08.png",
   },
- 
+  {
+    name: "Gabriella Mena",
+    username: "@gabriellamena",
+    link: "https://x.com/gabriellamena",
+    image: "SpeakersIG-09.png",
+  },
  
 
 ];
@@ -17,7 +22,7 @@ function Speakers() {
     <div className="container-fluid container-ethmex-event text-center" id="equipo-organizador">
       <span
         className="text-event-title d-block mb-4 text-center"
-        style={{ color: "white", fontSize: "35px" }}
+        style={{ color: "#358541", fontSize: "35px" }}
       >
         SPEAKERS
       </span>
@@ -36,10 +41,10 @@ function Speakers() {
                   alt={member.name}
                   
                 />
-                <div className="team-item-text mt-1">
-                  <p className="text-event-white" style={{lineHeight: "1.3"}}>{member.name}</p>
+                <div className="team-item-text mt-3">
+                  <p className="text-event" style={{lineHeight: "1.3"}}>{member.name}</p>
                   <a
-                    className="text-event-white" 
+                    className="text-event" 
                     
                     href={member.link}
                     target="_blank"
