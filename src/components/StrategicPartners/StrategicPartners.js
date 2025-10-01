@@ -1,42 +1,25 @@
-import "./Sponsors.css";
+import "./StrategicPartners.css";
 
-const sponsors = [
+const strategicPartners = [
   {
-    name: "ESP",
-    image: "esp.svg",
+    name: "Odisea",
+    image: "OdiseaBlack_1.png",
     width: "220px", 
-    link: "https://x.com/EF_ESP", 
+    link: "https://x.com/odisealabs", 
   },
-  {
-    name: "geodework",
-    image: "geodework.png",
-    width: "290px", 
-    link: "https://x.com/geodelabs", 
-  },
-  {
-    name: "Base",
-    image: "Base_lockup_2color.svg",
-    width: "200px", 
-    link: "https://x.com/base", 
-  },
-  {
-    name: "Meebits",
-    image: "Horizontal_Logo_meebits.png",
-    width: "160px", 
-    link: "https://x.com/MeebitsNFTs", 
-  },
+
 ];
 
-function Sponsors() {
+function StrategicPartners() {
   return (
     <div className="container-fluid container-ethmex-event text-center" id="sponsors">
       <h2 className="text-event-title mb-4" style={{ fontSize: "35px" }}>
-        <span style={{ color: "#D73535" }}>SPONSORS&nbsp;</span>
+        <span style={{ color: "#358541" }}>STRATEGIC PARTNERS&nbsp;</span>
       </h2>
 
       <div className="container">
         <div className="row justify-content-center align-items-center">
-          {sponsors.map((member, index) => (
+          {strategicPartners.map((member, index) => (
             <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
               <div>
                 <a 
@@ -60,4 +43,4 @@ function Sponsors() {
   );
 }
 
-export default Sponsors;
+export default StrategicPartners;

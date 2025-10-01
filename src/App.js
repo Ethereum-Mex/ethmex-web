@@ -32,6 +32,7 @@ import CTARegistro from "./components/CTARegistro/CTARegistro.js"
 import GraciasA from "./components/GraciasA/GraciasA.js"
 import Speakers from "./components/Speakers/Speakers.js"
 import Sponsors from "./components/Sponsors/Sponsors.js";
+import StrategicPartners from "./components/StrategicPartners/StrategicPartners.js";
 
 
 function App() {
@@ -78,9 +79,11 @@ function App() {
               {/* <Venue/> */}
              
               <CTARegistro/>
-              <Speakers/> 
               <GraciasA/>
+              <Speakers/> 
+              
               <Sponsors/>
+              <StrategicPartners/>
               <CalendarioRoadTo/>
               <EdicionesAnteriores/>
               
