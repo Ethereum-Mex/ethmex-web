@@ -9,27 +9,27 @@ const graciasA = [
   {
     name: "SECRETARÍA DE ECONOMÍA",
     image: "LogosEconomiaGobiernoEstadoMTY/economia.png",
-    width: "380px", 
+    width: "", 
   },
   {
     name: "Gobierno de Monterrey",
     image: "Escudo de Armas_vertical.png",
-    width: "220px", 
+    width: "", 
   },
   {
     name: "Secretaría de Desarrollo Económico",
     image: "sec_desarrollo_ecnomico.png",
-    width: "370px", 
+    width: "", 
   },
   {
     name: "Secretaría de Desarrollo Económico",
     image: "OCVMTY Color.png",
-    width: "320px", 
+    width: "", 
   },
   {
     name: "Secretaría de Nuevo León",
     image: "nuevo_leon.png",
-    width: "150px", 
+    width: "", 
   },
 ];
 
@@ -43,7 +43,7 @@ function GraciasA() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           {graciasA.map((member, index) => (
-            <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
+            <div className="col-4 col-md-2 mb-4" key={index}>
               <div className="">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/${member.image}`}

@@ -13,7 +13,32 @@ const speakers = [
     link: "https://x.com/gabriellamena",
     image: "SpeakersIG-09.png",
   },
+  {
+    name: "Rafa Canseco",
+    username: "@0xRafaCC",
+    link: "https://x.com/0xRafaCC",
+    image: "rafacanseco.png",
+  },
+  {
+    name: "João Kury",
+    username: "@cripto_nita_",
+    link: "https://x.com/cripto_nita_",
+    image: "joao.png",
+  },
+  {
+    name: "Diego Fernández",
+    username: "@fernandezdiego",
+    link: "https://x.com/fernandezdiego",
+    image: "diegofernandez.png",
+  },
+  {
+    name: "Chuy Cepeda",
+    username: "@chuycepeda",
+    link: "https://x.com/chuycepeda",
+    image: "chuycepeda.png",
+  },
 ];
+
 
 function Speakers() {
   return (

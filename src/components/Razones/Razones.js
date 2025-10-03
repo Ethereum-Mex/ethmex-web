@@ -33,7 +33,7 @@ function Razones() {
                   <span className="text-event-green">Aprende con líderes del ecosistema</span>
                   <br /><br />
                   <span className="text-event">
-                    Explora ideas revolucionarias junto a builders y expertos en Blockchain que están redefiniendo la web.
+                    Explora ideas revolucionarias junto a builders y expertos en Blockchain e IA que están redefiniendo la web.
                     Cada charla y taller está diseñado para brindarte herramientas prácticas en temas como seguridad, desarrollo Web3 y diseño descentralizado.
                   </span>
                 </div>

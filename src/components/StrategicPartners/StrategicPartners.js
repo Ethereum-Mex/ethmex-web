@@ -7,6 +7,12 @@ const strategicPartners = [
     width: "220px", 
     link: "https://x.com/odisealabs", 
   },
+  {
+    name: "Texas Blockchain",
+    image: "texas-blockchain.png",
+    width: "220px", 
+    link: "https://x.com/txblockchain", 
+  },
 
 ];
 

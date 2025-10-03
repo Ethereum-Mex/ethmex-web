@@ -21,7 +21,7 @@ function AboutEthMexEvent() {
           <br/><br/>
           <span className="text-event" >ETH México es un evento anual y en esta edición, Conferencias + Hackathon Web3 </span><span className="text-event-green"> que impulsa el desarrollo del ecosistema Ethereum en el país.</span>
           <br/><br/>
-          <span className="text-event">Conectamos a </span><span className="text-event-green">desarrolladores, diseñoadores, estudiantes, emprendedores y entusiastas en blockchain </span> <span className="text-event">a través de experiencias educativas, colaborativas e inspiradoras.</span>
+          <span className="text-event">Conectamos a </span><span className="text-event-green">desarrolladores, diseñoadores, estudiantes, emprendedores y entusiastas en blockchain e IA </span> <span className="text-event">a través de experiencias educativas, colaborativas e inspiradoras.</span>
         </div>
       </div>
 

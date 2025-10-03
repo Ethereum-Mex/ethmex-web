@@ -39,7 +39,7 @@ function WhiteHacker() {
         />
         <br/>
         <p className="text-event mt-3">
-          Únete a las Conferencias + Hackathon Web3 que reúne a la <b> comunidad de builders más diversa de LATAM. </b> Aprende, programa, conecta y lanza ese proyecto que siempre has querido construir integrando tecnología blockchain.
+          Únete a las Conferencias + Hackathon Web3 que reúne a la <b> comunidad de builders más diversa de LATAM. </b> Aprende, programa, conecta y lanza ese proyecto que siempre has querido construir, integrando tecnología blockchain e IA.
         </p>
       </div>
       <br/>
