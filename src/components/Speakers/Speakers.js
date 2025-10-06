@@ -37,6 +37,13 @@ const speakers = [
     link: "https://x.com/chuycepeda",
     image: "chuycepeda.png",
   },
+  {
+    name: "Diego Tenorio",
+    username: "@deLarg0",
+    link: "https://x.com/deLarg0",
+    image: "deLargo-14.png",
+  },
+
 ];
 
 
@@ -74,6 +81,11 @@ function Speakers() {
                   <p className="text-event" style={{ lineHeight: "1.3" }}>
                     {member.name}
                   </p>
+                  {member.mode && (
+                    <p className="text-event" style={{ lineHeight: "1.3" }}>
+                      {member.mode}
+                    </p>
+                  )}
                   <a
                     className="text-event"
                     href={member.link}

@@ -22,7 +22,7 @@ const sponsors = [
   {
     name: "Meebits",
     image: "Horizontal_Logo_meebits.png",
-    width: "160px", 
+    width: "125px", 
     link: "https://x.com/MeebitsNFTs", 
   },
 ];
