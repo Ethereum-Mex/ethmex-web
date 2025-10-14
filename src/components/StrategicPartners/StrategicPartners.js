@@ -4,37 +4,37 @@ const strategicPartners = [
   {
     name: "Odisea",
     image: "OdiseaBlack_1.png",
-    width: "220px", 
+    width: "200px", 
     link: "https://x.com/odisealabs", 
   },
   {
     name: "Monterrey Tech Week",
     image: "Base_lockup_2color.png",
-    width: "220px", 
+    width: "200px", 
     link: "https://monterreytechweek.mx/", 
   },
   {
     name: "Texas Blockchain",
     image: "texas-blockchain.png",
-    width: "240px", 
+    width: "220px", 
     link: "https://x.com/txblockchain", 
   },
   {
     name: "Chihuahua Tech Week",
     image: "CTW.png",
-    width: "240px", 
+    width: "210px", 
     link: "https://x.com/txblockchain", 
   },
   {
     name: "Espacio Cripto",
     image: "Logo EC.png",
-    width: "220px", 
+    width: "200px", 
     link: "https://x.com/EspacioCripto", 
   },
   {
     name: "Frontera",
     image: "Logo_Frontera_Dark@2x.png",
-    width: "220px", 
+    width: "210px", 
     link: "https://x.com/BandoCool", 
   },
   {
@@ -46,7 +46,7 @@ const strategicPartners = [
   {
     name: "Product LatAm",
     image: "product latam.svg",
-    width: "150px", 
+    width: "130px", 
     link: "https://www.product-latam.com/", 
   },
 

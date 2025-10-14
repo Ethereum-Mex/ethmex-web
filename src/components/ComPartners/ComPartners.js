@@ -4,43 +4,43 @@ const comPartners = [
   {
     name: "SheFi",
     image: "SheFi-logo.png",
-    width: "150px", 
+    width: "140px", 
     link: "https://linktr.ee/shefiorg", 
   },
   {
     name: "ETH Cinco de Mayo",
     image: "LOGO-ETHCDM.png",
-    width: "150px", 
+    width: "130px", 
     link: "https://x.com/EthCincoDeMayo", 
   },
   {
     name: "H.E.R. DAO México",
     image: "herdao_mexico.png",
-    width: "150px", 
+    width: "130px", 
     link: "https://x.com/HerDaoMexico", 
   },
   {
     name: "mxweb3",
     image: "mxweb3.png",
-    width: "150px", 
+    width: "170px", 
     link: "https://x.com/mxweb3", 
   },
   {
     name: "Criptec",
     image: "criptec.png",
-    width: "150px", 
+    width: "140px", 
     link: "https://beacons.ai/criptecmx", 
   },
   {
     name: "ITEMZ",
     image: "ITEMZ-negro.png",
-    width: "150px", 
+    width: "130px", 
     link: "https://x.com/ItemzLatam", 
   },
   {
     name: "L-Phant",
     image: "l-phant.png",
-    width: "150px", 
+    width: "140px", 
     link: "https://www.instagram.com/lphant.io", 
   },
   {
@@ -58,7 +58,7 @@ const comPartners = [
   {
     name: "Viva la Calaca",
     image: "VVLCLC_NEGRO.png",
-    width: "150px", 
+    width: "130px", 
     link: "https://x.com/VivaLaCalaca", 
   },
   {
@@ -70,7 +70,7 @@ const comPartners = [
   {
     name: "Eth Veracruz",
     image: "ETHEREUM-VERACRUZ.png",
-    width: "150px", 
+    width: "120px", 
     link: "https://x.com/eth_veracruz", 
   },
   {
@@ -100,55 +100,55 @@ const comPartners = [
   {
     name: "Centrifuge DAO",
     image: "CFG1.png",
-    width: "150px", 
+    width: "190px", 
     link: "https://x.com/centrifuge", 
   },
   {
     name: "Xovem Hub",
     image: "xovem.jpeg",
-    width: "150px", 
+    width: "120px", 
     link: "https://www.instagram.com/xovem_hub", 
   },
   {
     name: "Vadi Latam",
     image: "logovadiii-02-2-.jpg",
-    width: "150px", 
+    width: "130px", 
     link: "https://x.com/VADILATAM", 
   },
   {
     name: "Woman Way",
     image: "ww_logo_negro.png",
-    width: "150px", 
+    width: "140px", 
     link: "https://www.instagram.com/womanwayofficial", 
   },
   {
     name: "MicrobiomeDAO",
     image: "MicrobiomeDAO-logo.png",
-    width: "100px", 
+    width: "90px", 
     link: "https://x.com/microbiomedao", 
   },
   {
     name: "Trading Room",
     image: "trading_room.jpeg",
-    width: "150px", 
+    width: "160px", 
     link: "https://x.com/MinimalTrading_", 
   },
   {
     name: "Cripto Baja",
     image: "cripto_baja.jpg",
-    width: "150px", 
+    width: "120px", 
     link: "https://x.com/CriptoBaja", 
   },
   {
     name: "Paisano Dao",
     image: "paisano.png",
-    width: "150px", 
+    width: "130px", 
     link: "https://x.com/paisanodao", 
   },
   {
     name: "Pelea de robots",
     image: "peleaRobots.png",
-    width: "130px", 
+    width: "110px", 
     link: "https://www.instagram.com/peleaderobots/", 
   },
   {
@@ -156,6 +156,18 @@ const comPartners = [
     image: "modularcripto.png",
     width: "150px", 
     link: "https://x.com/ModularCrypto", 
+  },
+  {
+    name: "BandaWeb3",
+    image: "BANDA-WEB3.png",
+    width: "150px", 
+    link: "https://x.com/BandaWeb3", 
+  },
+  {
+    name: "Mobil3.xyz",
+    image: "mobil3.jpg",
+    width: "100px", 
+    link: "https://x.com/mobil3_xyz", 
   },
 ];
 

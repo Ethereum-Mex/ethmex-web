@@ -43,9 +43,67 @@ const speakers = [
     link: "https://x.com/deLarg0",
     image: "deLargo-14.png",
   },
-
+  {
+    name: "Abraham Rivv",
+    username: "@abrahamrivv",
+    link: "https://x.com/abrahamrivv",
+    image: "abrahamrivv-38.png",
+  },
+  {
+    name: "Ana Belen",
+    username: "@anabelen_eth",
+    link: "https://x.com/anabelen_eth",
+    image: "AnaBelen-24.png",
+  },
+  {
+    name: "Alberto Franco",
+    username: "@Beto_gap_trader",
+    link: "https://x.com/Beto_gap_trader",
+    image: "albertofranco-26.png",
+  },
+  {
+    name: "Ale RaMo",
+    username: "@AleRaMo30",
+    link: "https://x.com/AleRaMo30",
+    image: "AleRamo-28.png",
+  },
+  {
+    name: "Austin Griffith",
+    username: "@austingriffith",
+    link: "https://x.com/austingriffith",
+    image: "austin-20.png",
+  },
+  {
+    name: "Frida Ruh",
+    username: "@FridaRuh",
+    link: "https://x.com/FridaRuh",
+    image: "FridaRuh-18.png",
+  },
+  {
+    name: "Carlos Ocampo",
+    username: "@CarlosOcampo",
+    link: "https://www.linkedin.com/in/carlos-ocampo-d31/",
+    image: "Carlosocampo-44.png",
+  },
+  {
+    name: "Javier Murga",
+    username: "@JavierMurga",
+    link: "https://www.linkedin.com/in/javier-murga-hernandez-74222319",
+    image: "JavierMurga-32.png",
+  },
+  {
+    name: "Karina Córdova",
+    username: "@irrazonables_",
+    link: "https://x.com/irrazonables_",
+    image: "KariCordova-36.png",
+  },
+  {
+    name: "Jordi Gracia",
+    username: "@jordigraciapuig",
+    link: "https://www.instagram.com/jordigraciapuig/",
+    image: "jordi-16-16.png",
+  },
 ];
-
 
 function Speakers() {
   return (

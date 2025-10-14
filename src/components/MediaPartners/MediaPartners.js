@@ -4,19 +4,19 @@ const mediaPartners = [
   {
     name: "Cryptoconexión",
     image: "cryptoconexion.jpg",
-    width: "200px", 
+    width: "190px", 
     link: "https://x.com/cryptoconexion", 
   },
   {
     name: "El Holder",
     image: "ElHolder_Logotipo_page-0001.jpg",
-    width: "250px", 
+    width: "230px", 
     link: "https://x.com/elholder__", 
   },
   {
     name: "Tododecrypto",
-    image: "Tododecripto.png",
-    width: "250px", 
+    image: "Tododecripto.PNG",
+    width: "230px", 
     link: "https://x.com/tododecripto", 
   },
   {
@@ -29,19 +29,25 @@ const mediaPartners = [
   {
     name: "Web3 En Corto",
     image: "WEB3ENCORTO4.png",
-    width: "250px", 
+    width: "230px", 
     link: "https://x.com/web3encorto", 
+  },
+  {
+    name: "CER",
+    image: "CER.png",
+    width: "270px", 
+    link: "", 
   },
   {
     name: "Happ3n",
     image: "Happ3n_Black_OG.png",
-    width: "250px", 
+    width: "210px", 
     link: "https://x.com/happ3nxyz", 
   },
   {
     name: "Indasocial",
     image: "indasocial-logo.png",
-    width: "180px", 
+    width: "150px", 
     link: "https://x.com/indasocial_mx", 
   },
 

@@ -20,7 +20,7 @@ function ParteDe() {
             </div>
           </a>
           <a
-            href="https://www.canva.com/design/DAGst9rkO3M/cjiRLBjb0sl6xGh5z313Ew/view?utm_content=DAGst9rkO3M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b309d877d"
+            href="https://ethereumexico.notion.site"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}
@@ -35,7 +35,7 @@ function ParteDe() {
         
         <div className="d-flex flex-column gap-4 gap-lg-5">
         <a
-            href="https://ethereumexico.notion.site/"
+            href="https://tally.so/r/3NzV7G"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}
