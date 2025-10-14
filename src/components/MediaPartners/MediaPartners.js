@@ -8,10 +8,35 @@ const mediaPartners = [
     link: "https://x.com/cryptoconexion", 
   },
   {
+    name: "El Holder",
+    image: "ElHolder_Logotipo_page-0001.jpg",
+    width: "250px", 
+    link: "https://x.com/elholder__", 
+  },
+  {
+    name: "Tododecrypto",
+    image: "Tododecripto.png",
+    width: "250px", 
+    link: "https://x.com/tododecripto", 
+  },
+  {
     name: "Fundamento",
     image: "FUNDAMENTO.png",
     width: "270px", 
     link: "https://x.com/FundamentoMedia", 
+  },
+
+  {
+    name: "Web3 En Corto",
+    image: "WEB3ENCORTO4.png",
+    width: "250px", 
+    link: "https://x.com/web3encorto", 
+  },
+  {
+    name: "Happ3n",
+    image: "Happ3n_Black_OG.png",
+    width: "250px", 
+    link: "https://x.com/happ3nxyz", 
   },
   {
     name: "Indasocial",
@@ -19,12 +44,7 @@ const mediaPartners = [
     width: "180px", 
     link: "https://x.com/indasocial_mx", 
   },
-  {
-    name: "Web3 En Corto",
-    image: "WEB3ENCORTO4.png",
-    width: "250px", 
-    link: "https://x.com/web3encorto", 
-  },
+
 ];
 
 function MediaPartners() {
@@ -37,7 +57,7 @@ function MediaPartners() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           {mediaPartners.map((member, index) => (
-            <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
+            <div className="col-3 col-sm-4 col-md-3 mb-4" key={index}>
               <div>
                 <a 
                   href={member.link} 

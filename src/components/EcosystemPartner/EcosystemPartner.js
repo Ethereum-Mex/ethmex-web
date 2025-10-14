@@ -1,49 +1,25 @@
-import "./Sponsors.css";
+import "./EcosystemPartner.css";
 
-const sponsors = [
+const ecosystemPartners = [
   {
-    name: "ESP",
-    image: "esp.svg",
+    name: "Destino Devconnect",
+    image: "Devconnect_ARG.png",
     width: "200px", 
-    link: "https://x.com/EF_ESP", 
-  },
-  {
-    name: "geodework",
-    image: "geodework.png",
-    width: "290px", 
-    link: "https://x.com/geodelabs", 
-  },
-  {
-    name: "scroll",
-    image: "Scroll_FullLogo.8b9fd528.svg",
-    width: "300px", 
-    link: "https://x.com/Scroll_ES", 
-  },
-  {
-    name: "Base",
-    image: "Base_lockup_2color.svg",
-    width: "140px", 
-    link: "https://x.com/base", 
-  },
-  {
-    name: "Meebits",
-    image: "Horizontal_Logo_meebits.png",
-    width: "110px", 
-    link: "https://x.com/MeebitsNFTs", 
+    link: "https://devconnect.org/destino", 
   },
 ];
 
-function Sponsors() {
+function EcosystemPartner() {
   return (
     <div className="container-fluid container-ethmex-event text-center" id="sponsors">
       <h2 className="text-event-title mb-4" style={{ fontSize: "35px" }}>
-        <span style={{ color: "#D73535" }}>SPONSORS&nbsp;</span>
+        <span style={{ color: "#358541" }}>ECOSYSTEM PARTNER&nbsp;</span>
       </h2>
 
       <div className="container">
         <div className="row justify-content-center align-items-center">
-          {sponsors.map((member, index) => (
-            <div className="col-6 col-sm-4 col-md-2 mb-4" key={index}>
+          {ecosystemPartners.map((member, index) => (
+            <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
               <div>
                 <a 
                   href={member.link} 
@@ -66,4 +42,4 @@ function Sponsors() {
   );
 }
 
-export default Sponsors;
+export default EcosystemPartner;

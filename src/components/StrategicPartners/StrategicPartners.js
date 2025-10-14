@@ -19,8 +19,39 @@ const strategicPartners = [
     width: "240px", 
     link: "https://x.com/txblockchain", 
   },
+  {
+    name: "Chihuahua Tech Week",
+    image: "CTW.png",
+    width: "240px", 
+    link: "https://x.com/txblockchain", 
+  },
+  {
+    name: "Espacio Cripto",
+    image: "Logo EC.png",
+    width: "220px", 
+    link: "https://x.com/EspacioCripto", 
+  },
+  {
+    name: "Frontera",
+    image: "Logo_Frontera_Dark@2x.png",
+    width: "220px", 
+    link: "https://x.com/BandoCool", 
+  },
+  {
+    name: "Irrazonables",
+    image: "Irrazonables_Logotipo-Horizontal-Negativo_Transparente.png",
+    width: "220px", 
+    link: "https://www.instagram.com/somosirrazonables/", 
+  },
+  {
+    name: "Product LatAm",
+    image: "product latam.svg",
+    width: "150px", 
+    link: "https://www.product-latam.com/", 
+  },
 
 ];
+
 
 function StrategicPartners() {
   return (
@@ -32,7 +63,7 @@ function StrategicPartners() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           {strategicPartners.map((member, index) => (
-            <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
+            <div className="col-4 col-sm-4 col-md-3 mb-4" key={index}>
               <div>
                 <a 
                   href={member.link} 

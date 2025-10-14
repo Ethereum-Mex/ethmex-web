@@ -20,7 +20,22 @@ function ParteDe() {
             </div>
           </a>
           <a
-            href="https://tally.so/r/3NzV7G"
+            href="https://www.canva.com/design/DAGst9rkO3M/cjiRLBjb0sl6xGh5z313Ew/view?utm_content=DAGst9rkO3M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b309d877d"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
+              <span className="text-event">Attendance Guide</span> 
+              <i><span className="text-event" style={{fontSize: '12px'}}>Consulta aquí</span></i>
+            </div>
+          </a>
+
+        </div>
+        
+        <div className="d-flex flex-column gap-4 gap-lg-5">
+        <a
+            href="https://ethereumexico.notion.site/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}
@@ -30,9 +45,7 @@ function ParteDe() {
               <i><span className="text-event" style={{fontSize: '12px'}}>Aplica aquí</span></i>
             </div>
           </a>
-        </div>
-        
-        <div className="d-flex flex-column gap-4 gap-lg-5">
+          {/** 
           <a
             href="https://tally.so/r/n0KzMQ"
             target="_blank"
@@ -44,6 +57,9 @@ function ParteDe() {
               <i><span className="text-event" style={{fontSize: '12px'}}>Aplica aquí</span></i>
             </div>
           </a>
+
+          */}
+          {/** 
           <a
             href="https://tally.so/r/nPo9a5"
             target="_blank"
@@ -55,6 +71,18 @@ function ParteDe() {
               <i><span className="text-event" style={{fontSize: '12px'}}>Aplica aquí</span></i>
             </div>
           </a>
+          */}
+          <a
+            href="https://t.me/ethmexico/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
+              <span className="text-event">Contáctanos</span> 
+              <i><span className="text-event" style={{fontSize: '12px'}}>Consulta aquí</span></i>
+            </div>
+          </a>
         </div>
       </div>
       
@@ -62,14 +90,7 @@ function ParteDe() {
         <span className="text-event-white">Ayúdanos a hacer de esta edición la más poderosa hasta ahora</span>
       </div>
       <br/>
-      <a
-        className="btn btn-primary-event"
-        href="https://t.me/ethmexico"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        CONTÁCTANOS
-      </a>
+
     </div>
   );
 }

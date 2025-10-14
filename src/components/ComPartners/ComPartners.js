@@ -2,30 +2,165 @@ import "./ComPartners.css";
 
 const comPartners = [
   {
-    name: "Cryptoconexión",
-    image: "cryptoconexion.jpg",
-    width: "200px", 
-    link: "https://x.com/cryptoconexion", 
+    name: "SheFi",
+    image: "SheFi-logo.png",
+    width: "150px", 
+    link: "https://linktr.ee/shefiorg", 
   },
   {
-    name: "Fundamento",
-    image: "FUNDAMENTO.png",
-    width: "270px", 
-    link: "https://x.com/FundamentoMedia", 
+    name: "ETH Cinco de Mayo",
+    image: "LOGO-ETHCDM.png",
+    width: "150px", 
+    link: "https://x.com/EthCincoDeMayo", 
   },
   {
-    name: "Indasocial",
-    image: "indasocial-logo.png",
-    width: "180px", 
-    link: "https://x.com/indasocial_mx", 
+    name: "H.E.R. DAO México",
+    image: "herdao_mexico.png",
+    width: "150px", 
+    link: "https://x.com/HerDaoMexico", 
   },
   {
-    name: "Web3 En Corto",
-    image: "WEB3ENCORTO4.png",
-    width: "250px", 
-    link: "https://x.com/web3encorto", 
+    name: "mxweb3",
+    image: "mxweb3.png",
+    width: "150px", 
+    link: "https://x.com/mxweb3", 
+  },
+  {
+    name: "Criptec",
+    image: "criptec.png",
+    width: "150px", 
+    link: "https://beacons.ai/criptecmx", 
+  },
+  {
+    name: "ITEMZ",
+    image: "ITEMZ-negro.png",
+    width: "150px", 
+    link: "https://x.com/ItemzLatam", 
+  },
+  {
+    name: "L-Phant",
+    image: "l-phant.png",
+    width: "150px", 
+    link: "https://www.instagram.com/lphant.io", 
+  },
+  {
+    name: "Blocka",
+    image: "blocka.png",
+    width: "150px", 
+    link: "https://x.com/lablockatoon", 
+  },
+  {
+    name: "Cripto Unam",
+    image: "cripto_unam.png",
+    width: "150px", 
+    link: "https://x.com/Cripto_UNAM", 
+  },
+  {
+    name: "Viva la Calaca",
+    image: "VVLCLC_NEGRO.png",
+    width: "150px", 
+    link: "https://x.com/VivaLaCalaca", 
+  },
+  {
+    name: "Opportuni",
+    image: "Opportuni_Logo.png",
+    width: "150px", 
+    link: "https://www.instagram.com/opportuni__mx/", 
+  },
+  {
+    name: "Eth Veracruz",
+    image: "ETHEREUM-VERACRUZ.png",
+    width: "150px", 
+    link: "https://x.com/eth_veracruz", 
+  },
+  {
+    name: "Web3 Acceleration Association ",
+    image: "wwa.png",
+    width: "150px", 
+    link: "https://x.com/ttu_waa", 
+  },
+  {
+    name: "UNLOCK Universe",
+    image: "UNLOCK-Web-3-obscuro.png",
+    width: "150px", 
+    link: "https://linktr.ee/UnlockSummit", 
+  },
+  {
+    name: "Ethereum Tegucigalpa",
+    image: "eth_tg.png",
+    width: "150px", 
+    link: "https://linktr.ee/ethereumtgu", 
+  },
+  {
+    name: "Es Blockchain",
+    image: "EsBlockchainl-1-.png",
+    width: "150px", 
+    link: "https://x.com/3sBlockchain ", 
+  },
+  {
+    name: "Centrifuge DAO",
+    image: "CFG1.png",
+    width: "150px", 
+    link: "https://x.com/centrifuge", 
+  },
+  {
+    name: "Xovem Hub",
+    image: "xovem.jpeg",
+    width: "150px", 
+    link: "https://www.instagram.com/xovem_hub", 
+  },
+  {
+    name: "Vadi Latam",
+    image: "logovadiii-02-2-.jpg",
+    width: "150px", 
+    link: "https://x.com/VADILATAM", 
+  },
+  {
+    name: "Woman Way",
+    image: "ww_logo_negro.png",
+    width: "150px", 
+    link: "https://www.instagram.com/womanwayofficial", 
+  },
+  {
+    name: "MicrobiomeDAO",
+    image: "MicrobiomeDAO-logo.png",
+    width: "100px", 
+    link: "https://x.com/microbiomedao", 
+  },
+  {
+    name: "Trading Room",
+    image: "trading_room.jpeg",
+    width: "150px", 
+    link: "https://x.com/MinimalTrading_", 
+  },
+  {
+    name: "Cripto Baja",
+    image: "cripto_baja.jpg",
+    width: "150px", 
+    link: "https://x.com/CriptoBaja", 
+  },
+  {
+    name: "Paisano Dao",
+    image: "paisano.png",
+    width: "150px", 
+    link: "https://x.com/paisanodao", 
+  },
+  {
+    name: "Pelea de robots",
+    image: "peleaRobots.png",
+    width: "130px", 
+    link: "https://www.instagram.com/peleaderobots/", 
+  },
+  {
+    name: "Modular Crypto",
+    image: "modularcripto.png",
+    width: "150px", 
+    link: "https://x.com/ModularCrypto", 
   },
 ];
+
+
+
 
 function ComPartners() {
   return (
@@ -37,7 +172,7 @@ function ComPartners() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           {comPartners.map((member, index) => (
-            <div className="col-6 col-sm-4 col-md-3 mb-4" key={index}>
+            <div className="col-3 col-sm-3 col-md-2 mb-4" key={index}>
               <div>
                 <a 
                   href={member.link} 

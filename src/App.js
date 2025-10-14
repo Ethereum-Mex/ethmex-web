@@ -35,6 +35,7 @@ import Sponsors from "./components/Sponsors/Sponsors.js";
 import StrategicPartners from "./components/StrategicPartners/StrategicPartners.js";
 import MediaPartners from "./components/MediaPartners/MediaPartners.js";
 import ComPartners from "./components/ComPartners/ComPartners.js";
+import EcosystemPartner from "./components/EcosystemPartner/EcosystemPartner.js";
 
 
 function App() {
@@ -88,7 +89,8 @@ function App() {
               
               <StrategicPartners/>
               <MediaPartners/>
-              {/*<ComPartners/>*/}
+              <EcosystemPartner/>
+              <ComPartners/>
               <CalendarioRoadTo/>
               <EdicionesAnteriores/>
               
