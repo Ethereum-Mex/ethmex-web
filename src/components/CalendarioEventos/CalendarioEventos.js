@@ -12,9 +12,9 @@ function CalendarioEventos() {
 
       <div className="mx-auto hat-container mt-3 mb-4">
         <p className="text-event">
-          Aquí encontrarás el registro al main event, hackathon, side events, meetups y
-          fiestas que se llevarán a cabo en la tercera edición de{" "}
-          <b style={{ color: "#D73535" }}>#ETHMéxico</b>.
+          Aquí encontrarás el registro al main event, hackathon y side events que se llevarán a cabo en la tercera edición de{" "}
+          <b style={{ color: "#D73535" }}>#ETHMéxico</b>. <br/>
+          <i>Horarios aún por definir</i>
         </p>
       </div>
 
@@ -25,7 +25,8 @@ function CalendarioEventos() {
             <strong className="text-event-green">DÍA 1</strong><br/>
             <strong > Jueves 30 de Octubre</strong><br/><br/>
             🍽️ VIP Dinner <br/>
-            (Previa Invitación)
+            (Previa Invitación)  <br/>
+            7:30pm
           </span>
         </div>
         <div className="day-card d-flex justify-content-center align-items-center">
@@ -33,15 +34,18 @@ function CalendarioEventos() {
             <strong className="text-event-green">DÍA 2</strong><br/>
             <strong>Viernes 31 de Octubre</strong><br/><br/>
             🎙️ Conferencias <br/>
-            🧑‍💻 Inicio Hackathon
+            10am - 7pm <br/><br/>
+            🧑‍💻 Inicio Hackathon  <br/>
+            6pm 
           </span>
         </div>
         <div className="day-card d-flex justify-content-center align-items-center">
           <span className="text-event">
             <strong className="text-event-green">DÍA 3</strong><br/>
             <strong>Sábado 1 de Noviembre</strong><br/><br/>
-            🛠️ Workshops <br/>  
-            🧑‍💻 Hackathon 
+            🛠️ Conferencias & Workshops <br/>  
+            10am - 6pm <br/><br/>
+            🧑‍💻 Hackathon Continua <br/>
             
           </span>
         </div>
@@ -49,7 +53,8 @@ function CalendarioEventos() {
           <span className="text-event">
             <strong className="text-event-green">DÍA 4</strong><br/>
             <strong> Domingo 2 de Noviembre</strong><br/><br/>
-            🎉 Fin Hackathon
+            🎉 Ceremonia de Cierre <br/>
+              2pm
           </span>
         </div>
       </div>

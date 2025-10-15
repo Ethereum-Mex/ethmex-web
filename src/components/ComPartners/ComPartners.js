@@ -105,7 +105,7 @@ const comPartners = [
   },
   {
     name: "Xovem Hub",
-    image: "xovem.jpeg",
+    image: "xovem.png",
     width: "120px", 
     link: "https://www.instagram.com/xovem_hub", 
   },

@@ -36,6 +36,7 @@ import StrategicPartners from "./components/StrategicPartners/StrategicPartners.
 import MediaPartners from "./components/MediaPartners/MediaPartners.js";
 import ComPartners from "./components/ComPartners/ComPartners.js";
 import EcosystemPartner from "./components/EcosystemPartner/EcosystemPartner.js";
+import Agenda from "./components/Agenda/Agenda.js";
 
 
 function App() {
@@ -77,6 +78,7 @@ function App() {
               <AboutEthMexEvent/>
               <Esperar/>
               <CalendarioEventos/>
+              <Agenda/>
               <ParteDe/>
               <Razones/>
               {/* <Venue/> */}
@@ -91,6 +93,7 @@ function App() {
               <MediaPartners/>
               <EcosystemPartner/>
               <ComPartners/>
+              
               <CalendarioRoadTo/>
               <EdicionesAnteriores/>
               

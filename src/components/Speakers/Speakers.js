@@ -81,7 +81,7 @@ const speakers = [
   },
   {
     name: "Carlos Ocampo",
-    username: "@CarlosOcampo",
+    username: "",
     link: "https://www.linkedin.com/in/carlos-ocampo-d31/",
     image: "Carlosocampo-44.png",
   },
@@ -92,16 +92,88 @@ const speakers = [
     image: "JavierMurga-32.png",
   },
   {
+    name: "Jordi Gracia",
+    username: "@jordigraciapuig",
+    link: "https://www.instagram.com/jordigraciapuig/",
+    image: "jordi-16-16.png",
+  },
+  {
     name: "Karina Córdova",
     username: "@irrazonables_",
     link: "https://x.com/irrazonables_",
     image: "KariCordova-36.png",
   },
   {
-    name: "Jordi Gracia",
-    username: "@jordigraciapuig",
-    link: "https://www.instagram.com/jordigraciapuig/",
-    image: "jordi-16-16.png",
+    name: "Aime Figueroa",
+    username: "@Lady_cripto",
+    link: "https://x.com/aime_fl?t=-SzgqHMmychclwrK3MmnWg&s=09",
+    image: "Aime-66.png",
+  },
+  {
+    name: "Adrian Treviño",
+    username: "",
+    link: "",
+    image: "AdrianTrevino-56.png",
+  },
+  {
+    name: "Andres Salcedo",
+    username: "@andyfi",
+    link: "https://x.com/andyfi",
+    image: "andresalcedo-50.png",
+  },
+  {
+    name: "Brian Smokes",
+    username: "@BSmokes_",
+    link: "https://x.com/bsmokes_",
+    image: "BrianSmokes-48.png",
+  },
+  {
+    name: "Etienne Luquet",
+    username: "",
+    link: "https://www.linkedin.com/in/etienne-luquet-782b511ab",
+    image: "Etienne-58.png",
+  },
+  {
+    name: "Ile Designia",
+    username: "@iledesignia",
+    link: "https://x.com/iledesignia",
+    image: "IleDesignia-42.png",
+  },
+  {
+    name: "Jay McCarthy",
+    username: "@jeapostrophe",
+    link: "https://x.com/jeapostrophe",
+    image: "jay-34.png",
+  },
+  {
+    name: "Nathaly Cortez",
+    username: "@_nathcortez",
+    link: "https://x.com/_nathcortez",
+    image: "NatCortez-64.png",
+  },
+  {
+    name: "Mauricio Cruz",
+    username: "@meximalist",
+    link: "https://x.com/meximalist",
+    image: "mexi-40.png",
+  },
+  {
+    name: "Rosa González",
+    username: "@rosaglez_eth",
+    link: "https://x.com/rosaglez_eth",
+    image: "RosaGlez-60.png",
+  },
+  {
+    name: "Liz Durán",
+    username: "@liz_durang",
+    link: "https://x.com/liz_durang",
+    image: "Liz-62.png",
+  },
+  {
+    name: "Erezedor",
+    username: "@yoSoyDev_eth",
+    link: "https://x.com/yoSoyDev_eth",
+    image: "Erezedor-22.png",
   },
 ];
 
@@ -133,6 +205,7 @@ function Speakers() {
                     src={`${process.env.PUBLIC_URL}/images/${member.image}`}
                     className="d-block img-fluid mx-auto mt-4"
                     alt={member.name}
+                    style={{ width: "16A0px" }}
                   />
                 </a>
                 <div className="team-item-text mt-3">
