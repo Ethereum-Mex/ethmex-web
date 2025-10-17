@@ -2,173 +2,342 @@ import React, { useState } from "react";
 import "./Agenda.css";
 
 const agendaData = {
-  day1: [
-    {
-      ponencia: "Acreditaciones & Acceso",
-      speaker: "",
-      hour: "10:00 - 11:00",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Opening Ceremony - Day 1",
-      speaker: "Estado de Nuevo León & Ethereum México Team",
-      hour: "11:00 - 11:30",
-      day: "Day 1"
-    },
-    {
-      ponencia: "PANEL: Why Decentralization Matters",
-      speaker: "TBD",
-      hour: "11:40 - 12:20",
-      day: "Day 1"
-    },
-    {
-      ponencia: "PANEL: Confianza en la Blockchain: Salud, Dinero y Datos en la Era Descentralizada",
-      speaker: "TBD",
-      hour: "12:30 - 13:10",
-      day: "Day 1"
-    },
-    {
-      ponencia: "PANEL: Instituciones Onchain: El Próximo Capítulo de las Finanzas en México",
-      speaker: "TBD",
-      hour: "13:20 - 14:00",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Cripto-Revolución: El Futuro de la Economía Descentralizada",
-      speaker: "TBD",
-      hour: "14:10 - 14:35",
-      day: "Day 1"
-    },
-    {
-      ponencia: "BREAK / LUNCHTIME",
-      speaker: "TBD",
-      hour: "14:35 - 15:35",
-      day: "Day 1"
-    },
-    {
-      ponencia: "PANEL: From Onramps to Ownership: Exchanges & Wallets in LATAM",
-      speaker: "TBD",
-      hour: "15:35 - 16:15",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Keynote",
-      speaker: "TBD",
-      hour: "16:25 - 16:50",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Keynote",
-      speaker: "TBD",
-      hour: "17:00 - 17:25",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Keynote",
-      speaker: "TBD",
-      hour: "17:35 - 18:00",
-      day: "Day 1"
-    }
-  ],
-  day2: [
-    {
-      ponencia: "Acreditaciones & Acceso",
-      speaker: "",
-      hour: "10:00 - 11:00",
-      day: "Day 2"
-    },
-    {
-      ponencia: "Opening Ceremony - Day 2",
-      speaker: "Ethereum México Team & ETH Monterrey Team",
-      hour: "11:00 - 11:30",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Debate: Bitcoin vs Ethereum",
-      speaker: "TBD",
-      hour: "11:40 - 12:05",
-      day: "Day 2"
-    },
-    {
-      ponencia: "Security",
-      speaker: "TBD",
-      hour: "12:15 - 12:40",
-      day: "Day 2"
-    },
-    {
-      ponencia: "Fireside - Identidad Descentralizada en Acción: El Caso de Nuevo León con Sovra",
-      speaker: "TBD",
-      hour: "12:50 - 13:15",
-      day: "Day 2"
-    },
-    {
-      ponencia: "PANEL: The Inclusion Imperative: Unbanked to Onchain",
-      speaker: "TBD",
-      hour: "13:25 - 14:05",
-      day: "Day 2"
-    },
-    {
-      ponencia: "BREAK / LUNCHTIME",
-      speaker: "TBD",
-      hour: "14:05 - 15:05",
-      day: "Day 1"
-    },
-    {
-      ponencia: "Keynote: El futuro corre sobre Scroll: innovación, pagos y la nueva generación de la economía abierta",
-      speaker: "TBD",
-      hour: "15:05 - 15:30",
-      day: "Day 2"
-    },
-    {
-      ponencia: "Keynote",
-      speaker: "TBD",
-      hour: "15:40 - 16:05",
-      day: "Day 2"
-    },
-    {
-      ponencia: "Finanzas 3.0",
-      speaker: "TBD",
-      hour: "16:15 - 16:40",
-      day: "Day 2"
-    },
-    {
-      ponencia: "The Role of Stablecoins and DeFi in Value Creation across the Ethereum Ecosystem",
-      speaker: "TBD",
-      hour: "16:50 - 17:15",
-      day: "Day 2"
-    }
-  ]
+  day1: {
+    conferencias: [
+      {
+        title: "Acreditaciones & Acceso",
+        speaker: "",
+        hour: "10:00 - 11:00"
+      },
+      {
+        title: "Opening Ceremony - Day 1",
+        speaker: "Estado de Nuevo León & Ethereum México Team",
+        hour: "11:00 - 11:30"
+      },
+      {
+        title: "PANEL: Por qué Cripto, Blockchain y la Descentralización Importan",
+        speaker: "David - Arbitrum FDNT, Yedid - Her DAO Mexico, Aime Figeroa, Liz Durán - Eth México",
+        hour: "11:40 - 12:20"
+      },
+      {
+        title: "PANEL: Confianza en la Blockchain: Salud, Dinero y Datos en la Era Descentralizada",
+        speaker: "MaFer - MicrobiomeDAO, Alberto Franco - BWC, Julio Adrian - ",
+        hour: "12:30 - 13:10"
+      },
+      {
+        title: "PANEL: Instituciones Onchain: El Próximo Capítulo de las Finanzas en México",
+        speaker: "Javier Murga - Transformación de Activos Digitales, Ale RaMo - Wavy Node, Humberto Besso - Scroll",
+        hour: "13:20 - 14:00"
+      },
+      {
+        title: "Cripto-Revolución: El Futuro de la Economía Descentralizada",
+        speaker: "Carlos Ocampo - TEDx Speaker",
+        hour: "14:10 - 14:35"
+      },
+      {
+        title: "BREAK / LUNCHTIME",
+        speaker: "",
+        hour: "14:35 - 15:35"
+      },
+      {
+        title: "PANEL: From Onramps to Ownership: Exchanges & Wallets in LATAM",
+        speaker: "Brian Smocovich - Pistachio, Alberto Franco - , Rafa Canseco - Odisea",
+        hour: "15:35 - 16:15"
+      },
+      {
+        title: "ARBITRUM Keynote: Expanding Arbitrum Across Mexico and Latin America",
+        speaker: "Joao Kury - Arbitrum Foundation",
+        hour: "16:25	- 16:50"
+      },
+      {
+        title: "Keynote: Cómo conseguir los primeros 100 usuarios de tu protocolo",
+        speaker: "Diego Tenorio - Fundamento",
+        hour: "17:00 - 17:25"
+      },
+      {
+        title: "Resolviendo PPU's (P**#*$s Problemas Urgentes)",
+        speaker: "Karina Córdova - Irrazonables",
+        hour: "17:35	- 18:00"
+      }
+    ],
+    hackathon: [
+      {
+        title: "Registro Hackathon",
+        hour: "18:00 - 19:00",
+        speaker: "Mitch & Erezedor"
+      },
+      {
+        title: "Creación de equipos e ideación de proyectos",
+        hour: "19:00 - 20:00",
+        speaker: "Mitch"
+      },
+      {
+        title: "Hacking Time!",
+        hour: "20:00 - 23:59",
+        speaker: ""
+      },
+
+    
+    ]
+  },
+  day2: {
+    conferencias: [
+      {
+        title: "Acreditaciones & Acceso",
+        speaker: "",
+        hour: "10:00 - 11:00"
+      },
+      {
+        title: "Opening Ceremony - Day 2",
+        speaker: "Ethereum México Team & ETH Monterrey Team",
+        hour: "11:00 - 11:30"
+      },
+      {
+        title: "Debate: Bitcoin vs Ethereum",
+        speaker: "Don Pepe - Eth México, Adrian Trevino - Bitcoin Network Monterrey, Rafa Canseco - Odisea, Erezedor -  Blockchain Engineer",
+        hour: "11:40 - 12:05"
+      },
+      {
+        title: "Sobre Seguridad en la Blockchain",
+        speaker: "Paul Cortés - Hiv3",
+        hour: "12:15	- 12:40"
+      },
+      {
+        title: "Fireside - Identidad Descentralizada en Acción: El Caso de Nuevo León con Sovra",
+        speaker: "Chuy Cepeda - Sovra, Mariela Saldivar - Gobierno NL, JuanRah - Eth México",
+        hour: "12:50	- 13:15"
+      },
+      {
+        title: "PANEL: The Inclusion Imperative: Unbanked to Onchain",
+        speaker: "Saswat - Talisis, Etienne Luquet - Bitso, Almond - Base, Abraham - Espacio Cripto",
+        hour: "13:25 - 14:05"
+      },
+      {
+        title: "BREAK / LUNCHTIME",
+        speaker: "",
+        hour: "14:05 - 15:05"
+      },
+      {
+        title: "Keynote: El futuro corre sobre Scroll: innovación, pagos y la nueva generación de la economía abierta",
+        speaker: "Gabriella Mena - Scroll",
+        hour: "15:05	- 15:30"
+      },
+      {
+        title: "Keynote: De Idea a Impacto Onchain: Escala con Base",
+        speaker: "Almond - Base",
+        hour: "15:40	- 16:05"
+      },
+      {
+        title: "ETHERFUSE: Finanzas 3.0",
+        speaker: "Andres Salcedo - Etherfuse",
+        hour: "16:15 - 16:40"
+      },
+      {
+        title: "Keynote: De Idea a Impacto Onchain: Escala con Base",
+        speaker: "Almond - Base",
+        hour: "16:15 - 16:40"
+      },
+      {
+        title: "The Role of Stablecoins and DeFi in Value Creation across the Ethereum Ecosystem",
+        speaker: "Rine Dunia - CW3, Alan Kantapin - CW3",
+        hour: "16:50	17:15"
+      },
+      {
+        title: "Mercados abiertos, acceso global: el papel de las DEX en la transformación financiera",
+        speaker: "Anthony Chávez - Uniswap Labs",
+        hour: "17:25	- 17:50"
+      }
+    ],
+    hackathon: [
+      {
+        title: "El camino del VibeCoder: Universitarios en Web3",
+        hour: "09:00 - 10:00",
+        speaker: "Gerardo Vela - Cripto UNAM"
+      },
+      {
+        title: "Desarrolla tu propio protocolo DeFi con Uniswap V4 Hooks",
+        hour: "12:00 - 13:00",
+        speaker: "Constantino Mora - Uniswap Labs"
+      },
+      {
+        title: "Como pitchear tu proyecto en el hackathon",
+        hour: "13:00 - 14:00",
+        speaker: "Israel Cortes - Omma Cash"
+      },
+      {
+        title: "Hacking Time!",
+        hour: "14:00 - 23:59",
+        speaker: ""
+      },
+      
+
+    ]
+  },
+  day3: {
+    conferencias: [
+      {}
+    ],
+    hackathon: [
+      {
+        title: "Submission Deadline",
+        hour: "09:00",
+        speaker: ""
+      },
+      {
+        title: "Submission Pitches",
+        hour: "9:30 - 11:30",
+        speaker: ""
+      },
+      {
+        title: "Evaluación de proyectos",
+        hour: "11:30 - 14:30",
+        speaker: ""
+      },
+      {
+        title: "Closing Ceremony and Winners Announcement",
+        hour: "15:30 - 17:00",
+        speaker: ""
+      },
+    ]
+  }
 };
 
 function Agenda() {
   const [activeTab, setActiveTab] = useState('day1');
 
-  const renderAgendaTable = (agenda) => (
-    <>
+  // Función para calcular duración en minutos
+  const calculateDuration = (timeString) => {
+    // Si no hay timeString o está vacío, retornar 0
+    if (!timeString || timeString.trim() === '') {
+      return 0;
+    }
+    
+    // Si no tiene formato de rango (HH:MM - HH:MM), retornar 0
+    if (!timeString.includes(' - ')) {
+      return 0;
+    }
+    
+    const [start, end] = timeString.split(' - ');
+    
+    // Si no se puede parsear, retornar 0
+    if (!start || !end) {
+      return 0;
+    }
+    
+    const startTime = new Date(`2000-01-01 ${start}`);
+    const endTime = new Date(`2000-01-01 ${end}`);
+    return (endTime - startTime) / (1000 * 60); // duración en minutos
+  };
 
-    <div className="agenda-container">
-      
-      <div className="agenda-header">
-        <div className="agenda-header-item">Hour</div>
-        <div className="agenda-header-item">Ponencia</div>
-        <div className="agenda-header-item">Speaker</div>
-      </div>
-      {agenda.map((item, index) => (
-        <div className="agenda-row" key={index}>
-          <div className="agenda-item agenda-hour">
-            <span className="text-event">{item.hour}</span>
-          </div>
-          <div className="agenda-item agenda-ponencia">
-            <span className="text-event font-weight-bold">{item.ponencia}</span>
-          </div>
-          <div className="agenda-item agenda-speaker">
-            <span className="text-event">{item.speaker}</span>
+  // Función para formatear duración
+  const formatDuration = (minutes) => {
+    if (minutes === 0) return '';
+    if (minutes < 60) return `${minutes}min`;
+    const hours = Math.floor(minutes / 60);
+    const remainingMinutes = minutes % 60;
+    if (remainingMinutes === 0) return `${hours}h`;
+    return `${hours}h ${remainingMinutes}min`;
+  };
+
+  // Función para calcular altura proporcional basada en duración
+  const calculateHeight = (timeString) => {
+    const duration = calculateDuration(timeString);
+    
+    // Si no hay duración, usar altura mínima
+    if (duration === 0) {
+      return 150;
+    }
+    
+    const minHeight = 150;
+    const maxHeight = 500;
+    const minDuration = 15;
+    const maxDuration = 120;
+    
+    const ratio = Math.min((duration - minDuration) / (maxDuration - minDuration), 1);
+    return Math.max(minHeight + (ratio * (maxHeight - minHeight)), minHeight);
+  };
+
+  const renderAgendaTable = (dayData, isDay3 = false) => {
+    return (
+      <div className="unified-agenda-container">
+        <div className="agenda-grid">
+          {/* Columna de Charlas - Solo para Día 1 y 2 */}
+          {!isDay3 && (
+            <div className="sede-column charlas-column">
+              <div className="sede-header">
+                <h3 className="sede-title">🎤 CONFERENCIAS</h3>
+                <p className="venue-info">📍 Hotel Krystal Monterrey</p>
+              </div>
+              <div className="sede-activities">
+                {dayData.conferencias.map((activity, index) => {
+                  const height = calculateHeight(activity.hour);
+                  const duration = calculateDuration(activity.hour);
+                  const formattedDuration = formatDuration(duration);
+                  
+                  return (
+                    <div 
+                      key={index}
+                      className="activity-card ponencia-card"
+                      style={{ height: `${height}px` }}
+                    >
+                      <div className="card-header">
+                        <span className="activity-time">{activity.hour}</span>
+                        {formattedDuration && (
+                          <span className="activity-duration">{formattedDuration}</span>
+                        )}
+                      </div>
+                      <div className="card-body">
+                        <h4 className="activity-title">{activity.title}</h4>
+                        {activity.speaker && (
+                          <p className="activity-speaker">{activity.speaker}</p>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Columna de Hackathon */}
+          <div className="sede-column hackathon-column">
+            <div className="sede-header">
+              <h3 className="sede-title">💻 HACKATHON</h3>
+              <p className="venue-info">📍 Museo Metropolitano</p>
+            </div>
+            <div className="sede-activities">
+              {dayData.hackathon.map((activity, index) => {
+                const height = calculateHeight(activity.hour);
+                const duration = calculateDuration(activity.hour);
+                const formattedDuration = formatDuration(duration);
+                
+                return (
+                  <div 
+                    key={index}
+                    className="activity-card hackathon-card"
+                    style={{ height: `${height}px` }}
+                  >
+                    <div className="card-header">
+                      <span className="activity-time">{activity.hour}</span>
+                      {formattedDuration && (
+                        <span className="activity-duration">{formattedDuration}</span>
+                      )}
+                    </div>
+                    <div className="card-body">
+                      <h4 className="activity-title">{activity.title}</h4>
+                      {activity.speaker && (
+                        <p className="activity-speaker">{activity.speaker}</p>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
-      ))}
-    </div>
-    </>
-  );
+      </div>
+    );
+  };
 
   return (
     <div
@@ -179,14 +348,14 @@ function Agenda() {
         className="text-event-title d-block mb-4 text-center"
         style={{ color: "#D73535", fontSize: "35px" }}
       >
-        AGENDA - CONFERENCIAS
+        AGENDA - CONFERENCIAS & HACKATHON
       </span>
 
       <div className="container">
         {/* Description */}
         <div className="agenda-description mb-4">
           <p className="text-event">
-            <i>Horarios aún por definir</i>
+            <i>Horarios aún en progreso</i>
           </p>
         </div>
 
@@ -196,20 +365,27 @@ function Agenda() {
             className={`agenda-tab ${activeTab === 'day1' ? 'active' : ''}`}
             onClick={() => setActiveTab('day1')}
           >
-            Day 1
+            Día 1
           </button>
           <button
             className={`agenda-tab ${activeTab === 'day2' ? 'active' : ''}`}
             onClick={() => setActiveTab('day2')}
           >
-            Day 2
+            Día 2
+          </button>
+          <button
+            className={`agenda-tab ${activeTab === 'day3' ? 'active' : ''}`}
+            onClick={() => setActiveTab('day3')}
+          >
+            Día 3
           </button>
         </div>
 
         {/* Tab Content */}
         <div className="agenda-tab-content">
-          {activeTab === 'day1' && renderAgendaTable(agendaData.day1)}
-          {activeTab === 'day2' && renderAgendaTable(agendaData.day2)}
+          {activeTab === 'day1' && renderAgendaTable(agendaData.day1, false)}
+          {activeTab === 'day2' && renderAgendaTable(agendaData.day2, false)}
+          {activeTab === 'day3' && renderAgendaTable(agendaData.day3, true)}
         </div>
       </div>
     </div>

@@ -175,7 +175,93 @@ const speakers = [
     link: "https://x.com/yoSoyDev_eth",
     image: "Erezedor-22.png",
   },
+  {
+    name: "Almond",
+    username: "@oyealmond",
+    link: "https://x.com/oyealmond",
+    image: "Almond-69.png",
+  },
+  {
+    name: "Anthony Chavez",
+    username: "@anthonysurfermx",
+    link: "https://x.com/anthonysurfermx",
+    image: "Anthony2-78.png",
+  },
+  {
+    name: "Don Pepe",
+    username: "@0xDonPepe",
+    link: "https://x.com/0xDonPepe",
+    image: "DonPepe-67.png",
+  },
+  {
+    name: "David",
+    username: "@0x_dav",
+    link: "https://x.com/0x_dav",
+    image: "David-52.png",
+  },
+  {
+    name: "Juan Rah",
+    username: "@JuanRah",
+    link: "https://x.com/JuanRah",
+    image: "JuanRah-30.png",
+  },
+  {
+    name: "Humberto Besso",
+    username: "@HumbertoBesso",
+    link: "https://x.com/HumbertoBesso",
+    image: "Humberto-73.png",
+  },
+  {
+    name: "Julio Flores",
+    username: "",
+    link: "",
+    image: "JulioFlores-76.png",
+  },
+  {
+    name: "Mariela Saldivar",
+    username: "@marielasvmx",
+    link: "https://x.com/marielasvmx",
+    image: "Mariela-71.png",
+  },
+  {
+    name: "Maria Fernandez",
+    username: "@onchainfer",
+    link: "https://x.com/onchainfer",
+    image: "MariaFer-74.png",
+  },
+  {
+    name: "Saswat Sahu",
+    username: "@republicofocean",
+    link: "https://x.com/republicofocean",
+    image: "Saswat-72.png",
+  },
+  {
+    name: "Alan Kantapin",
+    username: "@akantapin",
+    link: "https://x.com/akantapin",
+    image: "Alan-76.png",
+  },
+  {
+    name: "Yedid Romero",
+    username: "@yedidweb3",
+    link: "https://x.com/yedidweb3",
+    image: "Yedid-80.png",
+  },
+  {
+    name: "Rafael Cardenas",
+    username: "@rafaelcr",
+    link: "https://x.com/rafaelcr",
+    image: "RafaCardenas-54.png",
+  },
+  {
+    name: "JJ Campuzano",
+    username: "@das_grasshopper",
+    link: "https://x.com/das_grasshopper",
+    image: "JJ-68.png",
+  },
+
 ];
+
 
 function Speakers() {
   return (
@@ -205,7 +291,7 @@ function Speakers() {
                     src={`${process.env.PUBLIC_URL}/images/${member.image}`}
                     className="d-block img-fluid mx-auto mt-4"
                     alt={member.name}
-                    style={{ width: "16A0px" }}
+                    style={{ width: "170px" }}
                   />
                 </a>
                 <div className="team-item-text mt-3">

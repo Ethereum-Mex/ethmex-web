@@ -26,7 +26,7 @@ function ParteDe() {
             style={{ textDecoration: 'none', color: 'inherit' }}
           >
             <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
-              <span className="text-event">Attendance Guide</span> 
+              <span className="text-event">Attendee Guide</span> 
               <i><span className="text-event" style={{fontSize: '12px'}}>Consulta aquí</span></i>
             </div>
           </a>
@@ -73,13 +73,13 @@ function ParteDe() {
           </a>
           */}
           <a
-            href="https://t.me/ethmexico/"
+            href="https://accessible-mitten-7e2.notion.site/Hackers-Guide-2866a580104b806db60fc46ba80bc4c6?pvs=74/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: 'inherit' }}
           >
             <div className="parte-item d-flex flex-column justify-content-center align-items-center zoom-on-hover">
-              <span className="text-event">Contáctanos</span> 
+              <span className="text-event">Hacker Guide</span> 
               <i><span className="text-event" style={{fontSize: '12px'}}>Consulta aquí</span></i>
             </div>
           </a>

@@ -20,12 +20,6 @@ const teamMembers = [
     image: "CelicTorres.png",
   },
   {
-    name: "Karen84.crypto",
-    username: "@AdvoktusDiaboli",
-    link: "https://x.com/AdvoktusDiaboli",
-    image: "Karen84.png",
-  },
-  {
     name: "Mexi",
     username: "@meximalist",
     link: "https://x.com/meximalist",
@@ -103,8 +97,22 @@ const teamMembers = [
     link: "https://x.com/NFTMami",
     image: "estefi.png",
   },
+  {
+    name: "Mitch",
+    username: "@divine_comedian",
+    link: "https://x.com/divine_comedian",
+    image: "MitchRed-01.png",
+  },
+  {
+    name: "CC",
+    username: "@ccolorado",
+    link: "https://x.com/CColorado",
+    image: "ccolorado.png",
+  },
 
 ];
+
+
 
 function TeamEvento() {
   return (

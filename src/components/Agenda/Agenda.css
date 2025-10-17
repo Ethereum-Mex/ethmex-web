@@ -1,4 +1,157 @@
-/* Agenda Styles */
+/* Unified Agenda Styles */
+.unified-agenda-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.agenda-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+/* Para el día 3 que solo tiene hackathon */
+.agenda-grid:has(.hackathon-column:only-child) {
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sede-column {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.charlas-column .sede-header {
+  background: linear-gradient(135deg, #D73535, #B82B2B);
+}
+
+.hackathon-column .sede-header {
+  background: linear-gradient(135deg, #358541, #2A6B35);
+}
+
+.sede-header {
+  background: linear-gradient(135deg, #D73535, #B82B2B);
+  padding: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sede-title {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.venue-info {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 8px 0 0 0;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.sede-activities {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.activity-card {
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ponencia-card {
+  background: linear-gradient(135deg, #F8F9FA, #FFFFFF);
+  border-left: 4px solid #D73535;
+  border: 1px solid rgba(215, 53, 53, 0.2);
+}
+
+.hackathon-card {
+  background: linear-gradient(135deg, #F0F8FF, #FFFFFF);
+  border-left: 4px solid #358541;
+  border: 1px solid rgba(53, 133, 65, 0.2);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.activity-time {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.activity-duration {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #888;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.activity-title {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.activity-speaker {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  font-style: italic;
+}
+
+.activity-description {
+  font-family: 'PP Supply Mono', sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Agenda Tabs Styles */
 .agenda-tabs {
   display: flex;
   justify-content: center;
@@ -17,7 +170,6 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
-  transition: all 0.3s ease;
   border-radius: 0;
   margin: 0;
 }
@@ -30,6 +182,11 @@
 .agenda-tab:last-child {
   border-radius: 0 8px 8px 0;
   border-left: 1px solid #D73535;
+}
+
+.agenda-tab:nth-child(2) {
+  border-left: 1px solid #D73535;
+  border-right: 1px solid #D73535;
 }
 
 .agenda-tab:hover {
@@ -57,88 +214,59 @@
   }
 }
 
-.agenda-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.agenda-header {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr 1.5fr;
-  background-color: #D73535;
-  color: #FFFFFF;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.agenda-header-item {
-  padding: 15px 10px;
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-  font-family: 'PP Supply Mono', sans-serif;
-  font-size: 14px;
-}
-
-.agenda-header-item:last-child {
-  border-right: none;
-}
-
-.agenda-row {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr 1.5fr;
-  border-bottom: 1px solid #E5E5E5;
-  transition: background-color 0.3s ease;
-}
-
-.agenda-row:hover {
-  background-color: #FEF9F5;
-}
-
-.agenda-row:last-child {
-  border-bottom: none;
-}
-
-.agenda-item {
-  padding: 15px 10px;
-  border-right: 1px solid #E5E5E5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.agenda-item:last-child {
-  border-right: none;
-}
-
-.agenda-hour {
-  background-color: #F8F9FA;
-  font-weight: 600;
-  color: #358541;
-}
-
-.agenda-ponencia {
-  text-align: left;
-  justify-content: flex-start;
-  font-weight: 600;
-}
-
-.agenda-speaker {
-
-}
-
-.agenda-day {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
 /* Responsive Design */
+@media (max-width: 1000px) {
+  .agenda-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .sede-column {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 900px) {
+  .unified-agenda-container {
+    padding: 10px;
+  }
+  
+  .agenda-grid {
+    gap: 15px;
+  }
+  
+  .sede-header {
+    padding: 15px;
+  }
+  
+  .sede-title {
+    font-size: 16px;
+  }
+  
+  .sede-activities {
+    padding: 15px;
+    gap: 12px;
+  }
+  
+  .activity-card {
+    padding: 15px;
+  }
+  
+  .activity-title {
+    font-size: 15px;
+  }
+  
+  .activity-speaker,
+  .activity-description {
+    font-size: 13px;
+  }
+  
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
   .agenda-tabs {
     flex-direction: row;
     justify-content: center;
@@ -162,6 +290,11 @@
     border-radius: 0 8px 8px 0;
     border-left: 1px solid #D73535;
   }
+  
+  .agenda-tab:nth-child(2) {
+    border-left: 1px solid #D73535;
+    border-right: 1px solid #D73535;
+  }
 }
 
 @media (max-width: 992px) {
@@ -182,82 +315,55 @@
     border-radius: 8px !important;
     border: 2px solid #D73535 !important;
   }
-  
-  .agenda-header {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  
-  .agenda-header-item {
-    display: none;
-  }
-  
-  .agenda-row {
-    grid-template-columns: 1fr;
-    margin-bottom: 15px;
-    border: 1px solid #E5E5E5;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-  }
-  
-  .agenda-item {
-    border-right: none;
-    border-bottom: 1px solid #E5E5E5;
-    padding: 10px 15px;
-    justify-content: flex-start;
-  }
-  
-  .agenda-item:last-child {
-    border-bottom: none;
-  }
-  
-  .agenda-item::before {
-    content: attr(data-label);
-    font-weight: bold;
-    color: #D73535;
-    margin-right: 10px;
-    min-width: 80px;
-    display: inline-block;
-  }
-  
-  .agenda-hour::before {
-    content: "Hora: ";
-  }
-  
-  .agenda-ponencia::before {
-    content: "Ponencia: ";
-  }
-  
-  .agenda-speaker::before {
-    content: "Speaker: ";
-  }
-  
-  .agenda-hour {
-    background-color: #F8F9FA;
-  }
-  
-  .text-event {
-    font-size: 14px;
-  }
 }
 
 @media (max-width: 576px) {
-  .agenda-container {
-    margin: 0 10px;
+  .unified-agenda-container {
+    padding: 5px;
   }
   
-  .agenda-tab {
-    width: 150px;
-    padding: 10px 20px;
+  .sede-column {
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .sede-header {
+    padding: 10px 12px;
+  }
+  
+  .sede-title {
     font-size: 14px;
   }
   
-  .agenda-item::before {
-    min-width: 70px;
+  .activity-card {
+    padding: 12px;
+  }
+  
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .activity-time {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  
+  .activity-title {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  .activity-speaker,
+  .activity-description {
     font-size: 12px;
   }
   
-  .text-event {
+  .agenda-tab {
+    width: 120px;
+    padding: 8px 15px;
     font-size: 12px;
   }
 }

@@ -4,26 +4,45 @@ const sponsors = [
   {
     name: "ESP",
     image: "esp.svg",
-    width: "200px", 
+    width: "190px", 
     link: "https://x.com/EF_ESP", 
   },
   {
     name: "geodework",
     image: "geodework.png",
-    width: "290px", 
+    width: "270px", 
     link: "https://x.com/geodelabs", 
+  },
+  {
+    name: "Etherfuse",
+    image: "Etherfuse_Full-logo_black.png",
+    width: "270px", 
+    link: "https://x.com/Etherfuse", 
   },
   {
     name: "scroll",
     image: "Scroll_FullLogo.8b9fd528.svg",
-    width: "300px", 
+    width: "180px", 
     link: "https://x.com/Scroll_ES", 
   },
   {
     name: "Base",
     image: "Base_lockup_2color.svg",
-    width: "140px", 
+    width: "130px", 
     link: "https://x.com/base", 
+  },
+  {
+    name: "Uniswap Labs",
+    image: "UniswapLabs_Horizontal_Pink.svg",
+    width: "270px", 
+    link: "https://x.com/Uniswap", 
+  },
+
+  {
+    name: "ENS",
+    image: "ens-logo-Blue.svg",
+    width: "130px", 
+    link: "https://x.com/ensdomains", 
   },
   {
     name: "Meebits",
@@ -43,7 +62,7 @@ function Sponsors() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           {sponsors.map((member, index) => (
-            <div className="col-6 col-sm-4 col-md-2 mb-4" key={index}>
+            <div className="col-3 col-sm-4 col-md-3 mb-5" key={index}>
               <div>
                 <a 
                   href={member.link} 

@@ -26,7 +26,8 @@ function CalendarioEventos() {
             <strong > Jueves 30 de Octubre</strong><br/><br/>
             🍽️ VIP Dinner <br/>
             (Previa Invitación)  <br/>
-            7:30pm
+            8pm <br/><br/>
+           Secret Venue
           </span>
         </div>
         <div className="day-card d-flex justify-content-center align-items-center">
@@ -34,18 +35,23 @@ function CalendarioEventos() {
             <strong className="text-event-green">DÍA 2</strong><br/>
             <strong>Viernes 31 de Octubre</strong><br/><br/>
             🎙️ Conferencias <br/>
-            10am - 7pm <br/><br/>
-            🧑‍💻 Inicio Hackathon  <br/>
-            6pm 
+            10am - 6pm <br/>
+            Hotel Krystal Monterrey <br/><br/>
+            🧑‍💻  Hackathon  <br/>
+            7pm <br/>
+            Museo Metropolitano
           </span>
         </div>
         <div className="day-card d-flex justify-content-center align-items-center">
           <span className="text-event">
             <strong className="text-event-green">DÍA 3</strong><br/>
             <strong>Sábado 1 de Noviembre</strong><br/><br/>
-            🛠️ Conferencias & Workshops <br/>  
-            10am - 6pm <br/><br/>
-            🧑‍💻 Hackathon Continua <br/>
+            🎙️ Conferencias <br/>  
+            10am - 6pm <br/>
+            Hotel Krystal Monterrey <br/><br/>
+            🧑‍💻 Hackathon  & Workshops<br/>
+            Todo el día <br/>
+            Museo Metropolitano
             
           </span>
         </div>
@@ -53,8 +59,9 @@ function CalendarioEventos() {
           <span className="text-event">
             <strong className="text-event-green">DÍA 4</strong><br/>
             <strong> Domingo 2 de Noviembre</strong><br/><br/>
-            🎉 Ceremonia de Cierre <br/>
-              2pm
+            🎉 Ceremonia de Cierre  & Anuncio de Ganadores<br/>
+              3:30pm <br/><br/>
+            Museo Metropolitano
           </span>
         </div>
       </div>
