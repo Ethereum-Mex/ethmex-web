@@ -134,18 +134,6 @@ const speakers = [
     image: "Etienne-58.png",
   },
   {
-    name: "Ile Designia",
-    username: "@iledesignia",
-    link: "https://x.com/iledesignia",
-    image: "IleDesignia-42.png",
-  },
-  {
-    name: "Jay McCarthy",
-    username: "@jeapostrophe",
-    link: "https://x.com/jeapostrophe",
-    image: "jay-34.png",
-  },
-  {
     name: "Nathaly Cortez",
     username: "@_nathcortez",
     link: "https://x.com/_nathcortez",
@@ -231,8 +219,8 @@ const speakers = [
   },
   {
     name: "Saswat Sahu",
-    username: "@republicofocean",
-    link: "https://x.com/republicofocean",
+    username: "@arbalestpartner",
+    link: "https://x.com/arbalestpartner",
     image: "Saswat-72.png",
   },
   {
@@ -267,7 +255,7 @@ function Speakers() {
   return (
     <div
       className="container-fluid container-ethmex-event text-center"
-      id="equipo-organizador"
+      id="Speakers"
     >
       <span
         className="text-event-title d-block mb-4 text-center"

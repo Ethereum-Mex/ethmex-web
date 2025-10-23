@@ -129,7 +129,7 @@ const comPartners = [
   },
   {
     name: "Trading Room",
-    image: "trading_room.jpeg",
+    image: "minimal_trading.jpeg",
     width: "160px", 
     link: "https://x.com/MinimalTrading_", 
   },

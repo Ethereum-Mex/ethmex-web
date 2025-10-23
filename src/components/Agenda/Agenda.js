@@ -16,17 +16,17 @@ const agendaData = {
       },
       {
         title: "PANEL: Por qué Cripto, Blockchain y la Descentralización Importan",
-        speaker: "David - Arbitrum FDNT, Yedid - Her DAO Mexico, Aime Figeroa, Liz Durán - Eth México",
+        speaker: "David - Arbitrum FDNT, Yedid - Her DAO Mexico, Aime Figeroa - Licenciada en  Relaciones Internacionales, Liz Durán - Eth México",
         hour: "11:40 - 12:20"
       },
       {
         title: "PANEL: Confianza en la Blockchain: Salud, Dinero y Datos en la Era Descentralizada",
-        speaker: "MaFer - MicrobiomeDAO, Alberto Franco - BWC, Julio Adrian - ",
+        speaker: "MaFer - MicrobiomeDAO, Alberto Franco - BWC, Carlos Serna - Gobierno del Estado de NL, Julio Adrian - PatrimoXYZ",
         hour: "12:30 - 13:10"
       },
       {
         title: "PANEL: Instituciones Onchain: El Próximo Capítulo de las Finanzas en México",
-        speaker: "Javier Murga - Transformación de Activos Digitales, Ale RaMo - Wavy Node, Humberto Besso - Scroll",
+        speaker: "Javier Murga - Transformación de Activos Digitales, Ale RaMo - Wavy Node, Humberto Besso - Local Nodal de Scroll",
         hour: "13:20 - 14:00"
       },
       {
@@ -40,8 +40,8 @@ const agendaData = {
         hour: "14:35 - 15:35"
       },
       {
-        title: "PANEL: From Onramps to Ownership: Exchanges & Wallets in LATAM",
-        speaker: "Brian Smocovich - Pistachio, Alberto Franco - , Rafa Canseco - Odisea",
+        title: "PANEL: Designing Trust: Exchanges, Wallets & the Future of Everyday Crypto",
+        speaker: "Brian Smocovich - Pistachio, Andres Salcedo - Etherfuse, Zeymer Montes - Moca App, Rafa Canseco - Odisea",
         hour: "15:35 - 16:15"
       },
       {
@@ -55,27 +55,28 @@ const agendaData = {
         hour: "17:00 - 17:25"
       },
       {
-        title: "Resolviendo PPU's (P**#*$s Problemas Urgentes)",
-        speaker: "Karina Córdova - Irrazonables",
-        hour: "17:35	- 18:00"
+        title: "Performance inmersiva en vivo",
+        speaker: "Creatress",
+        hour: "18:00	- 18:35"
       }
     ],
     hackathon: [
       {
-        title: "Registro Hackathon",
+        title: "Presentación Hackathon",
         hour: "18:00 - 19:00",
         speaker: "Mitch & Erezedor"
       },
       {
-        title: "Creación de equipos e ideación de proyectos",
+        title: "Team formation & project ideation",
         hour: "19:00 - 20:00",
         speaker: "Mitch"
       },
       {
         title: "Hacking Time!",
-        hour: "20:00 - 23:59",
+        hour: "19:00 - 23:59",
         speaker: ""
       },
+      
 
     
     ]
@@ -98,18 +99,18 @@ const agendaData = {
         hour: "11:40 - 12:05"
       },
       {
-        title: "Sobre Seguridad en la Blockchain",
-        speaker: "Paul Cortés - Hiv3",
+        title: "ETHERFUSE: Finanzas 3.0",
+        speaker: "Andy - Etherfuse",
         hour: "12:15	- 12:40"
       },
       {
         title: "Fireside - Identidad Descentralizada en Acción: El Caso de Nuevo León con Sovra",
-        speaker: "Chuy Cepeda - Sovra, Mariela Saldivar - Gobierno NL, JuanRah - Eth México",
+        speaker: "Emmanuel Loo - Gobierno del Estado de NL,Chuy Cepeda - Sovra, Mariela Saldivar - Gobierno NL, JuanRah - Eth Monterrey",
         hour: "12:50	- 13:15"
       },
       {
         title: "PANEL: The Inclusion Imperative: Unbanked to Onchain",
-        speaker: "Saswat - Talisis, Etienne Luquet - Bitso, Almond - Base, Abraham - Espacio Cripto",
+        speaker: "Saswat Sahu - Talisis, Etienne Luquet - Tools for Humanity, Almond - Base, Abraham - Espacio Cripto",
         hour: "13:25 - 14:05"
       },
       {
@@ -128,8 +129,8 @@ const agendaData = {
         hour: "15:40	- 16:05"
       },
       {
-        title: "ETHERFUSE: Finanzas 3.0",
-        speaker: "Andres Salcedo - Etherfuse",
+        title: "Sobre Seguridad en la Blockchain",
+        speaker: "Paul Cortés - Hiv3",
         hour: "16:15 - 16:40"
       },
       {
@@ -153,6 +154,11 @@ const agendaData = {
         title: "El camino del VibeCoder: Universitarios en Web3",
         hour: "09:00 - 10:00",
         speaker: "Gerardo Vela - Cripto UNAM"
+      },
+      {
+        title: "Workshop: Scroll",
+        hour: "11:00 - 12:00",
+        speaker: "Irwing Tello"
       },
       {
         title: "Desarrolla tu propio protocolo DeFi con Uniswap V4 Hooks",
@@ -180,22 +186,27 @@ const agendaData = {
     hackathon: [
       {
         title: "Submission Deadline",
-        hour: "09:00",
+        hour: "08:00",
         speaker: ""
       },
       {
         title: "Submission Pitches",
-        hour: "9:30 - 11:30",
+        hour: "8:00 - 9:15",
         speaker: ""
       },
       {
         title: "Evaluación de proyectos",
-        hour: "11:30 - 14:30",
+        hour: "9:15 - 12:00",
+        speaker: ""
+      },
+      {
+        title: "Deliberar ganadores",
+        hour: "12:00 - 13:00",
         speaker: ""
       },
       {
         title: "Closing Ceremony and Winners Announcement",
-        hour: "15:30 - 17:00",
+        hour: "13:00 - 14:30",
         speaker: ""
       },
     ]
@@ -259,7 +270,7 @@ function Agenda() {
 
   const renderAgendaTable = (dayData, isDay3 = false) => {
     return (
-      <div className="unified-agenda-container">
+      <div className="unified-agenda-container" id="Agenda">
         <div className="agenda-grid">
           {/* Columna de Charlas - Solo para Día 1 y 2 */}
           {!isDay3 && (

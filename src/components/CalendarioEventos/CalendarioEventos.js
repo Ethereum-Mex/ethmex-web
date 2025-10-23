@@ -60,7 +60,7 @@ function CalendarioEventos() {
             <strong className="text-event-green">DÍA 4</strong><br/>
             <strong> Domingo 2 de Noviembre</strong><br/><br/>
             🎉 Ceremonia de Cierre  & Anuncio de Ganadores<br/>
-              3:30pm <br/><br/>
+              1pm <br/><br/>
             Museo Metropolitano
           </span>
         </div>
