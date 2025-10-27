@@ -37,17 +37,25 @@ const speakers = [
     link: "https://x.com/chuycepeda",
     image: "chuycepeda.png",
   },
+
+  {
+    name: "Abraham Rivv",
+    username: "@abrahamrivv",
+    link: "https://x.com/abrahamrivv",
+    image: "abrahamrivv-38.png",
+  },
   {
     name: "Diego Tenorio",
     username: "@deLarg0",
     link: "https://x.com/deLarg0",
     image: "deLargo-14.png",
   },
+
   {
-    name: "Abraham Rivv",
-    username: "@abrahamrivv",
-    link: "https://x.com/abrahamrivv",
-    image: "abrahamrivv-38.png",
+    name: "Alberto Franco",
+    username: "@Beto_gap_trader",
+    link: "https://x.com/Beto_gap_trader",
+    image: "albertofranco-26.png",
   },
   {
     name: "Ana Belen",
@@ -56,10 +64,10 @@ const speakers = [
     image: "AnaBelen-24.png",
   },
   {
-    name: "Alberto Franco",
-    username: "@Beto_gap_trader",
-    link: "https://x.com/Beto_gap_trader",
-    image: "albertofranco-26.png",
+    name: "Austin Griffith",
+    username: "@austingriffith",
+    link: "https://x.com/austingriffith",
+    image: "austin-20.png",
   },
   {
     name: "Ale RaMo",
@@ -68,16 +76,10 @@ const speakers = [
     image: "AleRamo-28.png",
   },
   {
-    name: "Austin Griffith",
-    username: "@austingriffith",
-    link: "https://x.com/austingriffith",
-    image: "austin-20.png",
-  },
-  {
-    name: "Frida Ruh",
-    username: "@FridaRuh",
-    link: "https://x.com/FridaRuh",
-    image: "FridaRuh-18.png",
+    name: "Scarf",
+    username: "@0xscarf",
+    link: "https://x.com/oxscarf",
+    image: "Scarf-74.png",
   },
   {
     name: "Carlos Ocampo",
@@ -86,10 +88,10 @@ const speakers = [
     image: "Carlosocampo-44.png",
   },
   {
-    name: "Javier Murga",
-    username: "@JavierMurga",
-    link: "https://www.linkedin.com/in/javier-murga-hernandez-74222319",
-    image: "JavierMurga-32.png",
+    name: "Frida Ruh",
+    username: "@FridaRuh",
+    link: "https://x.com/FridaRuh",
+    image: "FridaRuh-18.png",
   },
   {
     name: "Jordi Gracia",
@@ -109,11 +111,18 @@ const speakers = [
     link: "https://x.com/aime_fl?t=-SzgqHMmychclwrK3MmnWg&s=09",
     image: "Aime-66.png",
   },
+
   {
-    name: "Adrian Treviño",
-    username: "",
-    link: "",
-    image: "AdrianTrevino-56.png",
+    name: "Israel Cortes",
+    username: "@isracts",
+    link: "https://x.com/isracts",
+    image: "SpeakersIG-72.png",
+  },
+  {
+    name: "Javier Murga",
+    username: "@JavierMurga",
+    link: "https://www.linkedin.com/in/javier-murga-hernandez-74222319",
+    image: "JavierMurga-32.png",
   },
   {
     name: "Andres Salcedo",
@@ -122,10 +131,10 @@ const speakers = [
     image: "andresalcedo-50.png",
   },
   {
-    name: "Brian Smokes",
-    username: "@BSmokes_",
-    link: "https://x.com/bsmokes_",
-    image: "BrianSmokes-48.png",
+    name: "Adrian Treviño",
+    username: "",
+    link: "",
+    image: "AdrianTrevino-56.png",
   },
   {
     name: "Etienne Luquet",
@@ -134,10 +143,16 @@ const speakers = [
     image: "Etienne-58.png",
   },
   {
-    name: "Nathaly Cortez",
-    username: "@_nathcortez",
-    link: "https://x.com/_nathcortez",
-    image: "NatCortez-64.png",
+    name: "Brian Smokes",
+    username: "@BSmokes_",
+    link: "https://x.com/bsmokes_",
+    image: "BrianSmokes-48.png",
+  },
+  {
+    name: "Yazareth Sánchez",
+    username: "",
+    link: "",
+    image: "Yazareth-91.png",
   },
   {
     name: "Mauricio Cruz",
@@ -146,11 +161,12 @@ const speakers = [
     image: "mexi-40.png",
   },
   {
-    name: "Rosa González",
-    username: "@rosaglez_eth",
-    link: "https://x.com/rosaglez_eth",
-    image: "RosaGlez-60.png",
+    name: "Nathaly Cortez",
+    username: "@_nathcortez",
+    link: "https://x.com/_nathcortez",
+    image: "NatCortez-64.png",
   },
+
   {
     name: "Liz Durán",
     username: "@liz_durang",
@@ -158,11 +174,31 @@ const speakers = [
     image: "Liz-62.png",
   },
   {
+    name: "Rosa González",
+    username: "@rosaglez_eth",
+    link: "https://x.com/rosaglez_eth",
+    image: "RosaGlez-60.png",
+  },
+  {
+    name: "Vianey Alvarez",
+    username: "@vialvalv",
+    link: "https://x.com/vialvalv",
+    image: "Vianey-89.png",
+  },
+
+  {
+    name: "Gerardo Vela",
+    username: "@gerapedrizco",
+    link: "https://x.com/gerapedrizco",
+    image: "GerardoVela-64.png",
+  },
+  {
     name: "Erezedor",
     username: "@yoSoyDev_eth",
     link: "https://x.com/yoSoyDev_eth",
     image: "Erezedor-22.png",
   },
+  
   {
     name: "Almond",
     username: "@oyealmond",
@@ -186,6 +222,12 @@ const speakers = [
     username: "@0x_dav",
     link: "https://x.com/0x_dav",
     image: "David-52.png",
+  },
+  {
+    name: "Mitch Ozmun",
+    username: "@divine_comedian",
+    link: "https://x.com/divine_comedian",
+    image: "Mitch-62.png",
   },
   {
     name: "Juan Rah",
@@ -218,16 +260,23 @@ const speakers = [
     image: "MariaFer-74.png",
   },
   {
+    name: "Alan Kantapin",
+    username: "@akantapin",
+    link: "https://x.com/akantapin",
+    image: "Alan-76.png",
+  },
+
+  {
     name: "Saswat Sahu",
     username: "@arbalestpartner",
     link: "https://x.com/arbalestpartner",
     image: "Saswat-72.png",
   },
   {
-    name: "Alan Kantapin",
-    username: "@akantapin",
-    link: "https://x.com/akantapin",
-    image: "Alan-76.png",
+    name: "Creatress",
+    username: "@creatressart",
+    link: "https://x.com/creatressart",
+    image: "Creatress-95.png",
   },
   {
     name: "Yedid Romero",
@@ -247,8 +296,34 @@ const speakers = [
     link: "https://x.com/das_grasshopper",
     image: "JJ-68.png",
   },
+  {
+    name: "Irwing Tello",
+    username: "",
+    link: "",
+    image: "IrwingTello-68.png",
+  },
+  {
+    name: "Carlos Valderrama",
+    username: "@legalfintech",
+    link: "https://x.com/legalfintech",
+    image: "CarlosValderrama-94.png",
+  },
+  {
+    name: "Zeymer Montes",
+    username: "@zeymermoca",
+    link: "https://x.com/zeymermoca",
+    image: "Zeymer-83.png",
+  },
+
+
+
+
+
+
+
 
 ];
+
 
 
 function Speakers() {

@@ -1,0 +1,7 @@
+/* Prevent logos from changing width on small devices */
+@media (max-width: 768px) {
+  .container #sponsors img {
+    width: auto !important;
+    max-width: none !important;
+  }
+}

@@ -21,12 +21,12 @@ const agendaData = {
       },
       {
         title: "PANEL: Confianza en la Blockchain: Salud, Dinero y Datos en la Era Descentralizada",
-        speaker: "MaFer - MicrobiomeDAO, Alberto Franco - BWC, Carlos Serna - Gobierno del Estado de NL, Julio Adrian - PatrimoXYZ",
+        speaker: "MaFer - MicrobiomeDAO, Alberto Franco - BWC, Carlos Serna - Gobierno del Estado de NL, Julio Flores - PatrimoXYZ",
         hour: "12:30 - 13:10"
       },
       {
         title: "PANEL: Instituciones Onchain: El Próximo Capítulo de las Finanzas en México",
-        speaker: "Javier Murga - Transformación de Activos Digitales, Ale RaMo - Wavy Node, Humberto Besso - Local Nodal de Scroll",
+        speaker: "Javier Murga - Transformación de Activos Digitales, Ale RaMo - Wavy Node, Humberto Besso - Local Nodal de Scroll, Mauricio Cruz - Eth México" ,
         hour: "13:20 - 14:00"
       },
       {
@@ -95,7 +95,7 @@ const agendaData = {
       },
       {
         title: "Debate: Bitcoin vs Ethereum",
-        speaker: "Don Pepe - Eth México, Adrian Trevino - Bitcoin Network Monterrey, Rafa Canseco - Odisea, Erezedor -  Blockchain Engineer",
+        speaker: "Don Pepe - Eth México, Adrian Trevino - Bitcoin Network Monterrey, Rafael - Stacks, Ana Belén - Eth México",
         hour: "11:40 - 12:05"
       },
       {
@@ -105,7 +105,7 @@ const agendaData = {
       },
       {
         title: "Fireside - Identidad Descentralizada en Acción: El Caso de Nuevo León con Sovra",
-        speaker: "Emmanuel Loo - Gobierno del Estado de NL,Chuy Cepeda - Sovra, Mariela Saldivar - Gobierno NL, JuanRah - Eth Monterrey",
+        speaker: "Emmanuel Loo - Gobierno del Estado de NL,Chuy Cepeda - Sovra, Mariela Saldivar - Gobierno NL, JuanRah - SEEDGov",
         hour: "12:50	- 13:15"
       },
       {
@@ -121,7 +121,7 @@ const agendaData = {
       {
         title: "Keynote: El futuro corre sobre Scroll: innovación, pagos y la nueva generación de la economía abierta",
         speaker: "Gabriella Mena - Scroll",
-        hour: "15:05	- 15:30"
+        hour: "15:05 - 15:30"
       },
       {
         title: "Keynote: De Idea a Impacto Onchain: Escala con Base",
@@ -129,13 +129,8 @@ const agendaData = {
         hour: "15:40	- 16:05"
       },
       {
-        title: "Sobre Seguridad en la Blockchain",
+        title: "Arquitectura de Confianza: Ethereum y el Futuro de la Seguridad",
         speaker: "Paul Cortés - Hiv3",
-        hour: "16:15 - 16:40"
-      },
-      {
-        title: "Keynote: De Idea a Impacto Onchain: Escala con Base",
-        speaker: "Almond - Base",
         hour: "16:15 - 16:40"
       },
       {
@@ -156,6 +151,11 @@ const agendaData = {
         speaker: "Gerardo Vela - Cripto UNAM"
       },
       {
+        title: "Resolviendo PPU's (P**#*$s Problemas Urgentes)",
+        hour: "10:00 - 11:00",
+        speaker: "Karina Córdova - Irrazonables"
+      },
+      {
         title: "Workshop: Scroll",
         hour: "11:00 - 12:00",
         speaker: "Irwing Tello"
@@ -163,7 +163,7 @@ const agendaData = {
       {
         title: "Desarrolla tu propio protocolo DeFi con Uniswap V4 Hooks",
         hour: "12:00 - 13:00",
-        speaker: "Constantino Mora - Uniswap Labs"
+        speaker: "Constantino Mora - Uniswap Foundation"
       },
       {
         title: "Como pitchear tu proyecto en el hackathon",
@@ -171,10 +171,20 @@ const agendaData = {
         speaker: "Israel Cortes - Omma Cash"
       },
       {
-        title: "Hacking Time!",
-        hour: "14:00 - 23:59",
-        speaker: ""
+        title: "Arbitrum - Stylus",
+        hour: "14:00 - 15:00",
+        speaker: "Erezedor - Eth México"
       },
+      {
+        title: "Identidad Web3, ENS y L2: Taller para Hackers",
+        hour: "15:30 - 17:00",
+        speaker: "Scarf"
+      },
+      {
+        title: "Marketing auténtico: captar atención en Web3",
+        hour: "17:00 - 18:00",
+        speaker: "Scarf"
+      }
       
 
     ]

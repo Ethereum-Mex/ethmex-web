@@ -4,43 +4,43 @@ const sponsors = [
   {
     name: "Arbitrum DAO",
     image: "0525_ArbitrumDao_Primary_H_Blue.svg",
-    width: "400px", 
+    width: "500px", 
     link: "https://x.com/arbitrum_esp", 
   },
   {
     name: "HIV3",
     image: "Hiv3.jpeg",
-    width: "160px", 
+    width: "370px", 
     link: "", 
   },
   {
     name: "Etherfuse",
     image: "Etherfuse_Full-logo_black.png",
-    width: "180px", 
+    width: "250px", 
     link: "https://x.com/ethereum_mexico/status/1980281196786393248", 
   },
   {
     name: "scroll",
     image: "Scroll_FullLogo.8b9fd528.svg",
-    width: "150px", 
+    width: "200px", 
     link: "https://x.com/ethereum_mexico/status/1978552830563611067", 
   },
   {
     name: "ENS",
     image: "ens-logo-Blue.svg",
-    width: "130px", 
+    width: "110px", 
     link: "https://x.com/ethereum_mexico/status/1981060334262604219", 
   },
   {
     name: "Base",
     image: "Base_lockup_2color.svg",
-    width: "130px", 
+    width: "140px", 
     link: "https://x.com/ethereum_mexico/status/1973473598380843133", 
   },
   {
     name: "Uniswap Labs",
     image: "UniswapLabs_Horizontal_Pink.svg",
-    width: "230px", 
+    width: "260px", 
     link: "https://x.com/ethereum_mexico/status/1980642202784264277", 
   },
   {
@@ -58,19 +58,41 @@ const sponsors = [
   {
     name: "geodework",
     image: "geodework.png",
-    width: "200px", 
+    width: "220px", 
     link: "https://x.com/geodelabs", 
   },
-
-
-
-
-
-
-
 ];
 
 function Sponsors() {
+  // Split sponsors into rows: 2, 3, 3, 2
+  const row1 = sponsors.slice(0, 2);
+  const row2 = sponsors.slice(2, 5);
+  const row3 = sponsors.slice(5, 8);
+  const row4 = sponsors.slice(8, 10);
+
+  const renderSponsorRow = (sponsorArray, colClass) => (
+    <div className="row justify-content-center align-items-center mb-4">
+      {sponsorArray.map((sponsor, index) => (
+        <div className={colClass} key={index}>
+          <div>
+            <a 
+              href={sponsor.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/images/${sponsor.image}`}
+                className="d-block img-fluid mx-auto"
+                alt={sponsor.name}
+                style={{ width: sponsor.width }}
+              />
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <div className="container-fluid container-ethmex-event text-center" id="sponsors">
       <h2 className="text-event-title mb-4" style={{ fontSize: "35px" }}>
@@ -78,26 +100,55 @@ function Sponsors() {
       </h2>
 
       <div className="container">
-        <div className="row justify-content-center align-items-center">
-          {sponsors.map((member, index) => (
-            <div className="col-3 col-sm-5 col-md-3 mb-5" key={index}>
+        {/* First row: 2 logos */}
+        {renderSponsorRow(row1, "col-6 col-sm-6 col-md-6")}
+        
+        {/* Second row: 3 logos */}
+        <div className="row justify-content-center align-items-center mb-5" style={{ marginBottom: "6rem" }}>
+          {row2.map((sponsor, index) => (
+            <div className="col-4 col-sm-4 col-md-4" key={index}>
               <div>
                 <a 
-                  href={member.link} 
+                  href={sponsor.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={`${process.env.PUBLIC_URL}/images/${member.image}`}
+                    src={`${process.env.PUBLIC_URL}/images/${sponsor.image}`}
                     className="d-block img-fluid mx-auto"
-                    alt={member.name}
-                    style={{ width: member.width }}
+                    alt={sponsor.name}
+                    style={{ width: sponsor.width }}
                   />
                 </a>
               </div>
             </div>
           ))}
         </div>
+        
+        {/* Third row: 3 logos */}
+        <div className="row justify-content-center align-items-center mb-5">
+          {row3.map((sponsor, index) => (
+            <div className="col-4 col-sm-4 col-md-4" key={index}>
+              <div>
+                <a 
+                  href={sponsor.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/${sponsor.image}`}
+                    className="d-block img-fluid mx-auto"
+                    alt={sponsor.name}
+                    style={{ width: sponsor.width }}
+                  />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        {/* Fourth row: 2 logos */}
+        {renderSponsorRow(row4, "col-6 col-sm-4 col-md-6")}
       </div>
     </div>
   );
