@@ -95,7 +95,7 @@ const agendaData = {
       },
       {
         title: "Debate: Bitcoin vs Ethereum",
-        speaker: "Don Pepe - Eth México, Adrian Trevino - Bitcoin Network Monterrey, Rafael - Stacks, Ana Belén - Eth México",
+        speaker: "Don Pepe - Eth México, Adrian Trevino - Bitcoin Network Monterrey, Rafael Cárdenas - Stacks, Ana Belén - Eth México",
         hour: "11:40 - 12:05"
       },
       {

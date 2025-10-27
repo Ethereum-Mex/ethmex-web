@@ -273,10 +273,10 @@ const speakers = [
     image: "Saswat-72.png",
   },
   {
-    name: "Creatress",
-    username: "@creatressart",
-    link: "https://x.com/creatressart",
-    image: "Creatress-95.png",
+    name: "Rafael Cardenas",
+    username: "@rafaelcr",
+    link: "https://x.com/rafaelcr",
+    image: "RafaCardenas-54.png",
   },
   {
     name: "Yedid Romero",
@@ -285,29 +285,19 @@ const speakers = [
     image: "Yedid-80.png",
   },
   {
-    name: "Rafael Cardenas",
-    username: "@rafaelcr",
-    link: "https://x.com/rafaelcr",
-    image: "RafaCardenas-54.png",
+    name: "Carlos Valderrama",
+    username: "@legalfintech",
+    link: "https://x.com/legalfintech",
+    image: "CarlosValderrama-94.png",
   },
-  {
-    name: "JJ Campuzano",
-    username: "@das_grasshopper",
-    link: "https://x.com/das_grasshopper",
-    image: "JJ-68.png",
-  },
+
   {
     name: "Irwing Tello",
     username: "",
     link: "",
     image: "IrwingTello-68.png",
   },
-  {
-    name: "Carlos Valderrama",
-    username: "@legalfintech",
-    link: "https://x.com/legalfintech",
-    image: "CarlosValderrama-94.png",
-  },
+
   {
     name: "Zeymer Montes",
     username: "@zeymermoca",
