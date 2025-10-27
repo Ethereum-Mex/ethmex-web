@@ -4,13 +4,13 @@ const sponsors = [
   {
     name: "Arbitrum DAO",
     image: "0525_ArbitrumDao_Primary_H_Blue.svg",
-    width: "500px", 
+    width: "530px", 
     link: "https://x.com/arbitrum_esp", 
   },
   {
     name: "HIV3",
     image: "Hiv3.jpeg",
-    width: "370px", 
+    width: "340px", 
     link: "", 
   },
   {
@@ -28,7 +28,7 @@ const sponsors = [
   {
     name: "ENS",
     image: "ens-logo-Blue.svg",
-    width: "110px", 
+    width: "160px", 
     link: "https://x.com/ethereum_mexico/status/1981060334262604219", 
   },
   {
@@ -40,7 +40,7 @@ const sponsors = [
   {
     name: "Uniswap Labs",
     image: "UniswapLabs_Horizontal_Pink.svg",
-    width: "260px", 
+    width: "230px", 
     link: "https://x.com/ethereum_mexico/status/1980642202784264277", 
   },
   {
