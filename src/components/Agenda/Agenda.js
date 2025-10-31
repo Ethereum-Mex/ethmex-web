@@ -11,22 +11,22 @@ const agendaData = {
       },
       {
         title: "Opening Ceremony - Day 1",
-        speaker: "Estado de Nuevo León & Ethereum México Team",
+        speaker: "Gobierno del Estado de Nuevo León, Gobierno del Municipio de Monterrey, Ethereum México",
         hour: "11:00 - 11:30"
       },
       {
         title: "PANEL: Por qué Cripto, Blockchain y la Descentralización Importan",
-        speaker: "David - Arbitrum FDNT, Yedid - Her DAO Mexico, Aime Figeroa - Licenciada en  Relaciones Internacionales, Liz Durán - Eth México",
+        speaker: "David (Arbitrum Foundation], Yedid (Her DAO Mexico), Aime Figeroa <br /> Mod: Liz Durán (Eth México)",
         hour: "11:40 - 12:20"
       },
       {
         title: "PANEL: Confianza en la Blockchain: Salud, Dinero y Datos en la Era Descentralizada",
-        speaker: "MaFer - MicrobiomeDAO, Alberto Franco - BWC, Carlos Serna - Gobierno del Estado de NL, Julio Flores - PatrimoXYZ",
+        speaker: "María Fernanda Pérez (MicrobiomeDAO], Alberto Franco (BWC), Carlos Serna (Gobierno de Nuevo León) <br />  Mod: Julio Flores (Patrimonio XYZ)",
         hour: "12:30 - 13:10"
       },
       {
         title: "PANEL: Instituciones Onchain: El Próximo Capítulo de las Finanzas en México",
-        speaker: "Javier Murga - Transformación de Activos Digitales, Ale RaMo - Wavy Node, Humberto Besso - Local Nodal de Scroll, Mauricio Cruz - Eth México" ,
+        speaker: "Javier Murga (Transformación de Activos Digitales), Ale RaMo (Wavy Node), Humberto Besso (Scroll) <br />  Mod: Meximalist" ,
         hour: "13:20 - 14:00"
       },
       {
@@ -41,23 +41,28 @@ const agendaData = {
       },
       {
         title: "PANEL: Designing Trust: Exchanges, Wallets & the Future of Everyday Crypto",
-        speaker: "Brian Smocovich - Pistachio, Andres Salcedo - Etherfuse, Zeymer Montes - Moca App, Rafa Canseco - Odisea",
+        speaker: "Brian (PistachioFi), Andrés Salcedo (Etherfuse), Zeymer Montes (Moca App), Rafa Canseco (OdiseaLabs). Mod: Yazareth Sánchez",
         hour: "15:35 - 16:15"
       },
       {
         title: "ARBITRUM Keynote: Expanding Arbitrum Across Mexico and Latin America",
-        speaker: "Joao Kury - Arbitrum Foundation",
+        speaker: "Joao Kury (Arbitrum Foundation)",
         hour: "16:25	- 16:50"
       },
       {
         title: "Keynote: Cómo conseguir los primeros 100 usuarios de tu protocolo",
-        speaker: "Diego Tenorio - Fundamento",
+        speaker: "Diego Tenorio (Fundamento)",
         hour: "17:00 - 17:25"
+      },
+      {
+        title: "Regulación: Oportunidades legales para la disrupción Blockchain",
+        speaker: "Carlos Valderrama",
+        hour: "17:35	- 18:00"
       },
       {
         title: "Performance inmersiva en vivo",
         speaker: "Creatress",
-        hour: "18:00	- 18:35"
+        hour: "18:10	- 18:35"
       }
     ],
     hackathon: [
@@ -90,27 +95,27 @@ const agendaData = {
       },
       {
         title: "Opening Ceremony - Day 2",
-        speaker: "Ethereum México Team & ETH Monterrey Team",
+        speaker: "Ethereum México Team, ETH Monterrey Team y Monterrey Tech Week",
         hour: "11:00 - 11:30"
       },
       {
         title: "Debate: Bitcoin vs Ethereum",
-        speaker: "Don Pepe - Eth México, Adrian Trevino - Bitcoin Network Monterrey, Rafael Cárdenas - Stacks, Ana Belén - Eth México",
+        speaker: "Don Pepe (Eth México), Adrián Treviño (Bitcoin Network Monterrey), Rafa Cárdenas (Stacks), JuanRah (SeedGov) <br /> Mod: Ana Belén (Eth México)",
         hour: "11:40 - 12:05"
       },
       {
         title: "ETHERFUSE: Finanzas 3.0",
-        speaker: "Andy - Etherfuse",
+        speaker: "Andrés Salcedo (Etherfuse)",
         hour: "12:15	- 12:40"
       },
       {
         title: "Fireside - Identidad Descentralizada en Acción: El Caso de Nuevo León con Sovra",
-        speaker: "Emmanuel Loo - Gobierno del Estado de NL,Chuy Cepeda - Sovra, Mariela Saldivar - Gobierno NL, JuanRah - SEEDGov",
+        speaker: "Chuy Cepeda (Sovra), Mariela Saldivar (Gobierno NL), Diego Fernández (Sovra) <br /> Mod: JuanRah (SeedGov)",
         hour: "12:50	- 13:15"
       },
       {
         title: "PANEL: The Inclusion Imperative: Unbanked to Onchain",
-        speaker: "Saswat Sahu - Talisis, Etienne Luquet - Tools for Humanity, Almond - Base, Abraham - Espacio Cripto",
+        speaker: "Saswat Sahu, Etienne Luquet (Tools for Humanity), Almond Hernández (Base) <br /> Mod: Abraham Rivv (Espacio Cripto)",
         hour: "13:25 - 14:05"
       },
       {
@@ -120,7 +125,7 @@ const agendaData = {
       },
       {
         title: "Keynote: El futuro corre sobre Scroll: innovación, pagos y la nueva generación de la economía abierta",
-        speaker: "Gabriella Mena - Scroll",
+        speaker: "Gabriella Mena (Scroll)",
         hour: "15:05 - 15:30"
       },
       {
@@ -135,20 +140,25 @@ const agendaData = {
       },
       {
         title: "The Role of Stablecoins and DeFi in Value Creation across the Ethereum Ecosystem",
-        speaker: "Rine Dunia - CW3, Alan Kantapin - CW3",
+        speaker: "Rine Dunia (CW3), Alan Kantapin (CW3)",
         hour: "16:50	17:15"
       },
       {
         title: "Mercados abiertos, acceso global: el papel de las DEX en la transformación financiera",
-        speaker: "Anthony Chávez - Uniswap Labs",
+        speaker: "Anthony Chávez (Uniswap Labs)",
         hour: "17:25	- 17:50"
+      },
+      {
+        title: "Sorpresa Cultural: El Alma de México",
+        speaker: "Ensamble de la Gran Orquesta de Monterrey, el Ballet Folklórico de Monterrey y Catrinas Aztecas de Danzas Prehispánicas Tonatiuh",
+        hour: "18:00	- 18:25"
       }
     ],
     hackathon: [
       {
         title: "El camino del VibeCoder: Universitarios en Web3",
         hour: "09:00 - 10:00",
-        speaker: "Gerardo Vela - Cripto UNAM"
+        speaker: "Gerardo Vela (Cripto UNAM)"
       },
       {
         title: "Resolviendo PPU's (P**#*$s Problemas Urgentes)",
@@ -158,32 +168,32 @@ const agendaData = {
       {
         title: "Workshop: Scroll",
         hour: "11:00 - 12:00",
-        speaker: "Irwing Tello"
+        speaker: "Irwing Durán (Scroll)"
       },
       {
         title: "Desarrolla tu propio protocolo DeFi con Uniswap V4 Hooks",
         hour: "12:00 - 13:00",
-        speaker: "Constantino Mora - Uniswap Foundation"
+        speaker: "Constantino Mora (Uniswap Foundation Ambassador)"
       },
       {
         title: "Como pitchear tu proyecto en el hackathon",
         hour: "13:00 - 14:00",
-        speaker: "Israel Cortes - Omma Cash"
+        speaker: "Israel Cortes (Omma Cash)"
       },
       {
         title: "Arbitrum - Stylus",
         hour: "14:00 - 15:00",
-        speaker: "Erezedor - Eth México"
+        speaker: "Erezedor (Eth México)"
       },
       {
         title: "Identidad Web3, ENS y L2: Taller para Hackers",
         hour: "15:30 - 17:00",
-        speaker: "Scarf"
+        speaker: "Scarf (Frutero Club)"
       },
       {
         title: "Marketing auténtico: captar atención en Web3",
         hour: "17:00 - 18:00",
-        speaker: "Scarf"
+        speaker: "Irwing Tello"
       }
       
 
@@ -310,7 +320,14 @@ function Agenda() {
                       <div className="card-body">
                         <h4 className="activity-title">{activity.title}</h4>
                         {activity.speaker && (
-                          <p className="activity-speaker">{activity.speaker}</p>
+                          <p className="activity-speaker">
+                            {activity.speaker.split(/<br\s*\/?>/i).map((part, idx, arr) => (
+                              <React.Fragment key={idx}>
+                                {part}
+                                {idx < arr.length - 1 && <br />}
+                              </React.Fragment>
+                            ))}
+                          </p>
                         )}
                       </div>
                     </div>
@@ -347,7 +364,14 @@ function Agenda() {
                     <div className="card-body">
                       <h4 className="activity-title">{activity.title}</h4>
                       {activity.speaker && (
-                        <p className="activity-speaker">{activity.speaker}</p>
+                        <p className="activity-speaker">
+                          {activity.speaker.split(/<br\s*\/?>/i).map((part, idx, arr) => (
+                            <React.Fragment key={idx}>
+                              {part}
+                              {idx < arr.length - 1 && <br />}
+                            </React.Fragment>
+                          ))}
+                        </p>
                       )}
                     </div>
                   </div>
