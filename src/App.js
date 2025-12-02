@@ -37,6 +37,7 @@ import MediaPartners from "./components/MediaPartners/MediaPartners.js";
 import ComPartners from "./components/ComPartners/ComPartners.js";
 import EcosystemPartner from "./components/EcosystemPartner/EcosystemPartner.js";
 import Agenda from "./components/Agenda/Agenda.js";
+import GraciasAsistentes from "./components/GraciasAsistentes/GraciasAsistentes.js";
 
 
 function App() {
@@ -74,8 +75,10 @@ function App() {
                 <NavbarEvent/>
                 <ETHMX2025/> 
               </div>
-              <WhiteHacker/>
+              <GraciasAsistentes/>
+              {/*<WhiteHacker/>*/}
               <AboutEthMexEvent/>
+              
               <Esperar/>
               <CalendarioEventos/>
               <Agenda/>
