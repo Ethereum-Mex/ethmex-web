@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.32bfc032.css",
-    "main.js": "/static/js/main.259df7b4.js",
+    "main.js": "/static/js/main.0301297c.js",
     "static/media/pattern.png": "/static/media/pattern.0de220855f9eb4afba3b.png",
     "static/media/cerro-02.png": "/static/media/cerro-02.4f43bfdbf00374c11483.png",
     "static/media/GreenBg.png": "/static/media/GreenBg.8bf5616f85c441b8b8da.png",
@@ -9,10 +9,10 @@
     "static/media/PPSupplyMono-Regular.otf": "/static/media/PPSupplyMono-Regular.2375c08f79742ec60907.otf",
     "index.html": "/index.html",
     "main.32bfc032.css.map": "/static/css/main.32bfc032.css.map",
-    "main.259df7b4.js.map": "/static/js/main.259df7b4.js.map"
+    "main.0301297c.js.map": "/static/js/main.0301297c.js.map"
   },
   "entrypoints": [
     "static/css/main.32bfc032.css",
-    "static/js/main.259df7b4.js"
+    "static/js/main.0301297c.js"
   ]
 }
