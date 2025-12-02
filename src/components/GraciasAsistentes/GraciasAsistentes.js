@@ -55,14 +55,14 @@ function GraciasAsistentes() {
               <span className="text-event">👩‍💻 +130 hackers</span>
               <span className="text-event">💡 38 proyectos en Dorahacks</span>
               <span className="text-event">📚 9 workshops</span>
-              <span className="text-event">🤝 17 mentors</span>
+              <span className="text-event">🤝 17 mentores</span>
             </div>
           </div>
         </div>
 
         <p className="text-event mb-5" style={{ fontSize: "18px", maxWidth: "800px", margin: "0 auto 40px" }}>
-          Fue increíble compartir este momento con toda la comunidad. 
-          Revive los mejores momentos del evento a través de nuestras galerías de fotos.
+          Fue increíble compartir este momento con las y los Ethereans que formaron parte de este evento. 
+          Revive los mejores momentos a través de nuestras galerías de fotos.
         </p>
 
         <div className="d-flex justify-content-center align-items-center">
