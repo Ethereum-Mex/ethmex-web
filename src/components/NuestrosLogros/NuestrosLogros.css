@@ -1,14 +1,10 @@
 
-.logro-carousel-item{
-height: 62vh;
+.logro-carousel-item {
+  padding-bottom: 0.5rem;
 }
 
-
-
 @media (min-width: 992px) {
-  .logro-carousel-item{
-    height: 38vh;
-  
+  .logro-carousel-item {
+    padding-bottom: 0;
   }
-
 }

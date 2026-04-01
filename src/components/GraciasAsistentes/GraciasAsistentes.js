@@ -1,15 +1,6 @@
 import "./GraciasAsistentes.css";
 import "../Esperar/Esperar.css";
 
-const photoLinks = [
-  {
-    name: "Galería de Fotos",
-    url: "https://drive.google.com/drive/folders/153Ju7gI2axU1xGzlyMnj7tq5sNexekrz?usp=sharing", // Replace with actual photo gallery URL
-    description: "Ver todas las fotos del evento"
-  },
-
-];
-
 function GraciasAsistentes() {
   return (
     <div className="container-fluid container-ethmex-event text-center gracias-asistentes-container" id="gracias-asistentes">
@@ -61,24 +52,52 @@ function GraciasAsistentes() {
         </div>
 
         <p className="text-event mb-5" style={{ fontSize: "18px", maxWidth: "800px", margin: "0 auto 40px" }}>
-          Fue increíble compartir este momento con las y los Ethereans que formaron parte de este evento. 
-          Revive los mejores momentos a través de nuestras galerías de fotos.
+          Fue increíble compartir este momento con las y los Ethereans que formaron parte de este evento.
+          Revive los mejores momentos a través de nuestra {" "}
+          <a
+            href= "https://drive.google.com/drive/folders/153Ju7gI2axU1xGzlyMnj7tq5sNexekrz?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#358541", fontWeight: 600 }}
+          >
+            galerías de fotos
+          </a>
+          .
         </p>
 
-        <div className="d-flex justify-content-center align-items-center">
-          {photoLinks.map((link, index) => (
+        <div className="mx-auto mb-5" style={{ maxWidth: "800px" }}>
+          <div className="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/IpYQd3MsCi4"
+              title="After Movie ETH México 2025"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+
+          <div className="d-flex justify-content-evenly align-items-center flex-wrap gap-3 mt-4">
             <a
-              key={index}
-              href={link.url}
+              href="https://x.com/ethereum_mexico/status/1993761791797571786"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary-event"
-              style={{ fontSize: '20px' }}
+              style={{ fontSize: "20px" }}
             >
-              {link.name}
+              Consulta el recap
             </a>
-          ))}
+            <a
+              href="https://x.com/ethereum_mexico/status/1989005122970821080"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary-event"
+              style={{ fontSize: "20px" }}
+            >
+              Conoce a los ganadores
+            </a>
+          </div>
         </div>
+
       </div>
     </div>
   );

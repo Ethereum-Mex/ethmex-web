@@ -1,0 +1,22 @@
+.somos-texto .side-events-descripcion ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0 0;
+}
+
+.somos-texto .side-events-descripcion li {
+  margin-bottom: 0.5rem;
+}
+
+.somos-texto .side-events-descripcion p {
+  margin-bottom: 0;
+}
+
+.somos-texto .side-events-descripcion p + p {
+  margin-top: 0.5rem;
+}
+
+.somos-texto .side-events-descripcion a {
+  color: #206a4b;
+  font-weight: 500;
+}

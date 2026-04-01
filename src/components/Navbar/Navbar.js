@@ -5,9 +5,9 @@ import { Link, useLocation } from 'react-router-dom';
 const navLinks = [
 
   { id: "quienes-somos", label: "Quiénes Somos" },
+  { id: "events", label: "Events" },
   { id: "que-hacemos", label: "Qué Hacemos" },
   { id: "eventos", label: "Eventos" },
-  { id: "transparencia", label: "Transparencia" },
   { id: "faq", label: "FAQ" },
 ];
 

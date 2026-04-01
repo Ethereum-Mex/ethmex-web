@@ -19,7 +19,7 @@ function CalendarioRoadTo() {
 
       <a
         href="https://lu.ma/roadtoethmexico2025"
-        className="btn btn-primary-event mb-5"
+        className="btn btn-primary-event"
         target="_blank"
         rel="noopener noreferrer"
         style={{ fontSize: "20px" }}
@@ -27,7 +27,7 @@ function CalendarioRoadTo() {
         EXPLORA EL CALENDARIO
       </a>
 
-      {/* Responsive iframe container */}
+      {/* Responsive iframe container 
       <div style={{ position: "relative", overflow: "hidden", width: "100%", maxWidth: "950px", height: "450px"}}>
         <iframe
           src="https://lu.ma/embed/calendar/cal-8VHmZwe16GeMtUb/events"
@@ -59,6 +59,7 @@ function CalendarioRoadTo() {
         
       />
     </div>
+    */}
 
     </div>
   );

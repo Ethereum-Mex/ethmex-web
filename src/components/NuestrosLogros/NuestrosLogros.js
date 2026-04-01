@@ -39,10 +39,9 @@ const logros = [
     link: 'https://www.youtube.com/@ethereummexico/streams'
   },
   {
-    img: 'becas-EM1.jpeg',
-    alt: 'Becas',
+    img: 'becas-EM11.png',
     titulo: 'Becas',
-    descripcion: 'Más de 30 personas talentosas becadas para asistir a diversas conferencias Web3, entre ellas la más reciente Devcon VII en Bangkok, Tailandia.',
+    descripcion: 'Más de 40 personas talentosas becadas para asistir a diversas conferencias Web3 y Hackathons, entre ellos eventos mundiales como Devcon VII en Bangkok, Tailandia.',
     link: 'https://x.com/ethereum_mexico/status/1855997382401610185'
   },
   {
@@ -76,12 +75,11 @@ function NuestrosLogros() {
       <h1 className="ethmex-primary-title text-center mb-5">Nuestros Logros</h1>
 
       <div className="container-ethmex-aux mx-auto">
-        <div id="carouselHeroEthMex2" className="carousel slide h-100" data-bs-ride="carousel">
-          
-          <div className="carousel-inner h-100">
+        <div id="carouselHeroEthMex2" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
             {logros.map((logro, index) => (
               <div key={index} className={`carousel-item logro-carousel-item  ${index === 0 ? 'active' : ''}`}>
-                <div className="d-flex flex-column flex-lg-row justify-content-center align-items-top gap-5">
+                <div className="d-flex flex-column flex-lg-row justify-content-center align-items-start gap-5">
                   <img src={`${process.env.PUBLIC_URL}/images/${logro.img}`} className="d-block img-fluid rounded-4 mx-auto" width="500" alt={logro.alt} />
                   <div className="somos-texto">
                     <span className="ethmex-primary-subtitle">{logro.titulo}</span>
