@@ -1,0 +1,232 @@
+.ethmx26-page-stack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.25rem, 3.5vw, 3rem);
+}
+
+.ethmx26-page-stack-hero-marquee {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.hero-ethmx2026-shell {
+  min-height: 100vh;
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #358541;
+  background-image: url("/public/images/background-hero-ethmx26.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ETHMX2026-hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ETHMX2026-hero-inner {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.ethmx2026-hero-title {
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+
+.ethmx2026-partner-logos {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.75rem, 4vw, 2rem);
+  margin-bottom: 1.25rem;
+}
+
+.ethmx2026-partner-logo {
+  flex: 0 1 auto;
+  height: auto;
+  width: auto;
+  max-width: calc(70% - 0.5rem);
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .ethmx2026-partner-logo {
+    max-height: clamp(56px, 7vw, 72px);
+    max-width: 260px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ethmx2026-partner-logo {
+    max-height: 80px;
+    max-width: 300px;
+  }
+}
+
+.ethmx2026-logo-img {
+  width: 70%;
+  object-fit: contain;
+  object-position: 100% 0;
+  display: block;
+  flex-shrink: 0;
+}
+
+.ethmx2026-tagline {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(2rem, 4.5vw, 3.8rem);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.ethmx2026-track-line {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(1.4rem, 4vw, 1.55rem);
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.ethmx2026-badge-row {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background-color: #d32f2f;
+  color: #ffffff;
+  font-family: "Outfit", sans-serif;
+  padding: 0.55rem 1.35rem;
+  font-size: clamp(1rem, 2.8vw + 0.45rem, 2.1rem);
+}
+
+
+.ethmx2026-meta {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(1rem, 2.45vw, 1.25rem);
+  color: #ffffff;
+  line-height: 1.6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.ethmx2026-meta-item {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  text-align: left;
+  max-width: 100%;
+}
+
+
+
+.ethmx2026-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.ethmx2026-btn-hackathon {
+  font-family: "PP Supply Mono", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background-color: #d32f2f;
+  color: #ffffff;
+  border: 2px solid #d32f2f;
+  border-radius: 6px;
+  padding: 0.65rem 1.35rem;
+  text-decoration: none;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+
+.ethmx2026-btn-light {
+  font-family: "PP Supply Mono", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  border-radius: 6px;
+  padding: 0.65rem 1.35rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+@media (max-width: 576px) {
+  .ethmx2026-meta {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ethmx2026-meta-item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .ethmx2026-ctas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .ethmx2026-btn-hackathon,
+  .ethmx2026-btn-light {
+    text-align: center;
+  }
+}
+
+.ethmx26-carousel-slide.hero-carousel-item {
+  padding: 0;
+}
+
+.ethmx26-carousel-slide-inner {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ethmx26-carousel-slide-fill {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 100%;
+  background-color: #358541;
+  background-image: url("/public/images/background-hero-ethmx26.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.25rem 0 2rem;
+  box-sizing: border-box;
+}
+
+.ethmx26-carousel-hero.ETHMX2026-hero {
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 0 1 auto;
+  width: 100%;
+  max-height: none;
+  overflow: visible;
+  padding: 0 0.5rem 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .ethmx26-carousel-hero.ETHMX2026-hero {
+    padding: 0 1rem 1.5rem;
+  }
+
+  .ethmx26-carousel-slide-fill {
+    padding: 1.75rem 0 2.25rem;
+  }
+}

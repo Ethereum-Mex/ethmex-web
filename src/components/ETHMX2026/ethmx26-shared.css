@@ -1,0 +1,23 @@
+.ethmx26-que-es,
+.ethmx26-formato,
+.ethmx26-por-que-mx,
+.ethmx26-building-since,
+.ethmx26-quiero-ser-parte,
+.ethmx26-faq {
+  --ethmx26-text: #000000;
+  --ethmx26-accent: #d83535;
+  --ethmx26-heading-size: clamp(1.5rem, 4.5vw, 2.5rem);
+  --ethmx26-heading-weight: 600;
+  --ethmx26-heading-line: 1.2;
+  --ethmx26-lead-size: clamp(1rem, 2.4vw, 1.2rem);
+  --ethmx26-lead-weight: 400;
+  --ethmx26-lead-line: 1.5;
+  --ethmx26-body-size: clamp(0.95rem, 2.1vw, 1.05rem);
+  --ethmx26-body-weight: 400;
+  --ethmx26-body-medium: 500;
+  --ethmx26-body-line: 1.4;
+  --ethmx26-label-weight: 600;
+  --ethmx26-card-head-size: clamp(0.95rem, 2.1vw, 1.05rem);
+  --ethmx26-card-meta-size: clamp(0.85rem, 1.9vw, 0.95rem);
+  --ethmx26-muted-card-bg: #f4f4f4;
+}

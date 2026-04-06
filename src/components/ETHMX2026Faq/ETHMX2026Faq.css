@@ -1,0 +1,81 @@
+@import "../ETHMX2026/ethmx26-shared.css";
+
+.ethmx26-faq-inner {
+  max-width: 1200px;
+}
+
+.ethmx26-faq-title {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-heading-size);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: var(--ethmx26-heading-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-faq-accordion {
+  max-width: 100%;
+}
+
+.ethmx26-faq .accordion-item.ethmx26-faq-item {
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  border: 1px solid #000000;
+  border-top: 1px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.ethmx26-faq .accordion-item.ethmx26-faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.ethmx26-faq .accordion-button.ethmx26-faq-trigger {
+  padding: 0.85rem 1.1rem;
+  border: none !important;
+  border-bottom: 1px solid transparent !important;
+  border-radius: 0 !important;
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-label-weight);
+  line-height: var(--ethmx26-body-line);
+  text-align: left;
+  color: var(--ethmx26-text);
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.ethmx26-faq .accordion-button.ethmx26-faq-trigger:not(.collapsed) {
+  border-bottom: 1px solid #000000 !important;
+  color: var(--ethmx26-text);
+  box-shadow: none !important;
+}
+
+.ethmx26-faq .accordion-button.ethmx26-faq-trigger:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ethmx26-faq .accordion-button.ethmx26-faq-trigger:focus-visible {
+  z-index: 1;
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+.ethmx26-faq .accordion-button.ethmx26-faq-trigger::after {
+  flex-shrink: 0;
+  background-size: 0.9rem;
+}
+
+.ethmx26-faq-panel {
+  padding: 0.75rem 1.1rem 1rem;
+  border-top: none;
+  background-color: #ffffff;
+}
+
+.ethmx26-faq-answer {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-weight);
+  line-height: var(--ethmx26-body-line);
+  color: var(--ethmx26-text);
+}

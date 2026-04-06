@@ -1,0 +1,64 @@
+@import "../ETHMX2026/ethmx26-shared.css";
+
+.ethmx26-formato-inner {
+  max-width: 1200px;
+}
+
+.ethmx26-formato-hero-title {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-heading-size);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: var(--ethmx26-heading-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-formato-card {
+  min-height: 0;
+}
+
+.ethmx26-formato-card-head {
+  background-color: var(--ethmx26-accent);
+}
+
+.ethmx26-formato-card-title {
+  flex: 1 1 12rem;
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-card-head-size);
+  font-weight: var(--ethmx26-label-weight);
+  line-height: var(--ethmx26-body-line);
+}
+
+.ethmx26-formato-card-meta {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-card-meta-size);
+  font-weight: var(--ethmx26-body-medium);
+  line-height: var(--ethmx26-body-line);
+}
+
+.ethmx26-formato-p {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-weight);
+  line-height: var(--ethmx26-body-line);
+}
+
+.ethmx26-formato-label {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-label-weight);
+}
+
+.ethmx26-formato-ul {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-weight);
+  line-height: var(--ethmx26-body-line);
+}
+
+.ethmx26-formato-ul li {
+  margin-bottom: 0.22rem;
+}
+
+.ethmx26-formato-ul li:last-child {
+  margin-bottom: 0;
+}

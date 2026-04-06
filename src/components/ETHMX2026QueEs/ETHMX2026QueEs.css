@@ -1,0 +1,81 @@
+@import "../ETHMX2026/ethmx26-shared.css";
+
+.ethmx26-marquee {
+  background-color: var(--ethmx26-accent);
+}
+
+.ethmx26-marquee-track {
+  width: max-content;
+  animation: ethmx26-marquee-scroll 45s linear infinite;
+}
+
+@keyframes ethmx26-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ethmx26-marquee-segment {
+  flex-shrink: 0;
+  font-family: "PP Supply Mono", sans-serif;
+  font-size: clamp(0.68rem, 2.3vw, 1.2rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.ethmx26-que-es-inner {
+  max-width: 1200px;
+  margin-top: clamp(1.25rem, 3.5vw, 2.25rem);
+}
+
+.ethmx26-que-es-title {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-heading-size);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: var(--ethmx26-heading-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-que-es-copy {
+  max-width: 48rem;
+}
+
+.ethmx26-que-es-lead {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-lead-size);
+  font-weight: var(--ethmx26-lead-weight);
+  line-height: var(--ethmx26-lead-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-que-es-card {
+  background-color: var(--ethmx26-muted-card-bg);
+}
+
+.ethmx26-que-es-card-icon {
+  width: 88px;
+  height: 88px;
+}
+
+.ethmx26-que-es-svg {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.ethmx26-que-es-card-text {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-medium);
+  line-height: var(--ethmx26-body-line);
+  color: var(--ethmx26-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ethmx26-marquee-track {
+    animation: none;
+  }
+}

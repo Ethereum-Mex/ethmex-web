@@ -1,25 +1,21 @@
-import './Navbar.css';
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const navLinks = [
-
   { id: "quienes-somos", label: "Quiénes Somos" },
-  { id: "events", label: "Events" },
+  { id: "events", label: "Eventos" },
   { id: "que-hacemos", label: "Qué Hacemos" },
-  { id: "eventos", label: "Eventos" },
+  { id: "en-los-medios", label: "En los medios" },
   { id: "faq", label: "FAQ" },
 ];
 
 function Navbar() {
-  const location = useLocation();
-
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     } else {
-      window.location.href = `/#${id}`; // Redirigir si no estamos en home
+      window.location.href = `/#${id}`;
     }
   };
 
@@ -42,33 +38,45 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto gap-1 align-items-center">
             {navLinks.map(({ id, label }) => (
               <button
                 key={id}
+                type="button"
                 className="nav-link btn btn-link"
                 onClick={() => handleScroll(id)}
               >
                 {label}
               </button>
             ))}
-            {/* Enlace externo a Feedback */}
-            <Link key="feedback" className="nav-link" to="/feedback" target="_blank" rel="noopener noreferrer">
+            <Link
+              className="nav-link"
+              to="/feedback"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Feedback
             </Link>
-            
-            {/* Enlace externo a Tally */}
-            
-            <Link key="ETHMX2025" className="nav-link btn-ethmx-2025" to="/ETHMX2025" target="_blank" rel="noopener noreferrer">
-              Ethereum México 2025
+            <Link
+              className="nav-link btn-ethmx-2025"
+              to="/ETHMX2026"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ethereum México 2026
             </Link>
-            
-            {/* Enlace externo a Telegram */}
-            <a className="nav-link" href="https://t.me/ethmexico" target="_blank" rel="noopener noreferrer">
-              <button type="button" className="btn btn-navbar">Únete a la comunidad</button>
+            <a
+              className="nav-link"
+              href="https://t.me/ethmexico"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button type="button" className="btn btn-navbar">
+                Únete a la comunidad
+              </button>
             </a>
           </div>
         </div>

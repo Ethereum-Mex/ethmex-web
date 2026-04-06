@@ -1,0 +1,66 @@
+@import "../ETHMX2026/ethmx26-shared.css";
+
+.ethmx26-por-que-inner {
+  max-width: 1200px;
+}
+
+.ethmx26-por-que-title {
+  margin-bottom: 0.5rem;
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-heading-size);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: var(--ethmx26-heading-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-por-que-subtitle {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-weight);
+  line-height: var(--ethmx26-body-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-por-que-stat-card {
+  min-height: 11rem;
+  background-color: var(--ethmx26-accent);
+}
+
+.ethmx26-por-que-stat-value {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(1.35rem, 3.5vw, 2rem);
+  font-weight: var(--ethmx26-label-weight);
+  line-height: 1.2;
+}
+
+.ethmx26-por-que-stat-desc {
+  max-width: 22rem;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-weight);
+  line-height: var(--ethmx26-body-line);
+  opacity: 0.95;
+}
+
+.ethmx26-por-que-combina-heading {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(1.35rem, 3.5vw, 2rem);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: var(--ethmx26-heading-line);
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-por-que-mini-card {
+  min-height: 4.5rem;
+  background-color: var(--ethmx26-muted-card-bg);
+}
+
+.ethmx26-por-que-mini-text {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-body-size);
+  font-weight: var(--ethmx26-body-medium);
+  line-height: var(--ethmx26-body-line);
+  color: var(--ethmx26-text);
+}

@@ -1,76 +1,42 @@
-
 #carouselHeroEthMex {
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
-.hero-carousel-item{
-  height: 80vh;
+#carouselHeroEthMex .ethmx26-carousel-slide-inner .ethmx26-carousel-hero a {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-carousel-item {
+  height: 83vh;
   padding: 50px 20px;
   border-radius: 20px;
 }
 
-.bienvenida-texto{
-  font-weight: bold;
+.bienvenida-texto {
+  font-family: "Outfit", sans-serif;
   font-size: 54px;
-  text-align: center;
-  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
   line-height: 1.2;
-  
+  text-align: center;
 }
 
-.carousel-control-next-icono{
-  border-radius: 100%;
-  background-color: #FEF9F5;
-  color: #3A3A3A;
+.carousel-control-next-icono {
   padding: 1px 0px 1px 3px;
+  border-radius: 100%;
+  background-color: #fef9f5;
+  color: #3a3a3a;
 }
 
-.carousel-control-prev-icono{
-  border-radius: 100%;
-  background-color: #FEF9F5;
-  color: #3A3A3A;
+.carousel-control-prev-icono {
   padding: 1px 3px 1px 0px;
+  border-radius: 100%;
+  background-color: #fef9f5;
+  color: #3a3a3a;
 }
 
 @media (min-width: 992px) {
-
-  .bienvenida-texto{
+  .bienvenida-texto {
     font-size: 72px;
-  }
-
-
-}
-
-
-
-/* Ajustes para pantallas pequeñas */
-
-.ETHMX2025-div-white-carrusel {
-  background-color: rgba(255, 255, 255, 0.85);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  font-family: 'PP Supply Mono', sans-serif;
-  padding: 40px 90px;
-  max-width: 550px;
-  min-width: 250px;
-}
-
-.ETHMX2025-logos-container-carrusel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-@media (max-width: 768px) {
-  .ETHMX2025-div-white-carrusel {
-    padding: 30px 30px;
-  }
-  .ETHMX2025-div-white-carrusel img {
-    /* Add any image-specific responsive rules here if needed */
-  }
-  .ETHMX2025-logos-container-carrusel img {
-    min-width: 10px;
   }
 }

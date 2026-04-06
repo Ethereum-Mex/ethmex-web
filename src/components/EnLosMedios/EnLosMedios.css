@@ -1,0 +1,71 @@
+.en-los-medios-logo-wrap {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.en-los-medios-logo {
+  max-width: 100%;
+  max-height: 2.25rem;
+  width: auto;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.en-los-medios-logo-wrap--custom .en-los-medios-logo {
+  width: min(var(--en-los-medios-logo-w), 100%);
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+}
+
+.en-los-medios-card {
+  min-height: 100%;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid rgba(32, 106, 75, 0.35);
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.en-los-medios-card:hover {
+  border-color: #206a4b;
+  box-shadow: 0 6px 20px rgba(32, 106, 75, 0.12);
+  transform: translateY(-2px);
+}
+
+.en-los-medios-card:hover .en-los-medios-art-title {
+  color: #206a4b;
+}
+
+.en-los-medios-outlet {
+  margin-bottom: 0.65rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(58, 58, 58, 0.65);
+}
+
+.en-los-medios-art-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: #3a3a3a;
+}
+
+.en-los-medios-cta {
+  margin-top: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #206a4b;
+}
+
+.en-los-medios-card:hover .en-los-medios-cta {
+  text-decoration: underline;
+}

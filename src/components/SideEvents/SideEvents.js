@@ -1,7 +1,6 @@
 import "./SideEvents.css";
 import "../NuestrosLogros/NuestrosLogros.css";
 import "../Contactanos/Contactanos.css";
-import React from "react";
 
 const sideEventsSlides = [
   {
@@ -13,7 +12,7 @@ const sideEventsSlides = [
     link: "https://x.com/ethereum_mexico/status/2005680236873056554",
   },
   {
-    img: "openhub.png",
+    img: "openhub.JPG",
     alt: "Meetups de Ethereum México",
     title: "Meetups",
     descripcion:
