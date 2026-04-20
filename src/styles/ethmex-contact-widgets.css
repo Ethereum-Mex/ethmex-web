@@ -1,0 +1,26 @@
+
+.btn-contacto {
+  background-color: #ffc476;
+  border: solid #ffc476;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.btn-contacto:hover,
+.btn-contacto:active,
+.btn-contacto:focus {
+  background-color: #fcd39d;
+  border: solid #fcd39d;
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+.ethmex-input {
+  border: solid 2px #fde2cf;
+  box-shadow: 3px 3px 0 0 #fde2cf;
+  border-radius: 16px;
+  padding: 15px;
+  color: #858585;
+  font-size: 16px;
+  background-color: #fef9f5;
+}

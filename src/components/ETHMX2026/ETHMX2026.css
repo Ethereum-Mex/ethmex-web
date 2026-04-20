@@ -12,7 +12,9 @@
 
 .hero-ethmx2026-shell {
   min-height: 100vh;
-  padding: 20px 20px 0;
+  min-height: 100dvh;
+  padding: clamp(12px, 2.5vw, 20px) clamp(12px, 2.5vw, 20px) 0;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   background-color: #358541;
@@ -32,6 +34,19 @@
 .ETHMX2026-hero-inner {
   max-width: 920px;
   margin: 0 auto;
+}
+
+.ethmx26-lang-toggle-label--active {
+  font-weight: 600;
+}
+
+.ethmx26-lang-toggle-label:not(.ethmx26-lang-toggle-label--active) {
+  opacity: 0.72;
+}
+
+.ethmx26-lang-switch .form-check-input {
+  width: 2.35rem;
+  cursor: pointer;
 }
 
 .ethmx2026-hero-title {
@@ -189,7 +204,8 @@
 }
 
 .ethmx26-carousel-slide-inner {
-  min-height: 80vh;
+  min-height: 0;
+  flex: 1 1 auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -198,7 +214,7 @@
 .ethmx26-carousel-slide-fill {
   flex: 1 1 auto;
   width: 100%;
-  min-height: 100%;
+  min-height: 0;
   background-color: #358541;
   background-image: url("/public/images/background-hero-ethmx26.png");
   background-size: cover;
@@ -228,5 +244,89 @@
 
   .ethmx26-carousel-slide-fill {
     padding: 1.75rem 0 2.25rem;
+  }
+}
+
+/* Home slide 1: panel a altura del ítem + bloque centrado en vertical (todos los tamaños) */
+.hero-ethmex #carouselHeroEthMex .ethmx26-carousel-slide-inner {
+  height: 100%;
+  min-height: 100%;
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx26-carousel-slide-fill {
+  padding: 1.15rem 0 1.75rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx26-carousel-hero.ETHMX2026-hero {
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-logo-img {
+  width: 68%;
+  max-height: min(38vh, 300px);
+  object-fit: contain;
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-partner-logos {
+  margin-bottom: 1rem;
+  gap: clamp(0.7rem, 3.6vw, 1.6rem);
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-partner-logo {
+  max-height: clamp(52px, 6.2vw, 72px);
+}
+
+@media (min-width: 768px) {
+  .hero-ethmex #carouselHeroEthMex .ethmx2026-partner-logo {
+    max-height: clamp(56px, 6.8vw, 78px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-ethmex #carouselHeroEthMex .ethmx2026-partner-logo {
+    max-height: 80px;
+  }
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-tagline {
+  font-size: clamp(1.85rem, 4vw, 3.35rem);
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-track-line {
+  font-size: clamp(1.2rem, 3.4vw, 1.5rem);
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-badge-row {
+  margin-top: 1.2rem;
+  padding: 0.55rem 1.2rem;
+  font-size: clamp(1rem, 2.5vw + 0.38rem, 2rem);
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-meta {
+  margin-top: clamp(1.25rem, 3.4vw, 2.5rem);
+}
+
+.hero-ethmex #carouselHeroEthMex .ethmx2026-ctas {
+  margin-top: 1.65rem;
+}
+
+@media (min-width: 992px) {
+  .hero-ethmex #carouselHeroEthMex .ethmx26-carousel-slide-fill {
+    padding: 1.5rem 0 2.05rem;
+  }
+
+  .hero-ethmex #carouselHeroEthMex .ethmx26-carousel-hero.ETHMX2026-hero {
+    padding: 0 1rem 1.35rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-ethmex #carouselHeroEthMex .ethmx2026-logo-img {
+    width: 52%;
+    max-height: min(26vh, 200px);
   }
 }

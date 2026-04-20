@@ -47,91 +47,89 @@ import GraciasAsistentes from "./components/GraciasAsistentes/GraciasAsistentes.
 
 function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div>
-                <div className="container-fluid hero-ethmex overflow-hidden">
-                  <Navbar />
-                  <Carrusel />
-                </div>
-                <QuienesSomos />
-                <NuestrosValores />
-                <QueHacemos />
-                <Eventos />
-                <EnLosMedios />
-                <NuestrosLogros />
-                <ConfianNosotros />
-                <SideEvents />
-                <Faq />
-                <div className="container-fluid hero-footer-ethmex ">
-                  <Footer />
-                </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div>
+              <div className="container-fluid hero-ethmex overflow-hidden">
+                <Navbar />
+                <Carrusel />
               </div>
-            }
-          />
-
-          <Route path="/feedback" element={<Feedback />} />
-
-          <Route
-            path="/ETHMX2025"
-            element={
-              <div>
-                <div className="container-fluid hero-ethmex-evento overflow-hidden">
-                  <NavbarEvent2025 />
-                  <ETHMX2025 />
-                </div>
-                <GraciasAsistentes />
-                <AboutEthMexEvent />
-                <Esperar />
-                <CalendarioEventos />
-                <Agenda />
-                <ParteDe />
-                <Razones />
-                <CTARegistro />
-                <Sponsors />
-                <GraciasA />
-                <Speakers />
-                <StrategicPartners />
-                <MediaPartners />
-                <EcosystemPartner />
-                <ComPartners />
-                <CalendarioRoadTo />
-                <EdicionesAnteriores />
-                <TeamEvento />
-                <FAQEvento />
-                <FooterEvent />
+              <QuienesSomos />
+              <NuestrosValores />
+              <QueHacemos />
+              <Eventos />
+              <EnLosMedios />
+              <NuestrosLogros />
+              <ConfianNosotros />
+              <SideEvents />
+              <Faq />
+              <div className="container-fluid hero-footer-ethmex ">
+                <Footer />
               </div>
-            }
-          />
+            </div>
+          }
+        />
 
-          <Route
-            path="/ETHMX2026"
-            element={
-              <div className="ethmx26-page-stack">
-                <Ethmx2026Seo />
-                <div className="ethmx26-page-stack-hero-marquee">
-                  <div className="hero-ethmx2026-shell overflow-hidden">
-                    <ETHMX2026 />
-                  </div>
-                  <ETHMX2026QueEs />
-                </div>
-                <ETHMX2026FormatoHibrido />
-                <ETHMX2026PorQueMexico />
-                <ETHMX2026BuildingSince2022 />
-                <ETHMX2026QuieroSerParte />
-                <ETHMX2026Faq />
+        <Route path="/feedback" element={<Feedback />} />
+
+        <Route
+          path="/ETHMX2025"
+          element={
+            <div>
+              <div className="container-fluid hero-ethmex-evento overflow-hidden">
+                <NavbarEvent2025 />
+                <ETHMX2025 />
               </div>
-            }
-          />
+              <GraciasAsistentes />
+              <AboutEthMexEvent />
+              <Esperar />
+              <CalendarioEventos />
+              <Agenda />
+              <ParteDe />
+              <Razones />
+              <CTARegistro />
+              <Sponsors />
+              <GraciasA />
+              <Speakers />
+              <StrategicPartners />
+              <MediaPartners />
+              <EcosystemPartner />
+              <ComPartners />
+              <CalendarioRoadTo />
+              <EdicionesAnteriores />
+              <TeamEvento />
+              <FAQEvento />
+              <FooterEvent />
+            </div>
+          }
+        />
 
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Router>
-    </>
+        <Route
+          path="/ETHMX2026"
+          element={
+            <div className="ethmx26-page-stack">
+              <Ethmx2026Seo />
+              <div className="ethmx26-page-stack-hero-marquee">
+                <div className="hero-ethmx2026-shell overflow-hidden">
+                  <ETHMX2026 />
+                </div>
+                <ETHMX2026QueEs />
+              </div>
+              <ETHMX2026FormatoHibrido />
+              <ETHMX2026PorQueMexico />
+              <ETHMX2026BuildingSince2022 />
+              <ETHMX2026QuieroSerParte />
+              <ETHMX2026Faq />
+            </div>
+          }
+        />
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 

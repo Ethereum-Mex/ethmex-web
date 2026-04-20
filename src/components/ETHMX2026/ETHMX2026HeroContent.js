@@ -1,8 +1,17 @@
 import "./ETHMX2026.css";
+import { useTranslation } from "react-i18next";
+import { Ethmx2026LanguageToggle } from "./Ethmx2026LanguageToggle.js";
 
-export function ETHMX2026HeroContent() {
+export function ETHMX2026HeroContent({ showLanguageToggle = false }) {
+  const { t } = useTranslation("ethmx2026");
+
   return (
     <div className="ETHMX2026-hero-inner container px-3 text-center">
+      {showLanguageToggle ? (
+        <div className="d-flex justify-content-end mb-2">
+          <Ethmx2026LanguageToggle />
+        </div>
+      ) : null}
       <h1 className="ethmx2026-hero-title mb-0">
         <div className="d-flex flex-column align-items-center mb-3">
           <div className="ethmx2026-partner-logos">
@@ -25,28 +34,18 @@ export function ETHMX2026HeroContent() {
           />
         </div>
         <span className="ethmx2026-tagline d-inline-block">
-          HYBRID HACKATHON
+          {t("hero.tagline")}
         </span>
-        <span className="ethmx2026-track-line d-block">
-          For hackers and startups
-        </span>
-        <span className="ethmx2026-badge-row d-inline-block">
-          AI + Payments + Blockchain
-        </span>
+        <span className="ethmx2026-track-line d-block">{t("hero.trackLine")}</span>
+        <span className="ethmx2026-badge-row d-inline-block">{t("hero.badgeRow")}</span>
       </h1>
 
-      <div className="ethmx2026-meta px-2 mt-3">
+      <div className="ethmx2026-meta px-2 mt-4">
         <span className="ethmx2026-meta-item">
-          <span> 📍 Mexico City </span>
+          <span> 📍 {t("hero.metaCity")} </span>
         </span>
         <span className="ethmx2026-meta-item">
-          <span> 📅 June 12, 2026</span>
-        </span>
-        <span className="ethmx2026-meta-item">
-          <span>
-            🌐 Global Online Hackathon + IRL Builder Sessions + Networking
-            Conference
-          </span>
+          <span> 📅 {t("hero.metaDate")}</span>
         </span>
       </div>
 
@@ -57,7 +56,7 @@ export function ETHMX2026HeroContent() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Apply to Hackathon
+          {t("hero.ctaHackathon")}
         </a>
         <a
           className="ethmx2026-btn-light"
@@ -65,7 +64,7 @@ export function ETHMX2026HeroContent() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sponsor Main Event
+          {t("hero.ctaSponsor")}
         </a>
       </div>
     </div>

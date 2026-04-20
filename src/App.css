@@ -5,18 +5,46 @@
 
 .hero-ethmex{
     background-image: 
-      url('/public/images/pattern.png'), /* Imagen de fondo */
-      linear-gradient(to bottom, #FEF9F5, #FDE2CF); /* Degradado */
-    background-position: center; /* Centra la imagen de fondo */
-    padding: 30px;
+      url('/public/images/pattern.png'), 
+      linear-gradient(to bottom, #FEF9F5, #FDE2CF); 
+    background-position: center; 
+    padding: clamp(10px, 2.6vw, 28px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    height: 100dvh;
+    min-height: 100dvh;
+    max-height: 100dvh;
+}
+
+
+.hero-ethmex #carouselHeroEthMex {
+  flex: 1 1 auto;
+  min-height: 0;
+  margin-top: clamp(22px, 4vw, 30px);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-ethmex #carouselHeroEthMex .carousel-inner {
+  flex: 1 1 auto;
+  min-height: 0;
+  position: relative;
+}
+
+.hero-ethmex #carouselHeroEthMex .carousel-item {
+  height: 100%;
 }
 
 .hero-footer-ethmex{
     background-image: 
-      url('/public/images/pattern.png'), /* Imagen de fondo */
-      linear-gradient(to bottom, #FEF9F5, #FEF9F5); /* Degradado */
-    background-position: center; /* Centra la imagen de fondo */
+      url('/public/images/pattern.png'),
+      linear-gradient(to bottom, #FEF9F5, #FEF9F5); 
+    background-position: center; 
     padding: 30px;
 }
 
@@ -54,10 +82,10 @@
 
 .container-ethmex {
     background-image: 
-      url('/public/images/pattern.png'), /* Imagen de fondo */
-      linear-gradient(to bottom, #FEF9F5, #FEF9F5); /* Degradado */
-    background-position: center; /* Centra la imagen de fondo */
-    padding: 30px 30px; /* Espaciado interno */
+      url('/public/images/pattern.png'),
+      linear-gradient(to bottom, #FEF9F5, #FEF9F5); 
+    background-position: center; 
+    padding: 30px 30px; 
 }
 
 .accordion {
@@ -136,17 +164,21 @@
 
 .hero-ethmex-evento{
     background-color: #358541;
-    background-image: url('/public/images/cerro-02.png'); /* Imagen de fondo */
-    background-position: center; /* Centra la imagen de fondo */
+    background-image: url('/public/images/cerro-02.png');
+    background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
+    padding: clamp(10px, 2.6vw, 28px);
+    box-sizing: border-box;
     height: 100vh;
+    min-height: 100vh;
+    height: 100dvh;
+    min-height: 100dvh;
 }
 
 
 .container-ethmex-event{
-    padding: 40px 25px; /* Espaciado interno */
+    padding: 40px 25px;
 }
 
 .text-event{

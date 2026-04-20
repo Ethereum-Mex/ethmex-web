@@ -1,4 +1,5 @@
 import "./ETHMX2026QuieroSerParte.css";
+import { useTranslation } from "react-i18next";
 
 function linkTargetProps(href) {
   if (!href || href.startsWith("mailto:")) {
@@ -7,49 +8,10 @@ function linkTargetProps(href) {
   return { target: "_blank", rel: "noopener noreferrer" };
 }
 
-const ROLES = [
-  {
-    id: "builder",
-    title: "Builder",
-    description:
-      "Construye durante 5 semanas. Workshops, mentores y recursos para llevar tu proyecto al siguiente nivel",
-    ctaLabel: "Apply Now",
-    href: "https://tally.so/r/PdALz1",
-  },
-  {
-    id: "sponsor",
-    title: "Sponsor",
-    description:
-      "Invierte en el futuro de AI, Pagos y Blockchain en LATAM",
-    ctaLabel: "Download Deck",
-    href:
-      "https://docs.google.com/presentation/d/1LcIhAQdpLkczcBzh4-ZCIbq3dRjo8qeD/edit?usp=sharing&ouid=114310261720515721669&rtpof=true&sd=true",
-    secondaryCta: {
-      label: "Contact Us",
-      href: "https://t.me/ethereum_mexico",
-    },
-  },
-  {
-    id: "mentor",
-    title: "Mentor",
-    description:
-      "Comparte lo que sabes. Acompaña a la próxima generación de builders",
-    ctaLabel: "Apply Soon",
-    href:
-      "",
-  },
-  {
-    id: "media",
-    title: "Partners",
-    description:
-      "Si tienes comunidad en tech, founders, IA o blockchain, hay algo que construir juntos",
-    ctaLabel: "Contact Us",
-    href: "https://t.me/ethereum_mexico",
-  },
-
-];
-
 function ETHMX2026QuieroSerParte() {
+  const { t } = useTranslation("ethmx2026");
+  const roles = t("quieroSerParte.roles", { returnObjects: true });
+
   return (
     <section
       className="ethmx26-quiero-ser-parte bg-white text-dark"
@@ -62,15 +24,15 @@ function ETHMX2026QuieroSerParte() {
             id="ethmx26-quiero-ser-parte-heading"
             className="ethmx26-quiero-ser-parte-title"
           >
-            Quiero ser parte
+            {t("quieroSerParte.title")}
           </h2>
           <p className="ethmx26-quiero-ser-parte-subtitle mb-0">
-            Encuentra tu rol en Ethereum México 2026
+            {t("quieroSerParte.subtitle")}
           </p>
         </header>
 
         <ul className="ethmx26-quiero-ser-parte-list row g-3 list-unstyled mb-0">
-          {ROLES.map((item) => (
+          {roles.map((item) => (
             <li key={item.id} className="col-12 col-md-6 d-flex">
               <div className="ethmx26-quiero-ser-parte-card shadow-sm rounded-3 px-3 py-3 px-md-4 py-md-4 w-100">
                 <div className="ethmx26-quiero-ser-parte-copy min-w-0">
@@ -84,9 +46,11 @@ function ETHMX2026QuieroSerParte() {
                 <div className="ethmx26-quiero-ser-parte-cta-wrap min-w-0">
                   <div className="ethmx26-quiero-ser-parte-cta-group">
                     <a
-                      href={item.href}
+                      href={item.href || "#"}
                       className="ethmx26-quiero-ser-parte-cta ethmx26-quiero-ser-parte-cta--sized d-inline-flex align-items-center justify-content-center text-center text-decoration-none"
                       {...linkTargetProps(item.href)}
+                      aria-disabled={!item.href}
+                      onClick={!item.href ? (e) => e.preventDefault() : undefined}
                     >
                       {item.ctaLabel}
                     </a>

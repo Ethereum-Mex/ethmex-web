@@ -1,30 +1,23 @@
 import "./ETHMX2026BuildingSince2022.css";
-
-const STATS = [
-  { id: "ediciones", value: "3", label: "ediciones" },
-  { id: "asistentes", value: "+3,000", label: "asistentes" },
-  { id: "workshops", value: "+50", label: "workshops" },
-  { id: "x", value: "7.5K", label: "en X" },
-  { id: "telegram", value: "1.5K", label: "Telegram members" },
-];
+import { useTranslation } from "react-i18next";
 
 const EDITIONS = [
   {
-    id: "2022",
+    id: "2023",
     videoId: "4kBLHlW6T00",
-    year: "2022",
+    year: "2023",
     locationLabel: "CDMX",
   },
   {
-    id: "2023",
+    id: "2024",
     videoId: "xVa7wcIWrN4",
-    year: "2023",
+    year: "2024",
     locationLabel: "MÉRIDA, YUCATÁN",
   },
   {
-    id: "2024",
+    id: "2025",
     videoId: "IpYQd3MsCi4",
-    year: "2024",
+    year: "2025",
     locationLabel: "MONTERREY, NL",
   },
 ];
@@ -63,6 +56,9 @@ function PlayIconLarge() {
 }
 
 function ETHMX2026BuildingSince2022() {
+  const { t } = useTranslation("ethmx2026");
+  const stats = t("building.stats", { returnObjects: true });
+
   return (
     <section
       className="ethmx26-building-since text-white"
@@ -75,15 +71,15 @@ function ETHMX2026BuildingSince2022() {
             id="ethmx26-building-heading"
             className="ethmx26-building-title text-uppercase text-white mb-3"
           >
-            Building since 2022
+            {t("building.title")}
           </h2>
           <h3 className="ethmx26-building-subtitle text-white mb-0">
-            Tres ediciones, una comunidad real
+            {t("building.subtitle")}
           </h3>
         </header>
 
         <div className="row g-3 justify-content-center mb-5">
-          {STATS.map((item) => (
+          {stats.map((item) => (
             <div
               key={item.id}
               className="col-4 col-md-4 col-xl-2 d-flex justify-content-center"
@@ -99,7 +95,7 @@ function ETHMX2026BuildingSince2022() {
         <div
           className="ethmx26-building-editions"
           role="region"
-          aria-label="Aftermovies de ediciones anteriores"
+          aria-label={t("building.editionsAriaLabel")}
         >
           {EDITIONS.map((edition) => (
             <article
@@ -111,7 +107,7 @@ function ETHMX2026BuildingSince2022() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ethmx26-building-edition-thumb"
-                aria-label={`Ver aftermovie ${edition.year}, ${edition.locationLabel}`}
+                aria-label={`${t("building.watchAftermovieLabel")} ${edition.year}, ${edition.locationLabel}`}
               >
                 <img
                   className="ethmx26-building-edition-thumb-img"

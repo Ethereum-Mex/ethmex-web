@@ -45,14 +45,18 @@ function Carrusel() {
             <div className="bienvenida-texto text-center">
               <span>Te damos la bienvenida a </span>
               <br />
-              <span style={{ color: "#206A4B" }}>Ethereum </span>
-              <span style={{ color: "#D83535" }}>México </span>
+              <span className="hero-carousel-welcome-brand hero-carousel-welcome-brand--green">
+                Ethereum
+              </span>
+              <span className="hero-carousel-welcome-brand hero-carousel-welcome-brand--red">
+                {" "}
+                México
+              </span>
             </div>
             <img
               src={`${process.env.PUBLIC_URL}/images/EthMXIcon_ColorFull.png`}
-              className="d-block img-fluid "
-              width="500"
-              alt=""
+              className="d-block img-fluid hero-carousel-welcome-icon"
+              alt="Ethereum México"
             />
           </div>
         </div>

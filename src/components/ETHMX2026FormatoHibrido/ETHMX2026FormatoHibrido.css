@@ -42,12 +42,6 @@
   line-height: var(--ethmx26-body-line);
 }
 
-.ethmx26-formato-label {
-  font-family: "Outfit", sans-serif;
-  font-size: var(--ethmx26-body-size);
-  font-weight: var(--ethmx26-label-weight);
-}
-
 .ethmx26-formato-ul {
   font-family: "Outfit", sans-serif;
   font-size: var(--ethmx26-body-size);

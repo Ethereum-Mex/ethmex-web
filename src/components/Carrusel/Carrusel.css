@@ -1,14 +1,12 @@
-#carouselHeroEthMex {
-  margin-top: 35px;
-}
-
 #carouselHeroEthMex .ethmx26-carousel-slide-inner .ethmx26-carousel-hero a {
   position: relative;
   z-index: 2;
 }
 
 .hero-carousel-item {
-  height: 83vh;
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
   padding: 50px 20px;
   border-radius: 20px;
 }
@@ -19,6 +17,36 @@
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
+}
+
+.hero-carousel-welcome-brand--green {
+  color: #206a4b;
+}
+
+.hero-carousel-welcome-brand--red {
+  color: #d83535;
+}
+
+#carouselHeroEthMex .hero-carousel-welcome-icon {
+  width: auto;
+  max-width: min(92vw, clamp(180px, 58vw, 360px));
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  #carouselHeroEthMex .hero-carousel-welcome-icon {
+    width: auto;
+    max-width: min(72vw, clamp(260px, 50vw, 440px));
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #carouselHeroEthMex .hero-carousel-welcome-icon {
+    width: auto;
+    height: auto;
+    max-width: min(55vw, clamp(320px, 42vw, 500px));
+  }
 }
 
 .carousel-control-next-icono {

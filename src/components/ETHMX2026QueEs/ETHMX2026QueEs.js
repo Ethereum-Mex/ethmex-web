@@ -1,32 +1,10 @@
 import "./ETHMX2026QueEs.css";
-
-const MARQUEE_CHUNK = "BUILD TODAY • PLAY GLOBAL • ";
-
-const featureCards = [
-  {
-    id: "hackathon",
-    iconFile: "world-icon.png",
-    text: "Hackathon global online",
-  },
-  {
-    id: "builder-sessions",
-    iconFile: "code-icon.png",
-    text: "Builder Sessions",
-  },
-  {
-    id: "conference",
-    iconFile: "computer-icon.png",
-    text: "Main Conference + Demo Day",
-  },
-  {
-    id: "showcase",
-    iconFile: "showcase-icon.png",
-    text: "Showcase ante VCs",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 function ETHMX2026QueEs() {
-  const marqueeText = Array(8).fill(MARQUEE_CHUNK).join("");
+  const { t } = useTranslation("ethmx2026");
+  const marqueeText = Array(8).fill(t("marqueeChunk")).join("");
+  const cards = t("queEs.cards", { returnObjects: true });
 
   return (
     <section
@@ -53,22 +31,16 @@ function ETHMX2026QueEs() {
           id="ethmx26-que-es-heading"
           className="ethmx26-que-es-title text-center mb-4"
         >
-          ¿Qué es Ethereum México 2026?
+          {t("queEs.title")}
         </h2>
 
         <div className="ethmx26-que-es-copy mx-auto text-center">
-          <p className="ethmx26-que-es-lead mb-3">
-            Es un hackathon híbrido internacional enfocado en AI, Blockchain y
-            pagos reales, diseñado para conectar builders con protocolos,
-            empresas fintech, fondos y reguladores en un entorno de alto nivel.
-          </p>
-          <p className="ethmx26-que-es-lead mb-0">
-            Este año evolucionamos a un formato híbrido:
-          </p>
+          <p className="ethmx26-que-es-lead mb-3">{t("queEs.lead1")}</p>
+          <p className="ethmx26-que-es-lead mb-0">{t("queEs.lead2")}</p>
         </div>
 
         <div className="row g-3 justify-content-center mt-4">
-          {featureCards.map((card) => (
+          {cards.map((card) => (
             <div key={card.id} className="col-6 col-xl-3">
               <article className="ethmx26-que-es-card h-100 d-flex flex-column align-items-center text-center rounded-3 shadow-sm px-3 py-4">
                 <div className="ethmx26-que-es-card-icon d-flex align-items-center justify-content-center mb-3">

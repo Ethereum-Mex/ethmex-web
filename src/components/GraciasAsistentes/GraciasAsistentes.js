@@ -55,7 +55,7 @@ function GraciasAsistentes() {
           Fue increíble compartir este momento con las y los Ethereans que formaron parte de este evento.
           Revive los mejores momentos a través de nuestra {" "}
           <a
-            href= "https://drive.google.com/drive/folders/153Ju7gI2axU1xGzlyMnj7tq5sNexekrz?usp=sharing"
+            href= "https://drive.google.com/drive/folders/1t_TLTHHqw9Nr7R1qT0qcUSerDoqVXGDy?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#358541", fontWeight: 600 }}

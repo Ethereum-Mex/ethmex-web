@@ -3,7 +3,6 @@ import "./EdicionesAnteriores.css";
 function EdicionesAnteriores() {
   return (
     <div className="container-fluid align-items-center justify-content-center text-center container-ethmex-event" id="ediciones-anteriores" >
-      {/* Título principal */}
       <div className="mb-4">
         <span className="text-event-title" style={{ color: "#358541", fontSize: "35px" }}>
           REVIVE NUESTRAS&nbsp;
@@ -19,13 +18,11 @@ function EdicionesAnteriores() {
 
             {/* Slide 1 */}
             <div className="carousel-item active text-center">
-              {/* Título fuera del div con borde */}
               <div className="mb-3">
                 <h4 className="text-event mb-1">ETH México 2024</h4>
                 <p className="text-event">Mérida, Yucatán</p>
               </div>
 
-              {/* Solo el video tiene borde y padding */}
               <div className="video-box">
                 <div className="video-wrapper">
                   <iframe

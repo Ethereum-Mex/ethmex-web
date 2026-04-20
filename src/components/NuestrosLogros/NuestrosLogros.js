@@ -1,5 +1,5 @@
 import './NuestrosLogros.css';
-import './../Contactanos/Contactanos.css';
+import "../../styles/ethmex-contact-widgets.css";
 import React from 'react';
 
 const logros = [

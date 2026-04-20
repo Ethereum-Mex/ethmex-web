@@ -1,6 +1,6 @@
 .about-ethmex{
-  background-image: url('/public/images/GreenBg.png'); /* Imagen de fondo */
-  background-position: center; /* Centra la imagen de fondo */
+  background-image: url('/public/images/GreenBg.png');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -15,8 +15,6 @@
 }
 
 
-    
-/* Ajustes para pantallas pequeñas */
 @media (max-width: 992px) {
   
   .about-ethmex-div-white{

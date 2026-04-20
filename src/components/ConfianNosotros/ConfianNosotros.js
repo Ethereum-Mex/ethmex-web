@@ -1,7 +1,6 @@
 import "./ConfianNosotros.css";
 import React from "react";
 
-/** Ancho del logo en píxeles (columna). Ajusta por marca. */
 const logos = [
   { src: "esp.svg", alt: "Icono de ESP", width: 150 },
   { src: "ethereum-foundation.svg", alt: "Icono de Ethereum Foundation", width: 170 },

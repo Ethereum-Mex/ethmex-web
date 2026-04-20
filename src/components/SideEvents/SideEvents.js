@@ -1,6 +1,6 @@
 import "./SideEvents.css";
 import "../NuestrosLogros/NuestrosLogros.css";
-import "../Contactanos/Contactanos.css";
+import "../../styles/ethmex-contact-widgets.css";
 
 const sideEventsSlides = [
   {

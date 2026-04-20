@@ -1,87 +1,5 @@
 import "./ETHMX2026FormatoHibrido.css";
-
-const FORMATO_CARDS = [
-  {
-    id: "global-online",
-    headline: "Global Online Hackathon",
-    meta: "May 4 – June 5",
-    blocks: [
-      {
-        type: "p",
-        text: "5 semanas abierto a builders de todo el mundo, enfocado en pagos digitales y blockchain",
-      },
-      {
-        type: "labeledList",
-        items: [
-          "Workshops técnicos",
-          "Mentoría global bilingüe",
-          "Checkpoints semanales con mentores",
-          "Proceso de demo submissions",
-        ],
-      },
-    ],
-  },
-  {
-    id: "builder-sessions",
-    headline: "Private Builder Sessions",
-    meta: "June 4 – 5 · Bitso Offices, CDMX",
-    blocks: [
-      {
-        type: "p",
-        text: "Sprint exclusivo para equipos del hackathon desde el código al producto",
-      },
-      {
-        type: "ul",
-        items: [
-          "Deep technical mentoring",
-          "Product refinement",
-          "Compliance & UX feedback",
-          "Demo Day preparation",
-        ],
-      },
-    ],
-  },
-  {
-    id: "main-conference",
-    headline: "Ethereum México 2026 — Main Conference",
-    meta: "June 12 · CDMX",
-    blocks: [
-      {
-        type: "p",
-        text: "El encuentro de actores referentes del ecosistema",
-      },
-      {
-        type: "ul",
-        items: [
-          "Founders de protocolos",
-          "Protocol & infrastructure teams",
-          "Inversores y fondos activos en LATAM",
-          "Ejecutivos fintech",
-        ],
-      },
-    ],
-  },
-  {
-    id: "showcase",
-    headline: "Showcase en Stablecoin Conference ",
-    meta: "June 15 - 16 · WTC, CDMX",
-    blocks: [
-      {
-        type: "p",
-        text: "Los mejores proyectos ante el evento de pagos digitales más relevante de la región",
-      },
-      {
-        type: "ul",
-        items: [
-          "+20 fondos activos en LATAM",
-          "Exchanges y stablecoin issuers",
-          "Payment companies",
-          "Reguladores",
-        ],
-      },
-    ],
-  },
-];
+import { useTranslation } from "react-i18next";
 
 function Block({ block }) {
   if (block.type === "p") {
@@ -102,24 +20,13 @@ function Block({ block }) {
       </ul>
     );
   }
-  if (block.type === "labeledList") {
-    return (
-      <div className="ethmx26-formato-labeled d-flex flex-column gap-1">
-        {block.label ? (
-          <p className="ethmx26-formato-label mb-2 text-start">{block.label}</p>
-        ) : null}
-        <ul className="ethmx26-formato-ul mb-0 ps-3 text-start">
-          {block.items.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
   return null;
 }
 
 function ETHMX2026FormatoHibrido() {
+  const { t } = useTranslation("ethmx2026");
+  const cards = t("agendaCards", { returnObjects: true });
+
   return (
     <section
       className="ethmx26-formato bg-white text-dark"
@@ -131,14 +38,12 @@ function ETHMX2026FormatoHibrido() {
           id="ethmx26-formato-heading"
           className="ethmx26-formato-hero-title text-center mb-2"
         >
-          Agenda
+          {t("agenda.title")}
         </h2>
-        <p className="ethmx26-que-es-lead text-center mb-4">
-          Cómo funciona Ethereum México 2026
-        </p>
+        <p className="ethmx26-que-es-lead text-center mb-4">{t("agenda.subtitle")}</p>
 
         <div className="row row-cols-1 row-cols-lg-2 g-3">
-          {FORMATO_CARDS.map((card) => (
+          {cards.map((card) => (
             <div key={card.id} className="col">
               <article
                 className="ethmx26-formato-card h-100 d-flex flex-column overflow-hidden border border-dark rounded-3 shadow-sm bg-white"

@@ -1,19 +1,8 @@
 import { useLayoutEffect } from "react";
-
-const ETHMX2026_PAGE_TITLE =
-  "Ethereum México 2026 | Hackathon AI, Blockchain & Payments Hackathon in Mexico City";
-
-const ETHMX2026_META_DESCRIPTION =
-  "Hackathon híbrido global enfocado en AI, blockchain y pagos digitales. 5 semanas online + sesiones IRL en CDMX. Conecta con builders, VCs y líderes fintech en LATAM.";
-
-const ETHMX2026_OG_TITLE =
-  "Ethereum México 2026 — Build Today. Play Global.";
-
-const ETHMX2026_OG_DESCRIPTION =
-  "El hackathon de blockchain y AI más relevante de LATAM. Online global + presencial en Ciudad de México. Aplica ahora.";
+import { useTranslation } from "react-i18next";
 
 const ETHMX2026_OG_IMAGE =
-  "https://ethereum-mex.github.io/ethmex-web/TeaserETHCDMX-Story.png";
+  "https://ethereum-mex.github.io/ethmex-web/banner-ethmx26.png";
 
 const SITE_ORIGIN_FALLBACK = "https://www.ethmexico.org";
 
@@ -34,40 +23,17 @@ function readMetaContent(selector) {
   return el ? el.getAttribute("content") : null;
 }
 
-function buildJsonLd() {
-  const shareUrl = getEthmx2026ShareLandingUrl();
-  return {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    name: "Ethereum México 2026",
-    description: ETHMX2026_META_DESCRIPTION,
-    url: shareUrl,
-    image: [ETHMX2026_OG_IMAGE],
-    eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
-    eventStatus: "https://schema.org/EventScheduled",
-    location: {
-      "@type": "Place",
-      name: "Ciudad de México, México",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Ciudad de México",
-        addressCountry: "MX",
-      },
-    },
-    organizer: {
-      "@type": "Organization",
-      name: "Ethereum México",
-      url:
-        typeof window !== "undefined"
-          ? window.location.origin
-          : "https://www.ethmexico.org",
-    },
-  };
-}
-
 function Ethmx2026Seo() {
+  const { t, i18n } = useTranslation("ethmx2026");
+
   useLayoutEffect(() => {
     const shareUrl = getEthmx2026ShareLandingUrl();
+    const pageTitle = t("seo.pageTitle");
+    const metaDescription = t("seo.metaDescription");
+    const ogTitle = t("seo.ogTitle");
+    const ogDescription = t("seo.ogDescription");
+    const jsonLdLocationName = t("seo.jsonLdLocationName");
+    const jsonLdAddressLocality = t("seo.jsonLdAddressLocality");
 
     const snap = {
       title: document.title,
@@ -82,25 +48,25 @@ function Ethmx2026Seo() {
       twitterUrl: readMetaContent('meta[name="twitter:url"]'),
     };
 
-    document.title = ETHMX2026_PAGE_TITLE;
+    document.title = pageTitle;
     document
       .querySelector('meta[name="description"]')
-      ?.setAttribute("content", ETHMX2026_META_DESCRIPTION);
+      ?.setAttribute("content", metaDescription);
     document
       .querySelector('meta[property="og:title"]')
-      ?.setAttribute("content", ETHMX2026_OG_TITLE);
+      ?.setAttribute("content", ogTitle);
     document
       .querySelector('meta[property="og:description"]')
-      ?.setAttribute("content", ETHMX2026_OG_DESCRIPTION);
+      ?.setAttribute("content", ogDescription);
     document
       .querySelector('meta[property="og:image"]')
       ?.setAttribute("content", ETHMX2026_OG_IMAGE);
     document
       .querySelector('meta[name="twitter:title"]')
-      ?.setAttribute("content", ETHMX2026_OG_TITLE);
+      ?.setAttribute("content", ogTitle);
     document
       .querySelector('meta[name="twitter:description"]')
-      ?.setAttribute("content", ETHMX2026_OG_DESCRIPTION);
+      ?.setAttribute("content", ogDescription);
     document
       .querySelector('meta[name="twitter:image"]')
       ?.setAttribute("content", ETHMX2026_OG_IMAGE);
@@ -124,6 +90,34 @@ function Ethmx2026Seo() {
     }
     canonicalLink.setAttribute("href", shareUrl);
 
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      name: "Ethereum México 2026",
+      description: metaDescription,
+      url: shareUrl,
+      image: [ETHMX2026_OG_IMAGE],
+      eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
+      eventStatus: "https://schema.org/EventScheduled",
+      location: {
+        "@type": "Place",
+        name: jsonLdLocationName,
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: jsonLdAddressLocality,
+          addressCountry: "MX",
+        },
+      },
+      organizer: {
+        "@type": "Organization",
+        name: "Ethereum México",
+        url:
+          typeof window !== "undefined"
+            ? window.location.origin
+            : "https://www.ethmexico.org",
+      },
+    };
+
     let jsonLdEl = document.getElementById(JSONLD_ID);
     if (!jsonLdEl) {
       jsonLdEl = document.createElement("script");
@@ -131,7 +125,7 @@ function Ethmx2026Seo() {
       jsonLdEl.type = "application/ld+json";
       document.head.appendChild(jsonLdEl);
     }
-    jsonLdEl.textContent = JSON.stringify(buildJsonLd());
+    jsonLdEl.textContent = JSON.stringify(jsonLd);
 
     return () => {
       document.title = snap.title;
@@ -157,7 +151,7 @@ function Ethmx2026Seo() {
         document.getElementById(CANONICAL_ID)?.remove();
       }
     };
-  }, []);
+  }, [i18n.language, t]);
 
   return null;
 }
