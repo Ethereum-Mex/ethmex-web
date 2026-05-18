@@ -18,7 +18,7 @@ function ETHMX2026QuieroSerParte() {
       id="quiero-ser-parte-ethmx2026"
       aria-labelledby="ethmx26-quiero-ser-parte-heading"
     >
-      <div className="ethmx26-quiero-ser-parte-inner container-fluid container-ethmex-event px-3 px-md-4 py-4 py-md-5 mx-auto">
+      <div className="ethmx26-quiero-ser-parte-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
         <header className="text-center mb-4 mb-md-5">
           <h2
             id="ethmx26-quiero-ser-parte-heading"

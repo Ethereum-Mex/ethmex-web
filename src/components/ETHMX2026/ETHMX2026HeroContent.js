@@ -52,11 +52,11 @@ export function ETHMX2026HeroContent({ showLanguageToggle = false }) {
       <div className="ethmx2026-ctas">
         <a
           className="ethmx2026-btn-hackathon"
-          href="https://tally.so/r/PdALz1"
+          href="https://www.skool.com/ethmex/about"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t("hero.ctaHackathon")}
+          {t("ctaHackathon")}
         </a>
         <a
           className="ethmx2026-btn-light"

@@ -1,5 +1,6 @@
 import "./ETHMX2026QueEs.css";
 import { useTranslation } from "react-i18next";
+import { Ethmx2026HackathonCta } from "../ETHMX2026/Ethmx2026HackathonCta.js";
 
 function ETHMX2026QueEs() {
   const { t } = useTranslation("ethmx2026");
@@ -26,7 +27,7 @@ function ETHMX2026QueEs() {
         </div>
       </div>
 
-      <div className="ethmx26-que-es-inner container-fluid container-ethmex-event px-3 px-md-4 py-4 mx-auto">
+      <div className="ethmx26-que-es-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
         <h2
           id="ethmx26-que-es-heading"
           className="ethmx26-que-es-title text-center mb-4"
@@ -56,6 +57,8 @@ function ETHMX2026QueEs() {
             </div>
           ))}
         </div>
+
+        <Ethmx2026HackathonCta />
       </div>
     </section>
   );

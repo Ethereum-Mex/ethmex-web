@@ -1,8 +1,5 @@
 @import "../ETHMX2026/ethmx26-shared.css";
 
-.ethmx26-por-que-inner {
-  max-width: 1200px;
-}
 
 .ethmx26-por-que-title {
   margin-bottom: 0.5rem;
@@ -64,3 +61,4 @@
   line-height: var(--ethmx26-body-line);
   color: var(--ethmx26-text);
 }
+

@@ -22,8 +22,9 @@ import ETHMX2026QueEs from "./components/ETHMX2026QueEs/ETHMX2026QueEs.js";
 import ETHMX2026FormatoHibrido from "./components/ETHMX2026FormatoHibrido/ETHMX2026FormatoHibrido.js";
 import ETHMX2026PorQueMexico from "./components/ETHMX2026PorQueMexico/ETHMX2026PorQueMexico.js";
 import ETHMX2026BuildingSince2022 from "./components/ETHMX2026BuildingSince2022/ETHMX2026BuildingSince2022.js";
-import ETHMX2026QuieroSerParte from "./components/ETHMX2026QuieroSerParte/ETHMX2026QuieroSerParte.js";
+import ETHMX2026Partners from "./components/ETHMX2026Partners/ETHMX2026Partners.js";
 import ETHMX2026Faq from "./components/ETHMX2026Faq/ETHMX2026Faq.js";
+import ETHMX2026Footer from "./components/ETHMX2026Footer/ETHMX2026Footer.js";
 import AboutEthMexEvent from "./components/AboutEthMexEvent/AboutEthMexEvent.js";
 import Esperar from "./components/Esperar/Esperar.js";
 import Razones from "./components/Razones/Razones.js";
@@ -121,8 +122,9 @@ function App() {
               <ETHMX2026FormatoHibrido />
               <ETHMX2026PorQueMexico />
               <ETHMX2026BuildingSince2022 />
-              <ETHMX2026QuieroSerParte />
+              <ETHMX2026Partners />
               <ETHMX2026Faq />
+              <ETHMX2026Footer />
             </div>
           }
         />

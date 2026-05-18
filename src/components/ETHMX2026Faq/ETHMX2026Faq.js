@@ -13,7 +13,7 @@ function ETHMX2026Faq() {
       id="faq-ethmx2026"
       aria-labelledby="ethmx26-faq-heading"
     >
-      <div className="ethmx26-faq-inner container-fluid container-ethmex-event px-3 px-md-4 py-4 py-md-5 mx-auto">
+      <div className="ethmx26-faq-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
         <header className="text-center mb-4 mb-md-5">
           <h2 id="ethmx26-faq-heading" className="ethmx26-faq-title mb-0">
             {t("faq.title")}

@@ -65,7 +65,7 @@ function ETHMX2026BuildingSince2022() {
       id="building-since-2022-ethmx2026"
       aria-labelledby="ethmx26-building-heading"
     >
-      <div className="ethmx26-building-inner container-fluid container-ethmex-event px-3 px-md-4 py-5 mx-auto">
+      <div className="ethmx26-building-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
         <header className="text-center mb-4">
           <h2
             id="ethmx26-building-heading"

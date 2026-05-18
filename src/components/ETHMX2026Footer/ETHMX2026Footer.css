@@ -1,0 +1,28 @@
+@import "../ETHMX2026/ethmx26-shared.css";
+
+.ethmx26-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ethmx26-footer-content {
+  width: 100%;
+}
+
+.ethmx26-footer-social-link {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  transition:
+    background-color 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.ethmx26-footer-social-link:hover,
+.ethmx26-footer-social-link:focus-visible {
+  background-color: var(--ethmx26-muted-card-bg);
+}
+
+.ethmx26-footer-social-icon {
+  display: block;
+  object-fit: contain;
+}

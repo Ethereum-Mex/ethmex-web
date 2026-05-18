@@ -26,10 +26,6 @@
   letter-spacing: 0.08em;
 }
 
-.ethmx26-que-es-inner {
-  max-width: 1200px;
-  margin-top: clamp(1.25rem, 3.5vw, 2.25rem);
-}
 
 .ethmx26-que-es-title {
   font-family: "Outfit", sans-serif;

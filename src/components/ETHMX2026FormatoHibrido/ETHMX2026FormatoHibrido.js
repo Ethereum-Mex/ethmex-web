@@ -26,6 +26,7 @@ function Block({ block }) {
 function ETHMX2026FormatoHibrido() {
   const { t } = useTranslation("ethmx2026");
   const cards = t("agendaCards", { returnObjects: true });
+  const newTabHint = t("agenda.cardOpensNewTabHint");
 
   return (
     <section
@@ -33,7 +34,7 @@ function ETHMX2026FormatoHibrido() {
       id="formato-hibrido-ethmx2026"
       aria-labelledby="ethmx26-formato-heading"
     >
-      <div className="ethmx26-formato-inner container-fluid container-ethmex-event px-3 px-md-4 py-4 mx-auto">
+      <div className="ethmx26-formato-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
         <h2
           id="ethmx26-formato-heading"
           className="ethmx26-formato-hero-title text-center mb-2"
@@ -43,8 +44,8 @@ function ETHMX2026FormatoHibrido() {
         <p className="ethmx26-que-es-lead text-center mb-4">{t("agenda.subtitle")}</p>
 
         <div className="row row-cols-1 row-cols-lg-2 g-3">
-          {cards.map((card) => (
-            <div key={card.id} className="col">
+          {cards.map((card) => {
+            const article = (
               <article
                 className="ethmx26-formato-card h-100 d-flex flex-column overflow-hidden border border-dark rounded-3 shadow-sm bg-white"
               >
@@ -64,8 +65,26 @@ function ETHMX2026FormatoHibrido() {
                   ))}
                 </div>
               </article>
-            </div>
-          ))}
+            );
+
+            return (
+              <div key={card.id} className="col">
+                {card.href ? (
+                  <a
+                    href={card.href}
+                    className="ethmx26-formato-card-link d-block h-100 text-decoration-none text-body"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${card.headline}. ${newTabHint}`}
+                  >
+                    {article}
+                  </a>
+                ) : (
+                  article
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -1,0 +1,37 @@
+@import "../ETHMX2026/ethmx26-shared.css";
+
+.ethmx26-partners-title {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--ethmx26-heading-size);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: var(--ethmx26-heading-line);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ethmx26-text);
+}
+
+.ethmx26-partner-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.15s ease;
+}
+
+.ethmx26-partner-logo-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+  padding: 0.5rem 1rem;
+}
+
+.ethmx26-partner-logo-link:hover,
+.ethmx26-partner-logo-link:focus-visible {
+  opacity: 0.82;
+}
+
+.ethmx26-partner-logo-img {
+  height: auto;
+  object-fit: contain;
+}
+

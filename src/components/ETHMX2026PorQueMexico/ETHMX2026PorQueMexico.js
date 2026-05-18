@@ -1,5 +1,7 @@
 import "./ETHMX2026PorQueMexico.css";
 import { useTranslation } from "react-i18next";
+import { Ethmx2026HackathonCta } from "../ETHMX2026/Ethmx2026HackathonCta.js";
+import { ETHMX2026LumaCalendarBlock } from "../ETHMX2026LumaCalendar/ETHMX2026LumaCalendar.js";
 
 function ETHMX2026PorQueMexico() {
   const { t } = useTranslation("ethmx2026");
@@ -12,7 +14,7 @@ function ETHMX2026PorQueMexico() {
       id="por-que-mexico-ethmx2026"
       aria-labelledby="ethmx26-por-que-heading"
     >
-      <div className="ethmx26-por-que-inner container-fluid container-ethmex-event px-3 px-md-4 py-4 mx-auto">
+      <div className="ethmx26-por-que-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
         <header className="text-center mb-4 mb-md-5">
           <h2 id="ethmx26-por-que-heading" className="ethmx26-por-que-title">
             {t("porQueMx.title")}
@@ -55,6 +57,10 @@ function ETHMX2026PorQueMexico() {
             </ul>
           </div>
         </div>
+
+        <Ethmx2026HackathonCta />
+
+        <ETHMX2026LumaCalendarBlock />
       </div>
     </section>
   );
