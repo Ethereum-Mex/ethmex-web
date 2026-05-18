@@ -190,12 +190,14 @@ export function getEthmx2026Copy(locale) {
     partners: isEn
       ? {
           sponsors: "SPONSORS",
+          speakers: "SPEAKERS",
           strategic: "STRATEGIC PARTNERS",
           media: "MEDIA PARTNERS",
           community: "COMMUNITY PARTNERS",
         }
       : {
           sponsors: "SPONSORS",
+          speakers: "SPEAKERS",
           strategic: "STRATEGIC PARTNERS",
           media: "MEDIA PARTNERS",
           community: "COMMUNITY PARTNERS",
@@ -204,6 +206,8 @@ export function getEthmx2026Copy(locale) {
     footer: isEn
       ? {
           ariaLabel: "Ethereum México 2026 footer",
+          logoAlt: "Ethereum México 2026",
+          logoHref: "https://ethmexico.org/#/ETHMX2026",
           socialNavLabel: "Social media",
           social: {
             x: "Ethereum México on X",
@@ -215,6 +219,8 @@ export function getEthmx2026Copy(locale) {
         }
       : {
           ariaLabel: "Pie de página Ethereum México 2026",
+          logoAlt: "Ethereum México 2026",
+          logoHref: "https://ethmexico.org/#/ETHMX2026",
           socialNavLabel: "Redes sociales",
           social: {
             x: "Ethereum México en X",

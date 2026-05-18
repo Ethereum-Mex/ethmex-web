@@ -5,7 +5,19 @@
 }
 
 .ethmx26-footer-content {
-  width: 100%;
+  width: min(100%, 65rem);
+}
+
+.ethmx26-footer-logo a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.ethmx26-footer-logo-img {
+  display: block;
+  width: 6.5em;
+  max-width: 100%;
+  height: auto;
 }
 
 .ethmx26-footer-social-link {
@@ -25,4 +37,10 @@
 .ethmx26-footer-social-icon {
   display: block;
   object-fit: contain;
+}
+
+@media (max-width: 575.98px) {
+  .ethmx26-footer-content {
+    width: 100%;
+  }
 }

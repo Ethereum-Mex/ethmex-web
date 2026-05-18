@@ -12,33 +12,48 @@ function ETHMX2026Footer() {
       aria-label={t("footer.ariaLabel")}
     >
       <div className="ethmx26-footer-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
-        <nav
-          className="ethmx26-footer-social d-flex justify-content-center"
-          aria-label={t("footer.socialNavLabel")}
-        >
-          <ul className="ethmx26-footer-social-list list-unstyled d-flex flex-wrap justify-content-center gap-3 gap-md-4 mb-0">
-            {ETHMEX_SOCIAL_LINKS.map((item) => (
-              <li key={item.id}>
-                <a
-                  href={item.href}
-                  className="ethmx26-footer-social-link d-inline-flex align-items-center justify-content-center"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={t(`footer.social.${item.id}`)}
-                >
-                  <img
-                    src={`${process.env.PUBLIC_URL}/images/${item.icon}`}
-                    alt=""
-                    width="28"
-                    height="28"
-                    className="ethmx26-footer-social-icon"
-                    decoding="async"
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <div className="ethmx26-footer-content d-flex align-items-center justify-content-center flex-wrap mx-auto">
+          <div className="ethmx26-footer-logo mx-auto">
+            <a href={t("footer.logoHref")} aria-label={t("footer.logoAlt")}>
+              <img
+                src={`${process.env.PUBLIC_URL}/images/logoethmx2026_black.svg`}
+                alt=""
+                className="ethmx26-footer-logo-img"
+                width="100"
+                height="60"
+                decoding="async"
+              />
+            </a>
+          </div>
+
+          <nav
+            className="ethmx26-footer-social d-flex gap-3 ms-auto mt-4 mt-sm-0 mx-auto"
+            aria-label={t("footer.socialNavLabel")}
+          >
+            <ul className="ethmx26-footer-social-list list-unstyled d-flex flex-wrap justify-content-center gap-3 gap-md-4 mb-0">
+              {ETHMEX_SOCIAL_LINKS.map((item) => (
+                <li key={item.id}>
+                  <a
+                    href={item.href}
+                    className="ethmx26-footer-social-link d-inline-flex align-items-center justify-content-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={t(`footer.social.${item.id}`)}
+                  >
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/${item.icon}`}
+                      alt=""
+                      width="28"
+                      height="28"
+                      className="ethmx26-footer-social-icon"
+                      decoding="async"
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
       </div>
     </footer>
   );
