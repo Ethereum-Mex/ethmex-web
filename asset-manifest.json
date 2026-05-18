@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e436bfb5.css",
-    "main.js": "/static/js/main.cca8eab3.js",
+    "main.css": "/static/css/main.f2f2906f.css",
+    "main.js": "/static/js/main.d386b516.js",
     "static/media/background-hero-ethmx26.png": "/static/media/background-hero-ethmx26.f060cf39c22d701db112.png",
     "static/media/pattern.png": "/static/media/pattern.0de220855f9eb4afba3b.png",
     "static/media/cerro-02.png": "/static/media/cerro-02.4f43bfdbf00374c11483.png",
@@ -9,11 +9,11 @@
     "static/media/BiggerDisplay.otf": "/static/media/BiggerDisplay.75947e236845336725bd.otf",
     "static/media/PPSupplyMono-Regular.otf": "/static/media/PPSupplyMono-Regular.2375c08f79742ec60907.otf",
     "index.html": "/index.html",
-    "main.e436bfb5.css.map": "/static/css/main.e436bfb5.css.map",
-    "main.cca8eab3.js.map": "/static/js/main.cca8eab3.js.map"
+    "main.f2f2906f.css.map": "/static/css/main.f2f2906f.css.map",
+    "main.d386b516.js.map": "/static/js/main.d386b516.js.map"
   },
   "entrypoints": [
-    "static/css/main.e436bfb5.css",
-    "static/js/main.cca8eab3.js"
+    "static/css/main.f2f2906f.css",
+    "static/js/main.d386b516.js"
   ]
 }
