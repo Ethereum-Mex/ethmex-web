@@ -349,7 +349,12 @@ export const communityPartners = [
     width: "150px", 
     link: "https://x.com/DSwapOficial", 
   },
-
+  {
+    name: "bythelabxyz",
+    image: "thelabs.png",
+    width: "150px", 
+    link: "https://x.com/bythelabxyz", 
+  },
 
 
 ];

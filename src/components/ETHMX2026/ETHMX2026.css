@@ -151,14 +151,14 @@
 }
 
 .ethmx2026-btn-light {
-  font-family: "PP Supply Mono", sans-serif;
-  font-size: 0.95rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
   font-weight: 600;
   background-color: #ffffff;
   color: #1a1a1a;
-  border: 2px solid #1a1a1a;
-  border-radius: 6px;
-  padding: 0.65rem 1.35rem;
+  border: 2.2px solid #1a1a1a;
+  border-radius: 6.6px;
+  padding: 0.8rem 1.8rem;
   text-decoration: none;
   transition: background-color 0.2s ease, transform 0.2s ease;
 }

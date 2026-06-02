@@ -146,6 +146,13 @@ function ETHMX2026SpeakersSection() {
               </div>
             );
           })}
+          <div className="ethmx26-speaker-cell d-flex">
+            <article className="ethmx26-speaker-card ethmx26-speaker-more mx-auto text-center">
+              <p className="ethmx26-speaker-more-label">
+                {t("partners.speakersAndMore")}
+              </p>
+            </article>
+          </div>
         </div>
         ) : null}
       </div>

@@ -191,6 +191,7 @@ export function getEthmx2026Copy(locale) {
       ? {
           sponsors: "SPONSORS",
           speakers: "SPEAKERS",
+          speakersAndMore: "and more",
           strategic: "STRATEGIC PARTNERS",
           media: "MEDIA PARTNERS",
           community: "COMMUNITY PARTNERS",
@@ -198,6 +199,7 @@ export function getEthmx2026Copy(locale) {
       : {
           sponsors: "SPONSORS",
           speakers: "SPEAKERS",
+          speakersAndMore: "y más",
           strategic: "STRATEGIC PARTNERS",
           media: "MEDIA PARTNERS",
           community: "COMMUNITY PARTNERS",

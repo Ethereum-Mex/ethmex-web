@@ -91,3 +91,18 @@
   margin-bottom: 0;
 }
 
+.ethmx26-speaker-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.ethmx26-speaker-more-label {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: var(--ethmx26-heading-weight);
+  line-height: 1.2;
+  color: var(--ethmx26-text);
+}
+

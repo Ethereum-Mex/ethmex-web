@@ -169,6 +169,7 @@ const comPartners = [
     width: "100px", 
     link: "https://x.com/mobil3_xyz", 
   },
+
 ];
 
 

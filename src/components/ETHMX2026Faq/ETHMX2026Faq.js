@@ -1,5 +1,6 @@
 import "./ETHMX2026Faq.css";
 import { useTranslation } from "react-i18next";
+import { Ethmx2026HackathonCta } from "../ETHMX2026/Ethmx2026HackathonCta.js";
 
 const ACCORDION_ID = "accordionEthmx26Faq";
 
@@ -14,6 +15,8 @@ function ETHMX2026Faq() {
       aria-labelledby="ethmx26-faq-heading"
     >
       <div className="ethmx26-faq-inner ethmx26-section-inner container-fluid container-ethmex-event px-3 px-md-4 mx-auto">
+        <Ethmx2026HackathonCta className="ethmx26-cta-wrap--before-faq" />
+
         <header className="text-center mb-4 mb-md-5">
           <h2 id="ethmx26-faq-heading" className="ethmx26-faq-title mb-0">
             {t("faq.title")}

@@ -1,5 +1,9 @@
 @import "../ETHMX2026/ethmx26-shared.css";
 
+.ethmx26-faq .ethmx26-cta-wrap--before-faq {
+  margin-top: 0;
+  margin-bottom: var(--ethmx26-section-gap);
+}
 
 .ethmx26-faq-title {
   font-family: "Outfit", sans-serif;
